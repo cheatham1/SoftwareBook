@@ -1,3 +1,3 @@
-# First Chapter
+# Getting started
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+You need to download some code to get started.  You may use it to analyse the data of the ATLAS published dataset.
