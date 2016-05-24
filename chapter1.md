@@ -10,20 +10,9 @@ You need to download some code to get started. It will enable to take a first lo
 
 ## Setup
 
-Download the code by clicking on the download ZIP button. The zip-file maybe automatically unzipped for you or you may have to unzip it yourself.
+Download the data by selecting the ATLAS Public Release Spring 2016 at the [CERN Open Data Portal](http://opendata.cern.ch/education/ATLAS).
 
-In the root directory you will see the Analysis, Configurations and Plotting directories, a ChangeLog and README file plus two python scripts.
-
-Create 2 further directories:
-
-    mkdir Output
-    mkdir Input
-
-Now copy the files from the dataset (contact Felix Socher for access to the dataset). The provided zip-file should be placed into the Input folder and unzipped via
-
-    unzip PublicationDatasets.zip
-
-**Instructions for open data portal to follow
+Download the code.  In the root directory you will see five directories, a ChangeLog and README file plus two python scripts.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
 
 # Taking a look at the data
@@ -70,7 +59,7 @@ The second portion of the configuration file specifies which processes to includ
 
 The files associated with the processes are found via python's glob module, enabling the use of unix style wildcards.
 
-The names chosen for the processes are important as they are the keys that are used later in the infofile.py to determine the necessary scaling factors for correct plotting.
+The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
 
 ## Plotting
 
@@ -80,7 +69,7 @@ Results for a particular analysis may be plotted using the relevant plotting con
 
 The resulting histograms will be put into the Output folder.
 
-The plotting configuration file allows you to steer the plotting process. Each analysis has its own plotting configuration file to accomodate changes in background composition or histograms required.
+The plotting configuration file allows you to steer the plotting process. Each analysis has its own plotting configuration file to accommodate changes in background composition or histograms required.
 
 General information for plotting include the Luminosity and InputDirectory located at the top of the file:
 
@@ -164,7 +153,7 @@ The order of the depictions is determined in line 2 of the code example above.
 ## Analysis Code
 
 
-The analysis code is located in the Analysis folder. It will be used to write out histograms for the individual input files which will be used for plotting purposes later.
+The analysis code is located in the Analysis folder. It is used to write out histograms for the individual input files which will be used for plotting purposes later.
 
 The basic code implementing the protocol to read the files and how the objects can be read is in Tuplereader.py. Have a look there to see which information is available. The general analysis flow can be found in Job.py whereas the base class for all concrete analyses is located in Analysis.py.
 
