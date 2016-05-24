@@ -1,12 +1,10 @@
 
 # Getting started
-
 ## ATLAS open data
 
 The ATLAS collaboration has released 1 fb-1 of data on the open data portal.
 
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
-
 
 ## Setup
 
@@ -14,9 +12,7 @@ Download the data by selecting the **ATLAS Public Release Spring 2016** at the [
 
 Download the code.  In the root directory you will see five directories, a ChangeLog and README file plus two python scripts.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
-
 # Taking a look at the data
-
 ## Analysis
 
 As a first go you can run a preconfigured analyis via
@@ -145,9 +141,7 @@ There are currently three types of depictions available: Main, Agreement and Rat
 
 The order of the depictions is determined in line 2 of the code example above.
 
-
 # In Depth Information
-
 ## Analysis Code
 
 The analysis code is located in the Analysis folder. It is used to write out histograms for the individual input files which will be used for plotting purposes later.
