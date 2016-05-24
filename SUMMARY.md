@@ -2,5 +2,5 @@
 
 * [ATLAS open data](README.md)
 * [Getting Started](chapter1.md)
-* Definitions
+* [Definitions](definitions.md)
 
