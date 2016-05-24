@@ -57,8 +57,6 @@ The second portion of the configuration file specifies which processes to includ
         "data_Egamma"           : "Input/Data/DataEgamma*.root", (potentially many files)
     }
 
-The files associated with the processes are found via python's glob module, enabling the use of unix style wildcards.
-
 The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
 
 ## Plotting
@@ -152,9 +150,10 @@ The order of the depictions is determined in line 2 of the code example above.
 
 ## Analysis Code
 
-
 The analysis code is located in the Analysis folder. It is used to write out histograms for the individual input files which will be used for plotting purposes later.
 
 The basic code implementing the protocol to read the files and how the objects can be read is in Tuplereader.py. Have a look there to see which information is available. The general analysis flow can be found in Job.py whereas the base class for all concrete analyses is located in Analysis.py.
 
 It is recommended to start out by modifying one of the existing analyses, e.g. the ZAnalysis located in ZAnalysis.py. If you want to add an analysis, make sure that the filename is the same as the class name, otherwise the code will not work.
+
+The files associated with the processes are found via python's glob module, enabling the use of unix style wildcards.
