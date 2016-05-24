@@ -1,4 +1,4 @@
-# ATLAS open data
+# LHC ATLAS open data
 
 Welcome to ATLAS.  
 We have prepared some data for you.  Come and take a look.  
