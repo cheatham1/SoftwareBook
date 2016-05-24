@@ -4,5 +4,5 @@
 * [Histograms](histograms.md)
 * [LearningMore](definitions.md)
 * [ATLAS at CERN](atlas_at_cern.md)
-* GettingStarted
+* [GettingStarted](getting started.md)
 
