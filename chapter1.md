@@ -52,6 +52,10 @@ The second portion of the configuration file specifies which processes to includ
         "data_Egamma"           : "Input/Data/DataEgamma*.root", (potentially many files)
     }
 
+Whilst the analysis is running you will see the analysis name (circled in orange below) and the process you are running over (circled in blue below).
+
+![](VBSAnalysis.png)
+
 The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
 
 ## Plotting
