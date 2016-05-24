@@ -30,7 +30,7 @@ Now copy the files from the dataset (contact Felix Socher for access to the data
 
 ## Analysis
 
-As a first go you can simply run a preconfigured analyis via
+As a first go you can run a preconfigured analyis via
 
     python RunScript.py
 
@@ -38,7 +38,7 @@ Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes i
 
     python RunScript.py -n 32
 
-The runscript has several options which may be displayed by typing
+The runscript has several options which are displayed by typing
 
     python RunScript.py --help
 
@@ -48,8 +48,8 @@ The options include:
     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
 
-The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. (**behave?**) The preconfigured analysis is a vector boson scattering analysis called VBSAnalaysis.  This can be changed later if you wish to look at another analysis.
-The Job portion of the configuration looks like this:
+The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. (**behave? defines the analysis to be run ?**) The preconfigured analysis is a vector boson scattering analysis called VBSAnalaysis.  This can be changed later if you wish to look at another analysis.
+The first portion of the configuration file defines the job and looks like this:
 
      Job = {
          "Batch"           : True,              (switches progress bar on and off, forced to be off when running in parallel mode)
