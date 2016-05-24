@@ -31,7 +31,7 @@ As a first go you can simply run a preconfigured analyis via
 
     python RunScript.py
 
-Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes in multi core mode. So you will probably want to run in multi core mode, for example (**what is good choice?**)
+Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes in multi core mode.  You will probably want to run in multi core mode, for example (**what is good choice?**)
 
     python RunScript.py -n 32
 
