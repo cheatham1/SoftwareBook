@@ -1,4 +1,3 @@
-
 # Getting started
 ## ATLAS open data
 
@@ -33,7 +32,7 @@ The options include:
     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
 
-The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. (**behave? defines the analysis to be run ?**) The preconfigured analysis is a vector boson scattering analysis called VBSAnalaysis.  This can be changed later if you wish to look at another analysis.
+The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a vector boson scattering analysis called VBSAnalaysis.  This can be changed later if you wish to look at another analysis.
 The first portion of the configuration file defines the job and looks like this:
 
      Job = {
