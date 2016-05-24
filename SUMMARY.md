@@ -4,4 +4,5 @@
 * [Getting Started](chapter1.md)
 * [LearningMore](definitions.md)
 * [ATLAS at CERN](atlas_at_cern.md)
+* Histograms
 
