@@ -1,5 +1,5 @@
 # Summary
 
 * [ATLAS open data](README.md)
-* [First Chapter](chapter1.md)
+* [ATLAS open data](chapter1.md)
 
