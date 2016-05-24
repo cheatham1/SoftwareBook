@@ -1,6 +1,7 @@
 # Discover more about ATLAS and CERN:
 
 ![](Pictures/ATLAS.jpg)
+
 [ATLAS the Experiment](http://atlas.cern/discover/about)
 
 [The Detector](http://atlas.cern/discover/detector)
