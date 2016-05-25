@@ -9,7 +9,7 @@ You need to download some code to get started. It will enable to take a first lo
 
 Download the data by selecting the **ATLAS Public Release Spring 2016** at the [CERN Open Data Portal](http://opendata.cern.ch/education/ATLAS).
 
-Download the code.  In the root directory you will see five directories, a ChangeLog and README file plus two python scripts.  The directory names are Analysis, Configurations, Input, Plotting and Output.
+Download the code.  In the root directory you will see five directories, a README file plus two python scripts.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
 # Taking a look at the data
 ## Analysis
