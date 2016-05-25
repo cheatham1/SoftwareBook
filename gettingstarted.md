@@ -1,7 +1,7 @@
 # Getting started
 ## ATLAS open data
 
-The ATLAS collaboration has released some data on the open data portal, in a similar format to that used in analyses by ATLAS physicists.
+The ATLAS collaboration has made some data available to everyone.
 
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
