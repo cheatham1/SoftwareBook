@@ -4,8 +4,7 @@
 
 Beams of protons collide at the centre of the ATLAS detector producing collision debris in the form of new particles which fly out in all directions. Over a billion particle interactions take place in the ATLAS detector every second.
 
-The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.  The bunches cross about every 25 ns.  We get around 20 collisions per **bunch-crossing**.  
-An **event** is the data resulting from a particular bunch-crossing. 
+The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.  The bunches cross about every 25 ns.  We get around 20 collisions per **bunch-crossing**.  An **event** is the data resulting from a particular bunch-crossing. 
 
 Proton-proton collisions in addition to the collisions of interest are collectively referred to as **pileup**.  Pileup presents a serious challenge to physics analyses at the LHC.
 
