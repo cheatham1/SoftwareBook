@@ -1,6 +1,6 @@
 # ATLAS events
 <CENTER>
-<img src="./Pictures/zpileup_alltracks.png" width="300" />
+<img src="./Pictures/zpileup_alltracks.png" width="275" />
 </CENTER>
 Beams of protons collide at the centre of the ATLAS detector producing collision debris in the form of new particles which fly out in all directions. Over a billion particle interactions take place in the ATLAS detector every second.
 
