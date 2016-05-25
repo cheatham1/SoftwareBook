@@ -2,8 +2,6 @@
 <CENTER>
 <img src="./Pictures/zpileup_alltracks.png" width="275" />
 </CENTER>
-
-
 Beams of protons collide at the centre of the ATLAS detector producing collision debris in the form of new particles which fly out in all directions. Over a billion particle interactions take place in the ATLAS detector every second.
 
 The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.  The bunches cross about every 25 ns.  We get around 20 collisions per **bunch-crossing**.  
