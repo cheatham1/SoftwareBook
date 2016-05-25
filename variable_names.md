@@ -4,21 +4,21 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 
 |branchname                 | type   | description |
 |-|-|-|
-|runNumber                  | int    | runNumber |
-|eventNumber                | int    | eventNumber |
-|channelNumber              | int    | channelNumber |
-|mcWeight                   | float  | weight of an MC event |
+|runNumber                  | int    | run identifier |
+|eventNumber                | int    | event identifier |
+|channelNumber              | int    | channel identifier |
+|mcWeight                   | float  | weight of a simulated event |
 |pvxp\_n                    | int    | number of primary vertices |
 |vxp\_z                     | float  | z-position of the primary vertex |
 |trigE                      | bool   | boolean whether a standard trigger has fired in the egamma stream |
 |trigM                      | bool   | boolean whether a standard trigger has fired in the muon stream |
-|passGRL                    | bool   | signifies whether event passes the GRL may be put in isGoodEvent |
+|passGRL                    | bool   | signifies whether event passes the Good Run List may be put in isGoodEvent |
 |hasGoodVertex              | bool   | signifies whether the event has at least one good vertex |
 |lep\_n                     | int    | number of preselected leptons |
 |lep\_truthMatched          | vector<.bool>  | boolean indicating whether the lepton is matched to a simulatedlepton |
 |lep\_trigMatched           | vector<.bool>  | boolean signifying whether the lepton is the one triggering the event |
 |lep\_pt                    | vector<.float>  | transverse momentum of the lepton |
-|lep\_eta                   | vector<.float>  | pseudo-rapidity of the lepton |
+|lep\_eta                   | vector<.float>  | pseudorapidity of the lepton |
 |lep\_phi                   | vector<.float>  | azimuthal angle of the lepton |
 |lep\_E                     | vector<.float>  | energy of the lepton |
 |lep\_z0                    | vector<.float>  | z-coordinate of the track associated to the lepton wrt. the primary vertex |
