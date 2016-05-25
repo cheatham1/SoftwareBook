@@ -1,6 +1,6 @@
 # ATLAS events
 
-<img src="./Pictures/zpileup_alltracks.png" width="400" />
+<img src="./Pictures/zpileup_alltracks.png" width="300" />
 
 Beams of protons collide at the centre of the ATLAS detector producing collision debris in the form of new particles which fly out in all directions. Over a billion particle interactions take place in the ATLAS detector every second.
 
@@ -15,6 +15,5 @@ The above event display shows a candidate Z boson decaying into two muons with 1
 The **primary vertex** stems from the high transverse momentum inelastic collision of two protons.  It is important to correctly identify it from the many low transverse momentum proton-proton interactions, so called minimum bias events.
 
 The reconstruction of primary vertices is important for
-many physics studies, including searches for new particles, identifying jets containing b-quarks or taus and reconstruction
-of exclusive b-quark decays.
+many physics studies, including searches for new particles, identifying jets containing b-quarks or taus and reconstruction of exclusive b-quark decays.
 
