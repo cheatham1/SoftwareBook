@@ -1,6 +1,7 @@
 # Data and simulated data
-
+<CENTER>
 <img style="width: 336px; height: 224px;" id="event" alt="Latest ATLAS event" src="http://atlas-live.cern.ch/archive/6.png" height="55%">
+</CENTER>
 
 ## Data 
 The ATLAS collaboration has released 1 inverse femtobarns (fb^-1) of data on the CERN open data portal, **ATLAS Public Release Spring 2016**.
