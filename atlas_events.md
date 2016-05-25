@@ -1,7 +1,7 @@
 # ATLAS events
 
-Animations of the accumulation of Higgs events over time in the diphoton and four-lepton channels show us that it is important to collect large data samples.
+<img style="width: 252px; height: 168px;" id="event" alt="Latest ATLAS event" src="http://atlas-live.cern.ch/archive/6.png" height="55%">
 
-<img alt="" src="https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults//Hgg-FloatingScale-Short2.gif">
 
-<img alt="" src="https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults//4l-FloatingScale-NoMuProf2.gif">
+
+A candidate Z boson event in the dimuon decay with 11 reconstructed vertices. This event was recorded on April 24th and is typical for the 2011 environment with high pileup.
