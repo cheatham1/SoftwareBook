@@ -4,11 +4,11 @@
 </CENTER>
 Beams of protons collide at the centre of the ATLAS detector producing collision debris in the form of new particles which fly out in all directions. Over a billion particle interactions take place in the ATLAS detector every second.
 
-The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.  The bunches cross about every 25 ns.  We get around 20 collisions per **bunch-crossing**.  
+The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.  In the released data, the bunches crossed every 50 ns.  We get about 30 collisions on average per **bunch-crossing**.  
 
 An **event** is the data resulting from a particular bunch-crossing. 
 
-**Pile-up** is defined as the average number of particle interactions per bunch crossing and is directly correlated with the instantaneous luminosity. The growing pile-up presents a challenge for the ATLAS detector during data taking.
+**Pile-up** is defined as the average number of particle interactions per bunch crossing and is directly correlated with the instantaneous luminosity. The growing pile-up presents a challenge for the ATLAS detector during data taking as it impedes the ability to identify individual objects clearly.
 
 The above event display shows a candidate Z boson decaying into two muons with 11 reconstructed vertices. This event was recorded on April 24th and is typical for the 2011 environment with high pileup.
 
