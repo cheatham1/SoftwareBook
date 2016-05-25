@@ -7,5 +7,5 @@
 * [Data and simulated data](data_and_simulated_data.md)
 * [ATLAS at CERN](atlas_at_cern.md)
 * [Variable names](variable_names.md)
-* ATLAS Higgs animations
+* [ATLAS Higgs animations](atlas_higgs_animations.md)
 
