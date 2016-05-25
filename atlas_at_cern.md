@@ -1,6 +1,10 @@
 # Discover more about ATLAS and CERN:
 
-<img src="./Pictures/ATLAS.jpg" width="200" />
+
+
+![](Pictures/ATLAS.jpg)
+
+
 
 [ATLAS the Experiment](http://atlas.cern/discover/about)
 
