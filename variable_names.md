@@ -25,8 +25,8 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |lep\_charge                | vector<.float>  | charge of the lepton |
 |lep\_flag                  | vector<.int>    | bitmask implementing object cuts of the top group |
 |lep\_type                  | vector<.int>    | number signifying the lepton type (e, mu, tau) of the lepton |
-|lep\_ptcone30              | vector<.float>  | ptcone30 isolation for the lepton |
-|lep\_etcone20              | vector<.float>  | etcone20 isolation for the lepton |
+|lep\_ptcone30              | vector<.float>  | scalar sum of tracks pT in a cone of R=0.3 around lepton, not including lepton pT itself |
+|lep\_etcone20              | vector<.float>  | scalar sum of tracks ET in a cone of R=0.2 around lepton, not including lepton ET itself |
 |lep\_trackd0pvunbiased     | vector<.float>  | d0 of the track associated to the lepton at the point of closest approach (p.o.a.) |
 |lep\_tracksigd0pvunbiased  | vector<.float>  | d0 signifcance of the track associated to the lepton at the p.o.a. |
 |met\_et                    | float  | Transverse energy of the missing momentum vector |
