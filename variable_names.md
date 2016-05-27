@@ -15,7 +15,7 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |passGRL                    | bool   | signifies whether event passes the Good Run List may be put in isGoodEvent |
 |hasGoodVertex              | bool   | signifies whether the event has at least one good vertex |
 |lep\_n                     | int    | number of preselected leptons |
-|lep\_truthMatched          | vector<.bool>  | boolean indicating whether the lepton is matched to a simulatedlepton |
+|lep\_truthMatched          | vector<.bool>  | boolean indicating whether the lepton is matched to a simulated lepton |
 |lep\_trigMatched           | vector<.bool>  | boolean signifying whether the lepton is the one triggering the event |
 |lep\_pt                    | vector<.float>  | transverse momentum of the lepton |
 |lep\_eta                   | vector<.float>  | pseudorapidity of the lepton |
@@ -37,9 +37,9 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |jet\_phi                   | vector<.float>  | azimuthal angle of the jet |
 |jet\_E                     | vector<.float>  | energy of the jet |
 |jet\_m                     | vector<.float>  | invariant mass of the jet |
-|jet\_jvf                   | vector<.float>  | JetVertexFraction of the jet |
+|jet\_jvf                   | vector<.float>  | Jet Vertex Fraction of the jet |
 |jet\_flag                  | vector<.int>    | bitmask implementing object cuts of the top group |
-|jet\_trueflav              | vector<.int>    | true flavor of the jet |
+|jet\_trueflav              | vector<.int>    | flavor of the simulated jet |
 |jet\_truthMatched          | vector<.int>    | information whether the jet matches a simulated jet|
 |jet\_SV0                   | vector<.float>  | SV0 weight of the jet |
 |jet\_MV1                   | vector<.float>  | MV1 weight of the jet |
