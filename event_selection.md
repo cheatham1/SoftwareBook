@@ -14,9 +14,9 @@ In all of these analyses a standard selection on physics objects is applied:
 
 ## W Analysis
 
-This analysis implements the criteria for single W boson events with the W boson decaying to leptons. 
+This analysis searches W bosons decaying to leptons. 
 
-The standard object selection criteria are applied.  In addition, the analysis specific event selection criteria are:
+The analysis specific event selection criteria are:
 
 * Exactly one good lepton with pT > 25 GeV; 
 * Missing ET > 30 GeV;
@@ -25,7 +25,7 @@ The standard object selection criteria are applied.  In addition, the analysis s
 
 ## Z Analysis
 
-This is a Z boson analysis where the Z boson decays into a lepton pair. 
+This analysis seaches for Z bosons decaying into a lepton pair. 
 
 The analysis specific event selection criteria are:
 
@@ -36,13 +36,8 @@ The analysis specific event selection criteria are:
 
 
 ## Top pair Analysis
-This analysis focuses on top pair selection in the semileptonic channel.
 
-Top pair analysis is interesting since it is a good test of the Standard Model (SM).
-It is important for discrimination between different data simulation generators,  QCD models and parton distribution functions.
-In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the SM searches,
-and it is therefore crucial to understand this process in detail. 
-
+This analysis searches for a top quark and antitop quark pair.
 
 The analysis specific event selection criteria are:
 
@@ -55,6 +50,7 @@ The analysis specific event selection criteria are:
 ## WZ Analysis
 
 This analysis looks for both a W boson candidate and Z boson candidate.
+
 It is a relatively clean signature due to 3 leptons in the final state.  It is interesting for physics since it is a probe for triple gauge couplings.
 
 The analysis specific event selection criteria are:
@@ -78,8 +74,7 @@ The analysis specific event selection criteria are:
 
 This analysis implements the criteria for zero jet bin of single W boson events with the W boson decaying to leptons.
 
-This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
-The main background is top pair production in association with one or more jets. 
+?? zero jet bin?  No jets?
 
 The analysis specific event selection criteria are:
 
@@ -102,6 +97,8 @@ Else:
 * Angular separation between leading lepton and trailing lepton < 1.8.  ?
 
 ## Z' Analysis
+
+This analysis searches for Z' in the semileptonic top pair channel.
 
 The analysis specific event selection criteria are:
 
