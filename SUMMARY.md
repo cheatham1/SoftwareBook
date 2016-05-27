@@ -8,5 +8,5 @@
 * [Histograms](histograms.md)
 * [ATLAS at CERN](atlas_at_cern.md)
 * [Variable names](variable_names.md)
-* Event selection
+* [Event selection](event_selection.md)
 
