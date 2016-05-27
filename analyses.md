@@ -1,6 +1,6 @@
 # Analyses
 
-We have prepared seven analyses for you.  Ranging from measuring Standard Model particles, a Higgs analysis and a search for a beyond the Standard Model particle.
+We have prepared seven analyses for you.  Ranging from measuring Standard Model particles, Higgs analyses and a search for a beyond the Standard Model particle.
 
 ## W Analysis and Z Analysis
 
