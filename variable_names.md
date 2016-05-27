@@ -13,7 +13,7 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |trigE                      | bool   | boolean whether a standard trigger has fired in the egamma stream |
 |trigM                      | bool   | boolean whether a standard trigger has fired in the muon stream |
 |passGRL                    | bool   | signifies whether event passes the Good Run List may be put in isGoodEvent |
-|hasGoodVertex              | bool   | signifies whether the event has at least one good vertex |
+|hasGoodVertex              | bool   | signifies whether the event has at least one good vertex where Ntracks > 4 |
 |lep\_n                     | int    | number of preselected leptons |
 |lep\_truthMatched          | vector<.bool>  | boolean indicating whether the lepton is matched to a simulated lepton |
 |lep\_trigMatched           | vector<.bool>  | boolean signifying whether the lepton is the one triggering the event |
