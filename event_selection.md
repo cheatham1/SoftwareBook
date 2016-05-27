@@ -37,7 +37,7 @@ The analysis specific event selection criteria are:
 
 ## Top pair Analysis
 
-This analysis searches for a top quark and antitop quark pair.
+This analysis searches for a top quark and an antitop quark.
 
 The analysis specific event selection criteria are:
 
@@ -59,8 +59,11 @@ The analysis specific event selection criteria are:
 * WZ candidate is chosen by finding the Z boson candidate closest to the nominal Z mass;
 * |mass lepton pair -  mass Z | < 10 GeV;
 * Reconstructed transverse mass W > 30 GeV.
-* 
+
+
 ## ZZ Analysis
+
+
 
 This analysis looks for two Z boson candidates where both Z bosons decay to leptons.  
 
@@ -93,7 +96,7 @@ Else:
 * Reconstructed transverse mass W > 30 GeV;
 * Mass lepton pair < 55 GeV;
 * Angular separation between leptons < 1.8.
-* 
+
 ## Z' Analysis
 
 This analysis searches for Z' in the semileptonic top pair channel.
