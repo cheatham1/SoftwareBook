@@ -20,7 +20,7 @@ The analysis specific event selection criteria are:
 
 * Exactly one good lepton with pT > 25 GeV; 
 * Missing ET > 30 GeV;
-* Reconstructed mass W > 30 GeV.
+* Reconstructed transverse mass W > 30 GeV.
 
 
 ## Z Analysis
@@ -45,7 +45,7 @@ The analysis specific event selection criteria are:
 * At least four good jets;
 * At least two b-tagged jets (MV1@70%);
 * Missing ET > 30 GeV;
-* Reconstructed mass W > 30 GeV.
+* Reconstructed transverse mass W > 30 GeV.
 
 ## WZ Analysis
 
@@ -58,7 +58,7 @@ The analysis specific event selection criteria are:
 * Exactly three good leptons with pT > 25 GeV;
 * WZ candidate is chosen by finding the Z boson candidate closest to the nominal Z mass;
 * |mass lepton pair -  mass Z | < 10 GeV;
-* Reconstructed mass W > 30 GeV.
+* Reconstructed transverse mass W > 30 GeV.
 * 
 ## ZZ Analysis
 
@@ -72,9 +72,7 @@ The analysis specific event selection criteria are:
 
 ## HWW Analysis
 
-This analysis implements the criteria for zero jet bin of single W boson events with the W boson decaying to leptons.
-
-?? zero jet bin?  No jets?
+This analysis searches for W bosons decaying to leptons, with no jets.
 
 The analysis specific event selection criteria are:
 
@@ -89,13 +87,13 @@ If leptons have same flavor:
  
 Else:
 * mass dilepton pair > 10 GeV;
-* Missing ET > 20 GeV; T
+* Missing ET > 20 GeV;
 * pT lepton pair > 30 GeV;
-* Angular separation between lepton pair and Missing ET > pi/2; ?
-* Reconstructed mass W > 30 GeV;
+* Angular separation between lepton pair and Missing ET > pi/2;
+* Reconstructed transverse mass W > 30 GeV;
 * Mass lepton pair < 55 GeV;
-* Angular separation between leading lepton and trailing lepton < 1.8.  ?
-
+* Angular separation between leptons < 1.8.
+* 
 ## Z' Analysis
 
 This analysis searches for Z' in the semileptonic top pair channel.
@@ -106,4 +104,4 @@ The analysis specific event selection criteria are:
 * At least four good jets;
 * At least one b-tagged jet (MV1@70%); 
 * Missing ET > 30 GeV;
-* Mass W + Missing ET > 60 GeV.
+* Reconstructed transverse mass W + Missing ET > 60 GeV.
