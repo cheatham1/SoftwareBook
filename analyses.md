@@ -32,7 +32,8 @@ The importance of this channel was shown by its major role in the discovery of a
 ## HWW Analysis
 
 This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
-The main background is top pair production in association with one or more jets. 
+
+The main background is top pair production in association with one or more jets. So in this analysis we demand that no jets are present, to reduce the background.
 
 ## Z' Analysis
 
