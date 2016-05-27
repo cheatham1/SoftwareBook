@@ -37,12 +37,12 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |jet\_phi                   | vector<.float>  | azimuthal angle of the jet |
 |jet\_E                     | vector<.float>  | energy of the jet |
 |jet\_m                     | vector<.float>  | invariant mass of the jet |
-|jet\_jvf                   | vector<.float>  | Jet Vertex Fraction of the jet |
+|jet\_jvf                   | vector<.float>  | jet vertex fraction of the jet |
 |jet\_flag                  | vector<.int>    | bitmask implementing object cuts of the top group |
 |jet\_trueflav              | vector<.int>    | flavor of the simulated jet |
 |jet\_truthMatched          | vector<.int>    | information whether the jet matches a simulated jet|
-|jet\_SV0                   | vector<.float>  | SV0 weight of the jet |
-|jet\_MV1                   | vector<.float>  | MV1 weight of the jet |
+|jet\_SV0                   | vector<.float>  | Weight from algorithm that reconstructs Secondary Vertices associated with a jet |
+|jet\_MV1                   | vector<.float>  | Weight from algorithm based on Multi-Variate technique |
 |scaleFactor\_BTAG          | float              | scalefactor for btagging |
 |scaleFactor\_ELE           | float              | scalefactor for electron efficiency |
 |scaleFactor\_JVFSF         | float              | scalefactor for jet vertex fraction |
