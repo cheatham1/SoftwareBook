@@ -8,6 +8,6 @@
 * [GettingStarted](gettingstarted.md)
 * [Histograms](histograms.md)
 * [Variable names](variable_names.md)
-* [ATLAS at CERN](atlas_at_cern.md)
 * [Event selection](event_selection.md)
+* [ATLAS at CERN](atlas_at_cern.md)
 
