@@ -9,7 +9,6 @@ This analysis implements the criteria for single W boson events with the W boson
 This is a Z boson analysis where the Z boson decays into a lepton pair. 
 
 ## Top pair Analysis
-This analysis focuses on top pair selection in the semileptonic channel.
 
 Top pair analysis is interesting since it is a good test of the Standard Model (SM).
 It is important for discrimination between different data simulation generators,  QCD models and parton distribution functions.
@@ -29,12 +28,10 @@ This analysis looks for two Z boson candidates where both Z bosons decay to lept
 
 ## HWW Analysis
 
-This analysis implements the criteria for zero jet bin of single W boson events with the W boson decaying to leptons.
-
 This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
 The main background is top pair production in association with one or more jets. 
 
 
 ## Z' Analysis
 
-This analysis mimics a Z0 analysis in the semileptonic top pair channel.
+The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' is named in analogy with the Standard Model Z.
