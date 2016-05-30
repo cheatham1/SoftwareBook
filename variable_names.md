@@ -50,3 +50,5 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |scaleFactor\_PILEUP        | float              | scalefactor for pileup reweighting |
 |scaleFactor\_TRIGGER       | float              | scalefactor for trigger |
 |scaleFactor\_ZVERTEX       | float              | scalefactor for z-vertex reweighting |
+
+The scalefactors correct for known differences between data and simulated data.
