@@ -37,7 +37,7 @@ The first portion of the configuration file defines the job and looks like this:
 
      Job = {
          "Batch"           : True,              (switches progress bar on and off, forced to be off when running in parallel mode)
-         "Analysis"        : "VBSAnalysis",     (names the analysis to be executed)
+         "Analysis"        : "TTbarAnalysis",     (names the analysis to be executed)
          "Fraction"        : 1,                 (determines the fraction of events per file to be analysed)
          "MaxEvents"       : 1234567890,        (determines the maximum number of events per file to be analysed)
          "OutputDirectory" : "results/"         (specifies the directory where the output root files should be saved)
@@ -60,9 +60,9 @@ The names chosen for the processes are important as they are the keys used in th
 
 ## Plotting
 
-Results for a particular analysis may be plotted using the relevant plotting configuration file. In the VBSAnalysis case :
+Results for a particular analysis may be plotted using the relevant plotting configuration file. In the TTbarAnalysis case :
 
-    python PlotResults.py Configurations/PlotConf_VBSAnalysis.py
+    python PlotResults.py Configurations/PlotConf_TTbarAnalysis.py
 
 The resulting histograms will be put into the Output folder.
 
@@ -78,10 +78,10 @@ General information for plotting include the Luminosity and InputDirectory locat
 The names of the histograms to be drawn can be specified like so:
 
      "Histograms" : {
-         "etmiss"          : {rebin : 4, log_y : True},
-         "lep_n"           : {rebin : 5},
-         "lep_pt"          : {},
-     ...
+          "WtMass"          : {},
+          "etmiss"          : {rebin : 4, log_y : True},
+          "lep_phi"         : {"y_margin" : 0.6},
+          ...
 
 Note that it is possible to supply additional information via a dictionary like structure to further detail the per histogram options. Currently available options are:
 
