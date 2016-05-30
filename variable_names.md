@@ -6,7 +6,7 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |-|-|-|
 |runNumber                  | int    | run identifier |
 |eventNumber                | int    | event identifier |
-|channelNumber              | int    | channel identifier |
+|channelNumber              | int    | Data sample ID eg WW sample 105985 |
 |mcWeight                   | float  | weight of a simulated event |
 |pvxp\_n                    | int    | number of primary vertices |
 |vxp\_z                     | float  | z-position of the primary vertex |
