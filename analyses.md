@@ -37,4 +37,4 @@ The main background is top pair production in association with one or more jets.
 
 ## Z' Analysis
 
-The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' is named in analogy with the Standard Model Z.
+The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' boson is named in analogy with the Standard Model Z boson.
