@@ -9,7 +9,7 @@ You need to download some code to get started. It will enable to take a first lo
 
 /////*
 The data and tools **will be** available on the CERN Open Data Portal,
- but **for now** can just access tools here:
+ but **for now** you can just access tools here:
  https://gitlab.cern.ch/fthomas/ATLASDatasetTools
  and data here:
  /afs/cern.ch/user/f/fthomas/work/ATLASDataset/PublicationDatasets.zip
