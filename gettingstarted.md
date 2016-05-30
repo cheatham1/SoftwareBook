@@ -7,9 +7,11 @@ You need to download some code to get started. It will enable to take a first lo
 
 ## Setup
 
-Download the data by selecting the **ATLAS Public Release Spring 2016** at the [CERN Open Data Portal](http://opendata.cern.ch/education/ATLAS).
+Select the **ATLAS Public Release Spring 2016** at the [CERN Open Data Portal](http://opendata.cern.ch/education/ATLAS).
 
-Download the code.  In the root directory you will see five directories, a README file plus two python scripts.  The directory names are Analysis, Configurations, Input, Plotting and Output.
+Download the code.  In the root directory you will see five directories, a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py.  The directory names are Analysis, Configurations, Input, Plotting and Output.
+
+You need to have ROOT installed.
 
 # Taking a look at the data
 ## Analysis
@@ -17,10 +19,6 @@ Download the code.  In the root directory you will see five directories, a READM
 As a first go you can run a preconfigured analyis via
 
     python RunScript.py
-
-Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes in multi core mode.  You will probably want to run in multi core mode, for example
-
-    python RunScript.py -n 4
 
 The runscript has several options which are displayed by typing
 
@@ -32,7 +30,7 @@ The options include:
     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
 
-The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a vector boson scattering analysis called VBSAnalaysis.  This can be changed later if you wish to look at another analysis.
+The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis.
 The first portion of the configuration file defines the job and looks like this:
 
      Job = {
