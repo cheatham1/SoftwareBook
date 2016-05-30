@@ -10,5 +10,4 @@
 * [Variable names](variable_names.md)
 * [Event selection](event_selection.md)
 * [ATLAS at CERN](atlas_at_cern.md)
-* [Data details](data_details.md)
 
