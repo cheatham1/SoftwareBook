@@ -10,7 +10,11 @@ The events in the ntuple are selected from all events where:
 
 In all of these analyses a standard selection on physics objects is applied:
 
-**table here**
+| electrons and muons            | jets |
+| --                             | --   |
+|pT > 25 GeV                     |  pt > 25 GeV |  
+|Isolation: ptcone30 < 0.15 & etcone20 < 0.15      |  Jet Vertex Fraction cut|
+
 
 ## W Analysis
 
