@@ -16,9 +16,11 @@ You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT 
 # Taking a look at the data
 ## Analysis
 
-As a first go you can run a preconfigured analyis via
+As a first go, to check whether everything works fine, you can run 
 
-    python RunScript.py
+    python RunScript.py -a TTbarAnalysis -s "WW, WZ"
+
+This runs the code using the TTbarAnalysis with just the WW and WZ samples.
 
 The runscript has several options which are displayed by typing
 
@@ -26,16 +28,18 @@ The runscript has several options which are displayed by typing
 
 The options include:
 
+    -a,            --analysis              overrides the analysis that is stated in the configuration file
+    -s,            --samples               comma separated string that contains the keys for a subset of processes to run over
     -p,            --parallel              enables running in parallel (default is single core use)
     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
 
-The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis.
+The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
 The first portion of the configuration file defines the job and looks like this:
 
      Job = {
          "Batch"           : True,              (switches progress bar on and off, forced to be off when running in parallel mode)
-         "Analysis"        : "TTbarAnalysis",     (names the analysis to be executed)
+         "Analysis"        : "TTbarAnalysis",   (names the default analysis to be executed)
          "Fraction"        : 1,                 (determines the fraction of events per file to be analysed)
          "MaxEvents"       : 1234567890,        (determines the maximum number of events per file to be analysed)
          "OutputDirectory" : "results/"         (specifies the directory where the output root files should be saved)
@@ -55,6 +59,13 @@ Whilst the analysis is running you will see the analysis name (circled in orange
 ![](VBSAnalysis.png)
 
 The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
+
+
+To run over the full set of available samples using multiple cores. 
+
+    python RunScript.py -a TTbarAnalysis -n 4
+
+Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes in multi core mode.
 
 ## Plotting
 
