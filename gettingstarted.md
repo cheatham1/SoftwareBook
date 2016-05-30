@@ -11,7 +11,7 @@ Select the **ATLAS Public Release Spring 2016** at the [CERN Open Data Portal](h
 
 Download the code.  In the root directory you will see five directories, a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
-You need to have ROOT installed.
+You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing, born at CERN, at the heart of the research on high-energy physics. 
 
 # Taking a look at the data
 ## Analysis
