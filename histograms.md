@@ -16,5 +16,16 @@ The primary vertex position in the coordinate z (where the z axis follows the be
 
 
 We also see that the number of jets  varies from 4 to 9.  Simulated data shows a similar distribution of numbers of jets.
-The [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) 
+The jet [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) distribution is symmetrical, which is expected since the ATLAS detector itself is symmetrical in pseudrapidity.
+The jet transverse momentum (pT) distribution has a maximum between 30 and 40 GeV. The simulated data slightly over-estimates the data jet pT distribution.
 
+<img src="./Output/lep_type.jpg" width="200" />
+<img src="./Output/lep_n.jpg" width="200" />
+<img src="./Output/lep_eta.jpg" width="200" />
+<img src="./Output/lep_pt.jpg" width="200" />
+
+Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) we see peaks at 11 and 13.  These correspond to electrons and muons according to the official [numbering scheme](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-monte-carlo-numbering.pdf).  
+
+
+<img src="./Output/etmiss.jpg" width="200" />
+<img src="./Output/WtMass.jpg" width="200" />
