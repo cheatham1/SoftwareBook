@@ -21,11 +21,19 @@ The jet transverse momentum (pT) distribution has a maximum between 30 and 40 Ge
 
 <img src="./Output/lep_type.jpg" width="200" />
 <img src="./Output/lep_n.jpg" width="200" />
-<img src="./Output/lep_eta.jpg" width="200" />
 <img src="./Output/lep_pt.jpg" width="200" />
+<img src="./Output/lep_eta.jpg" width="200" />
 
 Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) we see peaks at 11 and 13.  These correspond to electrons and muons according to the official [numbering scheme](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-monte-carlo-numbering.pdf).  
-
+This TTbarAnalysis requires 'exactly one good lepton with pT > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
+The Lepton Pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
 
 <img src="./Output/etmiss.jpg" width="200" />
 <img src="./Output/WtMass.jpg" width="200" />
+
+Missing transverse momentum is defined as the event momentum
+imbalance in the plane transverse to the beam axis, where momentum conservation is expected.
+Such an imbalance may signal the presence of undetectable particles, such as neutrinos or new
+stable, weakly-interacting particles.
+
+The average W mass based on [published results](http://pdg.lbl.gov/2012/listings/rpp2012-list-w-boson.pdf) is 80.385 ± 0.015 GeV
