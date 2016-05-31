@@ -1,10 +1,10 @@
 # Analyses
 
-We have prepared seven analyses for you.  Ranging from measuring Standard Model particles, Higgs analyses and a search for a beyond the Standard Model particle.
+We have prepared seven analyses for you.  Ranging from measuring [Standard Model](http://home.cern/about/physics/standard-model) particles, [Higgs](http://home.cern/topics/higgs-boson) analyses and a search for a beyond the Standard Model particle.
 
 ## W Analysis and Z Analysis
 
-The W and Z bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction.  
+The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](http://home.cern/about/physics/z-boson) bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction.  
 
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software.  We are then ready to search for new physics.
 
@@ -12,9 +12,9 @@ It is important to measure well known Standard Model particles, to confirm that 
 
 The top pair analysis is interesting since it is a good test of the Standard Model.
 
-It is important for discrimination between different data simulation generators,  QCD models and parton distribution functions.
+It is important for discrimination between different data simulation generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
 
-In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the Standard Model searches, and it is therefore crucial to understand this process in detail. 
+In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the Standard Model searches.  It is therefore crucial to understand this process in detail. 
 
 
 ## WZ Analysis
