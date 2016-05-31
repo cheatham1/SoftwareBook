@@ -28,12 +28,12 @@ Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) we see peaks a
 This TTbarAnalysis requires 'exactly one good lepton with pT > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
 The Lepton Pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
 
-<img src="./Output/etmiss.jpg" width="200" />
 <img src="./Output/WtMass.jpg" width="200" />
+<img src="./Output/etmiss.jpg" width="200" />
+
+The transverse mass of the W candidate shows a peak in the distribution in the 75-80 GeV bin.  The average W mass based on [published results](http://pdg.lbl.gov/2012/listings/rpp2012-list-w-boson.pdf) is 80.385 ± 0.015 GeV.
+The data and simulated data distributions are in reasonable agreement, although ... 
 
 Missing transverse momentum is defined as the event momentum
-imbalance in the plane transverse to the beam axis, where momentum conservation is expected.
-Such an imbalance may signal the presence of undetectable particles, such as neutrinos or new
-stable, weakly-interacting particles.
+imbalance in the plane transverse to the beam axis, where momentum conservation is expected.  Such an imbalance may signal the presence of undetectable particles, such as neutrinos or new stable, weakly-interacting particles.
 
-The average W mass based on [published results](http://pdg.lbl.gov/2012/listings/rpp2012-list-w-boson.pdf) is 80.385 ± 0.015 GeV
