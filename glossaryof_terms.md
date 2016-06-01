@@ -1,17 +1,25 @@
 # Glossary of terms
 
-This is not intended to be an exhaustive glossary.  You will find answers to many of your questions by using a search engine.  However, here are afew terms explained to start you off.
+This is not intended to be an exhaustive glossary.  You will find answers to many of your questions by using a search engine.  However, here are afew ATLAS physics terms explained to start you off.
 
 
 ## Pseudorapidity
 
 
-
 ## Azimuth angle (phi)
 
 
-## Jet
-Good, bad and ugly
+## Good Run List
 
-Jet Vertex Fraction
+## Jet Reconstruction
+
+### Good, bad and ugly jets
+
+### Jet Vertex Fraction
+
+### Jet mass
+
+### Cone
+
+
 
