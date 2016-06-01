@@ -1,6 +1,6 @@
 # Analyses
 
-We have prepared seven analyses for you.  Ranging from measuring [Standard Model](http://home.cern/about/physics/standard-model) particles, [Higgs](http://home.cern/topics/higgs-boson) analyses and a search for a beyond the Standard Model particle.
+We have prepared seven analyses for you.  Ranging from measuring [Standard Model](http://home.cern/about/physics/standard-model) particles, [Higgs](http://home.cern/topics/higgs-boson) analyses and a search for a Beyond the Standard Model particle.
 
 ## W Analysis and Z Analysis
 
