@@ -7,8 +7,11 @@ This is not intended to be an exhaustive glossary.  You will find answers to man
 
 
 
+## Azimuth angle (phi)
 
 
 ## Jet
+Good, bad and ugly
 
+Jet Vertex Fraction
 
