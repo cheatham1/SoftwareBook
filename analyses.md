@@ -8,6 +8,9 @@ The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](ht
 
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software.  We are then ready to search for new physics.
 
+<img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
+Candidate event with a Z decay to muon pairs, recoiling against missing ET. The muon candidates have transverse momenta of 50 and 126 GeV and a dimuon invariant mass of 94 GeV; the missing ET is measured to be 161 GeV. 
+
 ## Top pair Analysis
 The top pair analysis is interesting since it is a good test of the Standard Model.
 
@@ -24,12 +27,31 @@ Display of a top pair candidate event recorded by ATLAS with LHC stable beams at
 This analysis looks for both a W boson and a Z boson.
 It is a relatively clean signature due to three leptons in the final state.  It is interesting for physics since it is a probe for triple gauge couplings.
 
+<img src="./EventDisplays/vp1_3dcocktail_run167607_evt113411871_approval.jpg" width="400" />
+
+Candidate for a WZ → μνμμ decay, collected on 25 October 2010. The invariant mass of the two muons attributed to the Z is 92 GeV. The transverse mass of the potential W boson is 88 GeV.
+
+Further event properties:
+
+Z candidate:
+* PT(μ-) = 60 GeV
+* PT(μ+) = 35 GeV
+
+W candidate:
+* PT(μ-) = 40 GeV
+* ETmiss = 55 GeV (indicated by a blue line in the display) 
+
+
 ## ZZ Analysis
 
 This analysis looks for two Z bosons where both Z bosons decay to leptons.  
 
 The Higgs boson decaying to two Z bosons which in turn decay to 4 leptons is known as the golden channel.
 The importance of this channel was shown by its major role in the discovery of a Higgs-like boson, by the ATLAS and CMS collaborations, with mass near 125 GeV. 
+
+<img src="./EventDisplays/4mu_run183081_evt101085723.jpg" width="400" />
+
+Event with four muons, compatible with the hypothesis of Z pair production where one of the Z bosons is off-shell. M12 = 90.6 GeV, M34 = 47.4 GeV. 
 
 ## HWW Analysis
 
