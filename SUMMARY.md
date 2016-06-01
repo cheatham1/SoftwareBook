@@ -7,7 +7,7 @@
 * [Analyses](analyses.md)
 * [GettingStarted](gettingstarted.md)
 * [Histograms](histograms.md)
-* More histograms
+* [More histograms](more_histograms.md)
 * [Variable names](variable_names.md)
 * [Event selection](event_selection.md)
 * [ATLAS at CERN](atlas_at_cern.md)
