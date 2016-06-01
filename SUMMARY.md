@@ -6,9 +6,9 @@
 * [ATLAS Higgs animations](atlas_higgs_animations.md)
 * [Analyses](analyses.md)
 * [GettingStarted](gettingstarted.md)
+* More histograms
 * [Histograms](histograms.md)
 * [Variable names](variable_names.md)
 * [Event selection](event_selection.md)
 * [ATLAS at CERN](atlas_at_cern.md)
-* More histograms
 
