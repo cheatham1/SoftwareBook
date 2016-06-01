@@ -9,7 +9,8 @@ The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](ht
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software.  We are then ready to search for new physics.
 
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
-Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (ET). The muon candidates have transverse momenta of 50 and 126 GeV and a dimuon invariant mass of 94 GeV; the missing ET is measured to be 161 GeV. 
+Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (ET). The muon candidates have transverse momenta of 50 and 126 GeV.
+The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the missing ET is measured to be 161 GeV. 
 
 ## Top pair Analysis
 The top pair analysis is interesting since it is a good test of the Standard Model.
