@@ -9,7 +9,7 @@ The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](ht
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software.  We are then ready to search for new physics.
 
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
-Candidate event with a Z decay to muon pairs, recoiling against missing ET. The muon candidates have transverse momenta of 50 and 126 GeV and a dimuon invariant mass of 94 GeV; the missing ET is measured to be 161 GeV. 
+Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (ET). The muon candidates have transverse momenta of 50 and 126 GeV and a dimuon invariant mass of 94 GeV; the missing ET is measured to be 161 GeV. 
 
 ## Top pair Analysis
 The top pair analysis is interesting since it is a good test of the Standard Model.
@@ -49,9 +49,18 @@ This analysis looks for two Z bosons where both Z bosons decay to leptons.
 The Higgs boson decaying to two Z bosons which in turn decay to 4 leptons is known as the golden channel.
 The importance of this channel was shown by its major role in the discovery of a Higgs-like boson, by the ATLAS and CMS collaborations, with mass near 125 GeV. 
 
-<img src="./EventDisplays/4mu_run183081_evt101085723.jpg" width="400" />
+<img src="./EventDisplays/fig_33.jpg" width="400" />
 
-Event with four muons, compatible with the hypothesis of Z pair production where one of the Z bosons is off-shell. M12 = 90.6 GeV, M34 = 47.4 GeV. 
+H → ZZ → 4 leptons. Event display of a 4 muon candidate. EventNumber: 71902630 RunNumber: 204769 
+
+Further event properties:
+
+Higgs candidate=125.1 GeV. 
+* mu_1: pt=36.1 GeV, eta=1.29, phi=1.33.
+* mu_2: pt=47.5 GeV, eta=0.69, phi=-1.65. 
+* mu_3: pt=26.4 GeV, eta=0.47, phi=-2.51. 
+* mu_4: pt=7.17 GeV, eta=1.85, phi=1.65 
+
 
 ## HWW Analysis
 
