@@ -9,7 +9,7 @@
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Variable names](variable_names.md)
+* [Glossy of terms](glossy_of_terms.md)
 * [Event selection](event_selection.md)
 * [ATLAS at CERN](atlas_at_cern.md)
-* [Glossy of terms](glossy_of_terms.md)
 
