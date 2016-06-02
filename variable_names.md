@@ -43,12 +43,12 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |jet\_truthMatched          | vector<.int>    | information whether the jet matches a simulated jet|
 |jet\_SV0                   | vector<.float>  | Weight from algorithm that reconstructs Secondary Vertices associated with a jet |
 |jet\_MV1                   | vector<.float>  | Weight from algorithm based on Multi-Variate technique |
-|scaleFactor\_BTAG          | float              | scalefactor for btagging |
+|scaleFactor\_BTAG          | float              | scalefactor for btagging algorithm. Should only be applied if analysis is specifically using b-tagging. |
 |scaleFactor\_ELE           | float              | scalefactor for electron efficiency |
 |scaleFactor\_JVFSF         | float              | scalefactor for jet vertex fraction |
 |scaleFactor\_MUON          | float              | scalefactor for muon efficiency |
-|scaleFactor\_PILEUP        | float              | scalefactor for pileup reweighting |
-|scaleFactor\_TRIGGER       | float              | scalefactor for trigger |
-|scaleFactor\_ZVERTEX       | float              | scalefactor for z-vertex reweighting |
+|scaleFactor\_PILEUP        | float              | scalefactor for pileup reweighting. It effectively reweights the profile of average interactions per bunch crossing so that simulated data is the same as measured data. |
+|scaleFactor\_TRIGGER       | float              | scalefactor to account for the different operating efficiencies of the used triggers. |
+|scaleFactor\_ZVERTEX       | float              | scalefactor to reweight the distribution of the z position of the primary vertex. |
 
 The scalefactors correct for known differences between data and simulated data.
