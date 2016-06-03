@@ -1,7 +1,5 @@
 #ATLAS at CERN:
 
-
-
 ![](Pictures/ATLAS.jpg)
 
 
