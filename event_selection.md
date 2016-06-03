@@ -67,8 +67,6 @@ The analysis specific event selection criteria are:
 
 ## ZZ Analysis
 
-
-
 This analysis looks for two Z boson candidates where both Z bosons decay to leptons.  
 
 The analysis specific event selection criteria are:
