@@ -8,7 +8,7 @@ Reduced datasets optimizing the storage requirements. The available number of ev
          
 |process | DSID | Generator | sigma*FE [pb] | f_k | L [fb-1] | N events | N events  | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-|ttbar ->l + X                | 117050       | PowHeg+Pythia   | 114.51     | 1.2   | 26.236 | 1500000  |  20775908  |   291 |  
+|ttbar -> l + X                | 117050       | PowHeg+Pythia   | 114.51     | 1.2   | 26.236 | 1500000  |  20775908  |   291 |  
 |ttbar -> Jets                | 117049       | PowHeg+Pythia   |  96.35     | 1.2   | 85.027 |   25170  |     25170  |   5.7 |
 |single top t-chan top                                | 110090       | PowHeg+Pythia   |  17.52     | 1.05  |  24.21 |  150000  |   1678087  |    21 |
 |single top t-chan antitop                            | 110091       | PowHeg+Pythia   |   9.4      | 1.06  |  43.23 |  150000  |   1719075  |    15 |
@@ -38,7 +38,29 @@ Reduced datasets optimizing the storage requirements. The available number of ev
 
 
 
-
+Reduced datasets optimizing the storage requirements. The available number of preselected events in the samples is given in the column N events.
+         The corresponding reduced numbers prior to the preselection are given in N sample events .
+         The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
+         The total storage need is about 150Mb.
+         
+         
+|process                                              | DSID  | Generator       | sigma*FE [pb] | f_k | L [fb-1] | N events     | N events  | size/Mb |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- |
+|Z' -> ttbar [ 400] GeV | 110899 | Pythia | 4.259    | 1.0  | 23.48  |   18307  |     21928   | 4.3  |
+|Z' -> ttbar [ 500] GeV | 110901 | Pythia | 3.925    | 1.0  | 25.48  |   19737  |     23224   | 4.7  |
+|Z' -> ttbar [ 750] GeV | 110902 | Pythia | 1.243    | 1.0  | 80.45  |   21051  |     25007   | 5.3  |
+|Z' -> ttbar [1000] GeV | 110903 | Pythia | 0.394    | 1.0  | 253.81 |   20649  |     25518   | 5.5  |
+|Z' -> ttbar [1250] GeV | 110904 | Pythia | 0.139    | 1.0  | 719.43 |   19274  |     25029   | 5.5  |
+|Z' -> ttbar [1500] GeV | 110905 | Pythia | 0.0524   | 1.0  | 1908   |   17695  |     24141   | 5.4  |
+|Z' -> ttbar [1750] GeV | 110906 | Pythia | 0.0211   | 1.0  | 4739   |   15949  |     23093   | 5.1  |
+|Z' -> ttbar [2000] GeV | 110907 | Pythia | 0.00894  | 1.0  | 11186  |   14455  |     21993   | 4.9  |
+|Z' -> ttbar [2250] GeV | 110908 | Pythia | 0.00394  | 1.0  | 25381  |   13389  |     21128   | 4.7  |
+|Z' -> ttbar [2500] GeV | 110909 | Pythia | 0.00180  | 1.0  | 55556  |   12723  |     20332   | 4.5  |
+|Z' -> ttbar [3000] GeV | 110910 | Pythia | 0.000434 | 1.0  | 230415 |   12387  |     19634   | 4.3  |
+|gg-> H->  WW-> llnunu         ; M{H} = 125 GeV   | 161005 | PowHeg+Pythia   | 6.463      | 1.0 | 32.13   | 100000  |  279668  |  14     |
+|{VBF} H->  WW-> llnunu ; M{H} = 125 GeV    | 161055 | PowHeg+Pythia   | 0.819      | 1.0 | 229.93  | 100000  |  183892  |  18     |
+|gg-> H->  ZZ -> 4l            ; M{H} = 125 GeV         | 160155 | PowHeg+Pythia   | 13.17      | 1.0 | 14.31   | 100000  |  117249  |  15     |
+|{VBF} H->  ZZ -> 4l    ; M{H} = 125 GeV          | 160205 | PowHeg+Pythia   | 1.617      | 1.0 | 104.96  | 100000  |  130161  |  19     |
 
 
 
