@@ -11,6 +11,6 @@
 * [Variable names](variable_names.md)
 * [Glossary](glossary.md)
 * [Event selection](event_selection.md)
-* [Simulated Data Details](simulated_data_details.md)
+* [Dataset Details](simulated_data_details.md)
 * [ATLAS at CERN](atlas_at_cern.md)
 
