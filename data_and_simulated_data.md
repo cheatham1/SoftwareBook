@@ -21,10 +21,10 @@ models and experimental inputs.
 * Detector Simulation: Interaction of the generated
 particles inside the ATLAS detector is simulated.
 
-* Digitization: The detector response is derived from
+* Digitisation: The detector response is derived from
 the particle interactions and it is written in a format
 compatible with the real output of the detector. In addition,
-because of the high rate of collisions in the LHC, digitized
+because of the high rate of collisions in the LHC, digitised
 signals from several simulated events can be piled-up to
 create samples with a realistic experimental background.
 
