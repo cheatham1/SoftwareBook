@@ -9,7 +9,7 @@ You need to download some code to get started. It will enable to take a first lo
 
 Select the 'Download' button at the top right of the page.
 
-![](Pictures/Download.jpg)
+<img src="./Pictures/Download.jpg" width="150" />
 
 You now have access to the ATLAS Data and Tools Repository.
 
@@ -21,14 +21,14 @@ To download the tools;
 In the root directory you will see five directories, a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
 Download the data into your Input directory; 
-* Select the black 'Download' button again at the top right of the page.
+* Select the 'Download' button again at the top right of the page.
 * In the Data & Tools Repository select 'Software', either from
  Downloads or CERN OpenData portal (ATLAS Public Release Spring 2016).
 * Select 'Datasets'.
 * 'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
 * unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip
   
-You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing, at the heart of the research on high-energy physics. 
+You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN. 
 
 # Taking a look at the data
 ## Analysis
