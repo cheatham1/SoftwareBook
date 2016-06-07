@@ -1,38 +1,5 @@
 # Event selection
 
-An important aspect of these samples is that they were prepared specifically for educational purposes. To this end, precision has been traded for simplicity of use. The introduced simplifications are:
-
-* No facilities to estimate systematic uncertainties have been included as these quickly introduce large complexities. 
-
-* The b-tagging scale factor is computed for a specific working point (MV1@70% efficiency). The
-user, however, is free to specify the b-tagging weight used for tagging jets allowing for a potential
-mismatch of the definition considered in the scale factor calculation and the one being actually applied.
-
-
-* No QCD simulated samples were prepared as they would have been insufficient in statistics while introducing large set of additional samples. 
-
-
-* The description of the W boson properties in simulated
-W+jets events is not ideal. 
-Corrections are only available
-for samples produced with the Monte Carlo generator Alpgen
-but not for those produced with
-Sherpa generator.  However, using
-Alpgen would have introduced a prohibitively large number of samples.  Sherpa was therefore used.
-
-
-* The missing transverse momentum was calculated using the object preselection.
-A recalculation of the missing transverse momentum is not implemented into the tools provided
-for simplicity reasons. Therefore, changes in the object selection are not reflected in the missing
-transverse momentum leading to potential mis-modeling of variables relying on it.
-
-* The simulated data takes into account the pile-up and vertex position profile of the whole 2012
-data taking, although the measured data is taken from a small list of runs from period D. This
-introduces a certain mismatch regarding the number of vertices and the primary vertex position.
-
-
-
-
 The events in the ntuple are selected from all events where:
 
 * A single electron or muon trigger has fired;
