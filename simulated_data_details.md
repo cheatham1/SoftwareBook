@@ -41,7 +41,7 @@ The datasets have been reduced in size to optimise the storage requirements. The
 
 The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
 
-The total storage need is about 6.5Gb.
+The following samples represent about 6.5Gb.
          
 |process | DataSet ID | Generator | sigma*FE [pb] | f_k | L [fb-1] | N events | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -73,7 +73,7 @@ The total storage need is about 6.5Gb.
 |ZZ                                                   | 105986       | Herwig          | 0.992      | 1.55  | 151.19 |   125000 |    20 |
 |WZ                                                   | 105987       | Herwig          | 3.667      | 1.9   | 138.44 |   500000 |    68 |
 
-The total storage need is about 150Mb.
+The Z' and Higgs samples represent a further 150Mb.
          
 |process                                              | DataSet ID  | Generator       | sigma*FE [pb] | f_k | L [fb-1] | N events     | size/Mb |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
