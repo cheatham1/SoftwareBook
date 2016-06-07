@@ -1,10 +1,13 @@
 
 # Simulated Data Details
 
-Reduced datasets optimizing the storage requirements. The available number of events in the samples is given in the column N events.
-         The corresponding reduced numbers prior to the preselection are given in N sample events.
-         The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
-         The total storage need is about 6.5Gb.
+Details of the available datasets:
+
+The datasets have been reduced in size to optimise the storage requirements. The available number of events in the samples is given in the column N events.  The corresponding reduced numbers prior to the preselection are given in N sample events.
+
+The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
+
+The total storage need is about 6.5Gb.
          
 |process | DSID | Generator | sigma*FE [pb] | f_k | L [fb-1] | N events | N events  | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -38,10 +41,8 @@ Reduced datasets optimizing the storage requirements. The available number of ev
 
 
 
-Reduced datasets optimizing the storage requirements. The available number of preselected events in the samples is given in the column N events.
-         The corresponding reduced numbers prior to the preselection are given in N sample events .
-         The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
-         The total storage need is about 150Mb.
+Reduced datasets optimizing the storage requirements. 
+The total storage need is about 150Mb.
          
          
 |process                                              | DSID  | Generator       | sigma*FE [pb] | f_k | L [fb-1] | N events     | N events  | size/Mb |
