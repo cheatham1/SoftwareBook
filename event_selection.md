@@ -1,6 +1,6 @@
 # Event selection
 
-The events in the ntuple are selected from all events where:
+The events in the ntuple have been selected according to the following preselection criteria:
 
 * A single electron or muon trigger has fired;
 * The primary vertex has at least 5 tracks;
@@ -12,9 +12,10 @@ In all of these analyses a standard selection on physics objects is applied:
 
 | electrons and muons            | jets |
 | --                             | --   |
-|pT > 25 GeV                     |  pt > 25 GeV |  
+|leading lepton pT > 25 GeV                     |  pt > 25 GeV |  
 |Isolation: ptcone30/ pT < 0.15 & etcone20/ pT < 0.15      |  Jet Vertex Fraction cut|
 
+Analysis specific requirements are detailed below.
 
 ## W Analysis
 
