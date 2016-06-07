@@ -25,7 +25,7 @@ Download the data into your Input directory;
 * In the Data & Tools Repository select 'Software', either from
  Downloads or CERN OpenData portal (ATLAS Public Release Spring 2016).
 * Select 'Datasets'.
-* 'Bulk downloads' will download all the data and simulated data samples.
+* 'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
 * unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip
   
 You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing, at the heart of the research on high-energy physics. 
