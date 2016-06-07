@@ -1,7 +1,7 @@
 
 # Simulated Data Details
 
-Details of the available datasets:
+Details of the available simulated Monte Carlo datasets:
 
 The datasets have been reduced in size to optimise the storage requirements. The available number of events in the samples is given in the column N events.  The corresponding reduced numbers prior to the preselection are given in N sample events.
 
