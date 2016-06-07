@@ -73,3 +73,24 @@ The main background is top pair production in association with one or more jets.
 ## Z' Analysis
 
 The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' boson is named in analogy with the Standard Model Z boson.
+
+
+## Further Information
+
+The purpose of these example analyses is to showcase the abilities and limitations of the measured and
+simulated data included in this data release. 
+
+**Three high statistics Standard Model analyses**: a selection of events with
+one leptonically decaying W
+boson, a selection of leptonically decaying Z boson and a selection of
+semileptonic top pair production. These analyses are intended to show that the general description
+of the data for these important background processes is sound. They also pose the possibility to
+study Standard Model observables like the mass of the Z boson. Observable discrepancies are due to the simplified nature of the used ntuples.
+
+**Three low statistics Standard Model analyses:** these analyses show the limitations of this dataset with respect to rare processes. They are a WZ analysis, a ZZ analysis as well as a H->WW analysis. It is possible to obtain results in these analyses and achieve educational
+objectives.  However the statistical limitations prohibit more meaningful analyses. This point is particularly
+important as it demonstrates that the proposed datasets are intended for educational purposes only.
+
+**A beyond the Standard Model analysis:** multiple samples of simulated data containing Z' signal events are provided to implement a simplified analysis setting exclusion limits on new physics.
+
+This list should not be seen as an exhaustive list of all possible analyses. Further processes that may be explored include W W production, dileptonic top pair production, single top production or many others.
