@@ -8,12 +8,12 @@ The events in the ntuple have been selected according to the following preselect
 * The event passes the Good Run List;
 * A veto exists on events containing bad jets.
 
-In all of these analyses a standard selection on physics objects is applied:
+In addition to these preselection cuts, a standard selection is made (in all the analyses except the ZZ):
 
-| electrons and muons            | jets |
-| --                             | --   |
-|leading lepton pT > 25 GeV                     |  pt > 25 GeV |  
-|Isolation: ptcone30/ pT < 0.15 & etcone20/ pT < 0.15      |  Jet Vertex Fraction cut|
+* Leptons: are required to be isolated
+such that ptcone30/ pT < 0.15 and etcone20/ pT < 0.15.  
+* Jets: a jet vertex fraction cut is applied.
+
 
 Analysis specific requirements are detailed below.
 
