@@ -13,7 +13,7 @@ In all of these analyses a standard selection on physics objects is applied:
 | electrons and muons            | jets |
 | --                             | --   |
 |pT > 25 GeV                     |  pt > 25 GeV |  
-|Isolation: ptcone30 < 0.15 & etcone20 < 0.15      |  Jet Vertex Fraction cut|
+|Isolation: ptcone30/ pT < 0.15 & etcone20/ pT < 0.15      |  Jet Vertex Fraction cut|
 
 
 ## W Analysis
