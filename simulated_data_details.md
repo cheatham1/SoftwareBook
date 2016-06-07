@@ -73,7 +73,6 @@ The total storage need is about 6.5Gb.
 |ZZ                                                   | 105986       | Herwig          | 0.992      | 1.55  | 151.19 |   125000 |    20 |
 |WZ                                                   | 105987       | Herwig          | 3.667      | 1.9   | 138.44 |   500000 |    68 |
 
-Reduced datasets optimize the storage requirements. 
 The total storage need is about 150Mb.
          
 |process                                              | DataSet ID  | Generator       | sigma*FE [pb] | f_k | L [fb-1] | N events     | size/Mb |
