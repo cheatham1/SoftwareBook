@@ -38,12 +38,21 @@ In the root directory you will see five directories, a README file plus two pyth
 
 * 'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
 
-*  Move the downloaded data to your Input directory and unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip
+*  unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip and you will see two directories MC and Data.
+
+* Move the directories MC and Data into your Input directory. 
+
+
+### Nearly there
+
+
   
 You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN.
 Type into your command line
+
 ```root```
-If root launches and you get the message 'Welcome to ROOT' you can move straight onto the next section 'Take a look at the data'.    
+
+If root launches and you get the message 'Welcome to ROOT' you can quit root and move straight onto the next section 'Take a look at the data'.    
     
 If not, take a deep breath and 
 follow the instructions to download ROOT provided on the [Downloading ROOT](https://root.cern.ch/downloading-root) website.  
