@@ -7,14 +7,19 @@ You need to download some code to get started. It will enable to take a first lo
 
 ## Setup
 
+
+## Download the software
+
 Select the 'Download' button at the top right of the page.
 
 <img src="./Pictures/Download.jpg" width="150" />
 
 You now have access to the ATLAS Data and Tools Repository.
 
-To download the tools;
-* Select 'software' and then 'software repository' ATLAS outreach data and tools.
+* Scroll down to 'Downloads' and select 'software' and then 'software repository' ATLAS outreach data and tools.
+
+<img src="./Pictures/SoftwareButton.jpg" width="150" /><img src="./Pictures/DataAndToolsButton.jpg" width="150" />
+
 * Select the green 'Clone or download' button. 
 * Move the zipped directory to your workarea. Now unzip it. 
  
@@ -22,6 +27,8 @@ In the root directory you will see five directories, a README file plus two pyth
 
 Download the data into your Input directory; 
 * Select the 'Download' button again at the top right of the page.
+* <img src="./Pictures/Download.jpg" width="150" />
+* 
 * In the Data & Tools Repository select 'Software', either from
  Downloads or CERN OpenData portal (ATLAS Public Release Spring 2016).
 * Select 'Datasets'.
