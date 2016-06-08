@@ -6,9 +6,7 @@ The ATLAS collaboration has made some data available to everyone.
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
 ## Setup
-
-
-## Download the software
+### Download the software
 
 Select the 'Download' button at the top right of the page.
 
@@ -16,31 +14,41 @@ Select the 'Download' button at the top right of the page.
 
 You now have access to the ATLAS Data and Tools Repository.
 
-* Scroll down to 'Downloads' and select 'software' and then 'software repository' ATLAS outreach data and tools.
+* Scroll down to 'Downloads' and select 'software' and then 'ATLAS outreach data and tools'.
 
-<img src="./Pictures/SoftwareButton.jpg" width="150" /><img src="./Pictures/DataAndToolsButton.jpg" width="150" />
+<img src="./Pictures/SoftwareButton.jpg" width="150" /><img src="./Pictures/DataAndToolsButton.jpg" width="100" />
 
 * Select the green 'Clone or download' button. 
+
+<img src="./Pictures/CloneOrDownload.jpg" width="150" />
+
 * Move the zipped directory to your workarea. Now unzip it. 
  
 In the root directory you will see five directories, a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py.  The directory names are Analysis, Configurations, Input, Plotting and Output.
 
-Download the data into your Input directory; 
+### Download the data
+
 * Select the 'Download' button again at the top right of the page.
-* <img src="./Pictures/Download.jpg" width="150" />
-* 
-* In the Data & Tools Repository select 'Software', either from
- Downloads or CERN OpenData portal (ATLAS Public Release Spring 2016).
-* Select 'Datasets'.
+
+<img src="./Pictures/Download.jpg" width="150" />
+ 
+* Scroll down to Downloads and select 'Datasets'
+
+<img src="./Pictures/DatasetsButton.jpg" width="150" />
+<img src="./Pictures/BulkDownload.jpg" width="200" />
+
 * 'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
-* unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip
+
+*  Move the downloaded data to your Input directory and unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip
   
-You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN. 
+You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN.  Follow the instructions to download ROOT provided on the Downloading ROOT website.  
 
 # Taking a look at the data
 ## Analysis
 
-As a first go, to check whether everything works fine, you can run 
+Now return to your root directory, where you have RunScript.py
+
+As a first go, to check whether everything works fine, you can run just by typing the following into the command line
 
     python RunScript.py -a TTbarAnalysis -s "WW, WZ"
 
