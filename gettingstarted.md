@@ -5,7 +5,6 @@ The ATLAS collaboration has made some data available to everyone.
 
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
-## Setup
 ### Download the software
 
 Select the 'Download' button at the top right of the page.
@@ -43,7 +42,7 @@ In the root directory you will see five directories, a README file plus two pyth
   
 You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN.  Follow the instructions to download ROOT provided on the Downloading ROOT website.  
 
-# Taking a look at the data
+# Take a look at the data
 ## Analysis
 
 Now return to your root directory, where you have RunScript.py
