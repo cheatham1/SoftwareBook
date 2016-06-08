@@ -23,7 +23,7 @@ If you get so far as looking at the datasets using ROOT, here are the definition
 |lep\_E                     | vector<.float>  | energy of the lepton |
 |lep\_z0                    | vector<.float>  | z-coordinate of the track associated to the lepton wrt. the primary vertex |
 |lep\_charge                | vector<.float>  | charge of the lepton |
-|lep\_flag                  | vector<.int>    | bitmask implementing object cuts of the top group |
+|lep\_flag                  | vector<.int>    | bitmask implementing object cuts |
 |lep\_type                  | vector<.int>    | number signifying the lepton type (e, mu, tau) of the lepton |
 |lep\_ptcone30              | vector<.float>  | scalar sum of tracks pT in a cone of R=0.3 around lepton, not including lepton pT itself |
 |lep\_etcone20              | vector<.float>  | scalar sum of tracks ET in a cone of R=0.2 around lepton, not including lepton ET itself |
