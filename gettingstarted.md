@@ -44,23 +44,23 @@ In the root directory you will see five directories, a README file plus two pyth
 
 
 ### Nearly there
-
-
   
-You need to have [ROOT](https://root.cern.ch/downloading-root) installed.  ROOT is a framework for data processing used by all physicists at CERN.
-Type into your command line
+You need to have installed the framework for data processing that is used by all physicists at CERN.
+
+To see if it is already installed, in a terminal window, type into the command line
 
 ```root```
 
-If root launches and you get the message 'Welcome to ROOT' you can quit root and move straight onto the next section 'Take a look at the data'.    
+If ROOT launches and you get the message 'Welcome to ROOT' you can quit root and move straight onto the next section 'Take a look at the data'.    
     
 If not, take a deep breath and 
-follow the instructions to download ROOT provided on the [Downloading ROOT](https://root.cern.ch/downloading-root) website.  
+follow the download instructions provided on the website 
+<a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
 
 # Take a look at the data
 ## Analysis
 
-Now return to your root directory, where you have RunScript.py
+Now, in a terminal window, go to your root directory, where you have RunScript.py
 
 As a first go, to check whether everything works fine, you can run just by typing the following into the command line
 
