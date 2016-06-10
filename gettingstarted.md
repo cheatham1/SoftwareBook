@@ -57,6 +57,11 @@ If not, take a deep breath and
 follow the download instructions provided on the website 
 <a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
 
+Basically it is enough download the latest ROOT Release and
+run a special script distributed with ROOT 
+
+    config/thisroot.(c)sh
+
 # Take a look at the data
 ## Analysis
 
