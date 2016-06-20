@@ -10,11 +10,11 @@ It is important to measure well known Standard Model particles, to confirm that 
 
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
 
-Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (ET). The muon candidates have transverse momenta of 50 and 126 GeV.
-The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the missing ET is measured to be 161 GeV. 
+Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
+The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the MET is measured to be 161 GeV. 
 
 ## Top pair Analysis
-The top pair analysis is interesting since it is a good test of the Standard Model.
+The [top](https://en.wikipedia.org/wiki/Top_quark) pair analysis is interesting because it is a good test of the Standard Model.
 
 It is important for discrimination between different data simulation generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
 
@@ -94,3 +94,17 @@ important as it demonstrates that the proposed datasets are intended for educati
 **A beyond the Standard Model analysis:** multiple samples of simulated data containing Z' signal events are provided to implement a simplified analysis setting exclusion limits on new physics.
 
 This list should not be seen as an exhaustive list of all possible analyses. Further processes that may be explored include W W production, dileptonic top pair production, single top production or many others.
+
+
+### Suggested activity
+
+In theoretical physics, [Feynman diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) are pictorial representations of the mathematical expressions describing the behaviour of subatomic particles.  Feynman diagrams are a valuable tool for understanding physics processes.
+
+* Have a go at drawing / finding the Feynman diagram for each of the above seven analyses.
+
+
+
+
+
+
+
