@@ -6,5 +6,5 @@ It is ready for you to use, just for curiosity, as a teaching tool or to dive in
 
 ![](openDataScreenShot.png)
 
-Use the arrows below to navigate through the documentation booklet.
-Or click on the hamburger icon above to access the chapters directly.
+Use the arrows below to navigate through the instructions.
+Or click on the hamburger icon (4 horizontal lines) above to access the chapters directly.
