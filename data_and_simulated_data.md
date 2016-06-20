@@ -10,8 +10,8 @@ One [inverse femtobarn](http://writing-guidelines.web.cern.ch/entries/inverse-fe
 
 ## Simulated data
 Simulated events are a key feature for the LHC
-experiments, commonly named Monte Carlo (MC). These events are used to compare theory with the real
-data.
+experiments, commonly named Monte Carlo (MC). 
+These events are simulated using current theoretical models and are used to compare theory with real data.
 
 The full simulation requires the following steps
 * Event generation: Hadronic final states using the
