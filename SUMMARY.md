@@ -5,7 +5,7 @@
 * [Data and simulated data](data_and_simulated_data.md)
 * [ATLAS Higgs animations](atlas_higgs_animations.md)
 * [Analyses](analyses.md)
-* [GettingStarted](gettingstarted.md)
+* [Setup your environment](gettingstarted.md)
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Variable names](variable_names.md)
