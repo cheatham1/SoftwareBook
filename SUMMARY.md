@@ -6,6 +6,7 @@
 * [ATLAS Higgs animations](atlas_higgs_animations.md)
 * [Analyses](analyses.md)
 * [Setup your environment](gettingstarted.md)
+* Take a look at the data
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Variable names](variable_names.md)
@@ -13,5 +14,4 @@
 * [Event selection](event_selection.md)
 * [Dataset Details](simulated_data_details.md)
 * [ATLAS at CERN](atlas_at_cern.md)
-* Take a look at the data
 
