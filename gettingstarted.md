@@ -57,7 +57,7 @@ If not, take a deep breath and
 follow the download instructions provided on the website 
 <a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
 
-Basically it is enough download the latest ROOT Release and
+Basically it is enough to download the latest ROOT Release and
 run a special script distributed with ROOT 
 
     bin/thisroot.(c)sh
