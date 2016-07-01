@@ -1,4 +1,4 @@
-# Getting started
+# Setup Your Environment
 ## ATLAS open data
 
 The ATLAS collaboration has made some data available to everyone.
@@ -60,7 +60,7 @@ follow the download instructions provided on the website
 Basically it is enough download the latest ROOT Release and
 run a special script distributed with ROOT 
 
-    config/thisroot.(c)sh
+    bin/thisroot.(c)sh
 
 # Take a look at the data
 ## Analysis
