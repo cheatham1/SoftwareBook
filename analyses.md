@@ -68,7 +68,7 @@ Higgs candidate=125.1 GeV.
 
 This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
 
-The main background is top pair production in association with one or more jets. So in this analysis we demand that no jets are present, to reduce the background.
+The main background is top pair production in association with one or more jets. 
 
 ## Z' Analysis
 
