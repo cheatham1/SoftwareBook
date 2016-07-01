@@ -10,8 +10,8 @@
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Variable names](variable_names.md)
-* [Glossary](glossary.md)
 * [Event selection](event_selection.md)
 * [Dataset Details](simulated_data_details.md)
+* [Glossary](glossary.md)
 * [ATLAS at CERN](atlas_at_cern.md)
 
