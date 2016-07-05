@@ -68,7 +68,20 @@ Higgs candidate=125.1 GeV.
 
 This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
 
-The main background is top pair production in association with one or more jets. 
+The Higgs boson appears as a consequence of the breaking of electroweak symmetry and is responsible
+for giving masses to all other massive particles. The central role played by the Higgs boson in the SM
+explains why the search for this particle is a centrepiece of the LHC physics programme.
+
+The H→WW→ℓνℓν (ℓ=electron or muon) channel is particularly sensitive in the intermediate mass range 120< mass Higgs < 240 GeV
+
+It has been shown at the LHC that the major background
+contributions to the search in this decay mode are top pair (ttbar and Wt), WW and W+jet events. Out of these
+three processes, the first two contain two isolated high-
+pT leptons from W boson decays, which is also
+the signature of the signal, while for the
+W+jets background, one of the jet decay products might be
+mistaken for an isolated high-pT lepton. 
+
 
 ## Z' Analysis
 
