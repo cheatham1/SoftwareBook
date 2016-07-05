@@ -76,8 +76,7 @@ The H→WW→ℓνℓν (ℓ=electron or muon) channel is particularly sensitive
 
 It has been shown at the LHC that the major background
 contributions to the search in this decay mode are top pair (ttbar and Wt), WW and W+jet events. Out of these
-three processes, the first two contain two isolated high-
-pT leptons from W boson decays, which is also
+three processes, the first two contain two isolated high-pT leptons from W boson decays, which is also
 the signature of the signal, while for the
 W+jets background, one of the jet decay products might be
 mistaken for an isolated high-pT lepton. 
