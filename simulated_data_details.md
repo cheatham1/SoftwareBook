@@ -6,15 +6,13 @@ An important aspect of the data samples is that they were prepared specifically 
 * No facilities to estimate systematic uncertainties have been included as these quickly introduce large complexities. 
 
 * The b-tagging scale factor is computed for a specific working point (MV1@70% efficiency). The
-user, however, is free to specify the b-tagging weight used for tagging jets allowing for a potential
-mismatch of the definition considered in the scale factor calculation and the one being actually applied.
+user, however, is free to specify the b-tagging weight used for tagging jets allowing for a potential mismatch of the definition considered in the scale factor calculation and the one being actually applied.
 
 
 * No QCD simulated samples were prepared as they would have been insufficient in statistics while introducing large set of additional samples. 
 
 
-* The description of the W boson properties in simulated
-W+ jets events is not ideal. 
+* The description of the W boson properties in simulated W + jets events is not ideal. 
 Corrections are only available
 for samples produced with the Monte Carlo generator Alpgen
 but not for those produced with
