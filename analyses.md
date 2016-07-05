@@ -66,7 +66,7 @@ Higgs candidate=125.1 GeV.
 
 ## HWW Analysis
 
-This analysis searches for the standard model Higgs boson produced via the vector-boson fusion mechanism. 
+This analysis searches for the standard model Higgs boson where the Higgs boson decays into 2 W bosons which subsequently decay into leptons and neutrinos.
 
 The Higgs boson appears as a consequence of the breaking of electroweak symmetry and is responsible
 for giving masses to all other massive particles. The central role played by the Higgs boson in the SM
