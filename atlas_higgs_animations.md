@@ -6,4 +6,4 @@ Animations of the accumulation of Higgs events over time in the diphoton and fou
 
 <img alt="" src="https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults//4l-FloatingScale-NoMuProf2.gif">
 
-As more data is collected (notice the date changing), the number of events analysed increases (notice the change in scale of the y-axis).  The size of the error bars on the data points decreasing as the volume of data increases, allowing the signal to be seen.
+As more data is collected (notice the date changing), the number of events analysed increases (notice the change in scale of the y-axis).  The size of the error bars on the data points decrease as the volume of data increases, allowing the signal to be seen.
