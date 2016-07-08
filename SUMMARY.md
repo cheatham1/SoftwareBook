@@ -13,5 +13,4 @@
 * [Glossary](glossary.md)
 * [Event selection](event_selection.md)
 * [Dataset Details](simulated_data_details.md)
-* [ATLAS at CERN](atlas_at_cern.md)
 
