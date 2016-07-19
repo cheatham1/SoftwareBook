@@ -1,4 +1,4 @@
-# ATLAS Higgs animations
+# Histogram animation
 
 An animation of the accumulation of Higgs events over time in the four-lepton channel show us that it is important to collect large data samples.  You can see the signal emerging from the backgroud as more and more events are added.
 
