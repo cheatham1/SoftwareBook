@@ -1,11 +1,17 @@
 # Setup Your Environment
 ## ATLAS open data
 
-The ATLAS collaboration has made some data available to everyone.
+The ATLAS collaboration has made some software and data available to everyone.
 
-You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
+You have a choice:
+
+* **Download the software and datasets to your machine**: continue with the instructions below
+* **Use a virtual machine**: follow the instructions in the Virtual Machine Book
+
 
 ### Download the software
+
+You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
 Select the 'Download' button at the top right of the page.
 
