@@ -1,116 +1,155 @@
 # Analyses
 
-We have prepared seven analyses for you.  Ranging from measuring [Standard Model](http://home.cern/about/physics/standard-model) particles including a [Higgs](http://home.cern/topics/higgs-boson) analysis and a search for a Beyond the Standard Model particle.
+We have prepared seven analyses for you. Ranging from measuring Standard Model particles including a Higgs analysis and a search for a Beyond the Standard Model particle.  Let's take a look at these processes. 
 
-## W Analysis
+## $$H\rightarrow W^+W^-$$
 
-The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](http://home.cern/about/physics/z-boson) bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction.  
+The [Higgs boson](https://home.cern/topics/higgs-boson) is an excitation of the quantum field responsible for the breaking of [electroweak symmetry](https://en.wikipedia.org/wiki/Electroweak_interaction).
+This field is responsible for giving masses to fundamental particles.
 
-The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity. 
+The Higgs boson interacts with all  Standard Model elementary particles having mass.
+Thus, it can decay through many different processes.
+One of the most likely things to happen is that the Higgs decays into a pair of [W bosons](https://home.cern/about/physics/w-boson-sunshine-and-stardust). 
+This happens about 23% of the time for a Higgs boson with a mass of 125 GeV.
+The W bosons can subsequently decay either into a quark-antiquark, a [lepton](https://en.wikipedia.org/wiki/Lepton)-[antineutrino](https://en.wikipedia.org/wiki/Neutrino), or an antilepton-neutrino pair.
 
-The W analysis is potentially prone to QCD contributions as there is only one lepton present which may come from non-prompt sources mimicking the desired final state. Therefore, potential disagreements must always be understood as a sign that the QCD contributions are not taken into account.
+From here on, we will refer to a particle and its [antiparticle](https://en.wikipedia.org/wiki/Antiparticle) collectively by just the particle's name.
+So, When we talk about quarks we mean quarks and antiquarks.
+It is a shorthand that physicists adopt for brevity. 
 
-An interesting variable to study would be the ratio W+/W− with respect to the pseudorapidity of the selected lepton.
+The signal process in Histogram Analyser is the Higgs boson decaying into 2 W bosons which subsequently decay into leptons and neutrinos:
 
-## Z Analysis
-
-Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the MOnte-Carlo simulated data.
-
-It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software.  We are then ready to search for new physics.
-
-<img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
-
-Candidate event with a Z decay to muon pairs, recoiling against missing transverse energy (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
-The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the MET is measured to be 161 GeV. 
-
-## Top pair Analysis
-The [top](https://en.wikipedia.org/wiki/Top_quark) pair analysis is interesting because it is a good test of the Standard Model.
-
-It is important for discrimination between different data simulation generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
-
-In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the Standard Model searches.  It is therefore crucial to understand this process in detail. 
+$$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
 
 
-ATLAS is a top factory and studying and understanding top physics is one of the major goals of its physics programme. This understanding is crucial for studying rarer processes as top pair production is a background to virtually all processes having leptons or jets in their final state. Top pair production can
-be studied in ATLAS open data dataset in both the semileptonic and dileptonic final state. Statistics are sufficient for producing detailed distributions and exploring advanced techniques such as the reconstruction of the top pair system.
+
+The major background contributions to the search in this decay mode are top-pair ($$t\bar t$$) production, $$WW$$ and $$Z$$+jets events. 
+All of these processes contain two isolated high-$$p_\text{T}$$ leptons from $$W$$ or Z boson decays, which is also the signature of the signal.
+
+There is also the $$W$$+[jets](https://en.wikipedia.org/wiki/Jet_(particle_physics) background, where one of the jet decay products might be mistaken for an isolated high-$$p_\text{T}$$ lepton.
+Its contribution is small and is neglected here.
+
+The term $$p_\text{T}$$ stands for transverse momentum, the component of momentum perpendicular to the beam line. 
+In proton-proton collisions the overall momentum along the beamline is not known.
+This is because protons are composite particles consisting of many so-called partons (quarks and gluons).
+Each of the partons carries an unknown fraction of the protons momentum.
+When two protons collide it is actually the partons that interact.
+However, their exact momentum along the beamline is unknown.
+We only know that the overall momentum perpendicular to the beamline is zero before the collision.
+Thus, it is the most important momentum variable in a proton-proton collision.
+
+Isolation is important because it indicates where the lepton stems from.
+For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson, $$\tau$$-lepton.  
+In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
+
+<img src="./EventDisplays/HWW2.jpg" width="300" />
+
+Event display of an event satisfying all the selection criteria for events in the Higgs - zero jets + electron + muon channel. 
+The reconstructed lepton $$p_\text{T}$$ values are 33 GeV for the electron (green track) and 29 GeV for the muon (red track).
+The reconstructed missing transverse momentum (magenta arrow) is 35 GeV.
+
+## $$WW$$
+$$W$$ boson pair production occurs via
+
+* **quark–antiquark annihilation** $$q\bar q \rightarrow W^+W^-$$
+ 
+* **diphoton process**  $$\gamma\gamma\rightarrow W^+W^-$$
+
+* **gluon fusion** $$gg\rightarrow W^+W^-$$
+
+
+[Vector boson](https://en.wikipedia.org/wiki/Vector_boson) pair production is an important process for checks of the [gauge structure](https://en.wikipedia.org/wiki/Gauge_theory) of the Standard Model and the search for [new physics](https://en.wikipedia.org/wiki/Physics_beyond_the_Standard_Model).
+It is an irreducible background for many Higgs and new physics searches. 
+
+W bosons can decay either
+* [leptonically](https://en.wikipedia.org/wiki/Lepton): into an [electron](https://en.wikipedia.org/wiki/Electron) or [muon](https://en.wikipedia.org/wiki/Muon) and [neutrino](https://en.wikipedia.org/wiki/Neutrino). 
+* [hadronically](https://en.wikipedia.org/wiki/Hadron): into an [up-type quark](https://en.wikipedia.org/wiki/Quark) and a [down-type quark](https://en.wikipedia.org/wiki/Quark).
+
+Leptonic $$W$$ boson decays are characterised by the presence of a highly energetic isolated lepton and large missing transverse momentum due to the neutrino escaping detection. 
+
+Hadronic $$W$$ boson decays lead to the presence of two jets due to the two quarks.
+
+Only leptonic decays are considered in Histogram Analyser.
+The $$WW$$ process will thus be seen in the electron-electron (ee), muon-muon (mm) and electron-muon (em) channel.
+
+Final states with leptons and missing energy are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
+
+Understanding the Standard Model processes possessing multiple leptons and missing energy is crucial in the quest to discover or rule out these models.
+
+
+<img src="./EventDisplays/fig_08.jpg" width="400" />
+
+Event display: A $$WW$$ candidate event in the electron muon final state.
+The electron and muon candidates have transverse momenta of 21 and 68 GeV, respectively.
+The arrow indicates the missing transverse momentum, which is measured to be 69 GeV.  
+The top left insert shows the event in the x-y projection, with the muon track (red), electron track (orange) and the electron deposit in the electromagnetic calorimeter (green).
+
+## $$t\bar t$$
+
+The [top quark](https://press.cern/backgrounders/top-quark) is the only quark that can be studied in isolation, due to its high mass and short lifetime.
+All other quarks are only accessible as constituents of hadrons.
+
+Top processes can be used to optimise Monte-Carlo generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
+
+In addition, top pair production is an important background in various Higgs boson analyses and beyond the Standard Model searches.
+It is therefore crucial to understand this process in detail. 
+
+In the Standard Model, the top-quark generally decays into a [$$W$$ boson](https://en.wikipedia.org/wiki/W_and_Z_bosons) and a 
+[$$b$$-quark](https://en.wikipedia.org/wiki/Bottom_quark).
+
+As we said before, $$W$$ bosons can decay either
+* [leptonically](https://en.wikipedia.org/wiki/Lepton): into an [electron](https://en.wikipedia.org/wiki/Electron) or [muon](https://en.wikipedia.org/wiki/Muon) and [neutrino](https://en.wikipedia.org/wiki/Neutrino). 
+* [hadronically](https://en.wikipedia.org/wiki/Hadron): into an [up-type quark](https://en.wikipedia.org/wiki/Quark) and a [down-type quark](https://en.wikipedia.org/wiki/Quark).
+
+The two $$b$$-quarks from the top-quark decays will be seen as two jets in the final state.
+Algorithms are used to identify these jets.
+Jets thought to originate from b-quarks are called b-tagged jets.
+Additional jets in $$t \bar t $$ events can originate from gluon radiation.
+
+Three channels are possible depending on the decays of the $$W$$ bosons:
+* If both $$W$$ bosons decay leptonically two jets are seen, originating from the $$b$$-quarks.
+* If both $$W$$ bosons decay hadronically, six jets are seen, two from each $$W$$ and two from the $$b$$-quarks.
+* If the decay is semi-leptonic, one $$W$$ boson decays leptonically and the other hadronically; four jets are seen, two of them are from $$b$$-quarks.
+
 
 <img src="./EventDisplays/run267638_evt193690558.jpg" width="400" />
 
-Display of a top pair candidate event recorded by ATLAS with LHC stable beams at a collision energy of 13 TeV. The red line shows the path of a muon with transverse momentum around 140 GeV through the detector. The green line shows the path of an electron with transverse momentum around 170 GeV through the detector. The green and yellow bars indicate energy deposits in the liquid argon and scintillating-tile calorimeters, from these deposits 3 jets are identified with transverse momenta between 30 and 80 GeV. Two of the jets are identified as having originated from b-quarks. Tracks reconstructed from hits in the inner tracking detector are shown as arcs curving in the solenoidal magnetic field. 
+Event display: A top pair candidate event recorded by ATLAS with LHC stable beams at a collision energy of 13 TeV. 
+The red line shows the path of a muon with $$p_\text{T} \approx$$ 140 GeV. 
+The green line shows the path of an electron with  $$p_\text{T} \approx$$ 170 GeV.
+The green and yellow bars indicate energy deposits in the electromagnetic and hadronic calorimeters. 
+From these deposits 3 jets are identified with transverse momenta between 30 and 80 GeV. 
+Two of the jets are identified as having originated from $$b$$-quarks.  
 
-## WZ Analysis
+## $$Z$$
 
-This analysis looks for both a W boson and a Z boson.
-Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The WZ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino.  
+The [$$W$$](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [$$Z$$](http://home.cern/about/physics/z-boson) bosons are together known as the weak or intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction.  
 
+The production of $$Z$$ bosons at the LHC is due to:
 
-Reconstructing the WZ system and studying its properties is possible but introduces a slight challenge due to the neutrino which is present. The available statistics in the ATLAS open data dataset allows for a rediscovery
-of the W Z process in a lab course.
+* **Drell-Yan **: $$ q \bar q \rightarrow Z/\gamma^* \rightarrow \mu^+\mu^-$$(65%). A quark of one proton and an antiquark of another proton annihilate, creating a [virtual photon](https://en.wikipedia.org/wiki/Virtual_particle) or $$Z$$ boson which then decays into a pair of oppositely-charged leptons. 
 
+* **Quark gluon scattering**: $$qg \rightarrow qZ/γ^* \rightarrow q\mu^+\mu^−$$ (35%). A quark and a [gluon](https://en.wikipedia.org/wiki/Gluon) interact and the quark radiates a virtual photon or $$Z$$ boson which then decays into a pair of oppositely-charged leptons. 
 
-<img src="./EventDisplays/vp1_3dcocktail_run167607_evt113411871_approval.jpg" width="400" />
+A $$Z$$ boson is neutral and so the sum of the charges of its decay products must be zero.
+A $$Z$$ boson decays in three ways
 
-Candidate for a WZ → μνμμ decay, collected on 25 October 2010. The invariant mass of the two muons attributed to the Z is 92 GeV. The transverse mass of the potential W boson is 88 GeV.
-
-Further event properties:
-
-Z candidate:
-* PT(μ-) = 60 GeV
-* PT(μ+) = 35 GeV
-
-W candidate:
-* PT(μ-) = 40 GeV
-* ETmiss = 55 GeV (indicated by a blue line in the display) 
+* **quark-antiquark pair** (70%). These appear as jets.  If the jets are identified as originating from b-quarks they will be b-tagged.
 
 
-## ZZ Analysis
-
-The production of Z-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state. Its low production cross section results in a very low yield for the ATLAS
-open data dataset and highlights the limitations of the dataset. Although some events can be selected the low event yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+* **neutrino-antineutrino pair** (20%).  Neutrinos do not interact and so are very difficult to detect.  This neutrino decay mode can sometimes be identified with missing transverse momentum.
 
 
-## HWW Analysis
+* **lepton-antilepton pairs** (10%).  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
 
-This analysis searches for the standard model Higgs boson where the Higgs boson decays into 2 W bosons which subsequently decay into leptons and neutrinos.
-
-The Higgs boson appears as a consequence of the breaking of electroweak symmetry and is responsible
-for giving masses to all other massive particles. The central role played by the Higgs boson in the SM
-explains why the understanding of this particle is a centrepiece of the LHC physics programme.
-
-The H→WW→ℓνℓν (ℓ=electron or muon) channel is particularly sensitive in the intermediate mass range 120 < mass Higgs < 240 GeV
-
-It has been shown at the LHC that the major background
-contributions to the search in this decay mode are top pair production, WW and W+jet events. Out of these
-three processes, the first two contain two isolated high-pT leptons from W boson decays, which is also
-the signature of the signal, while for the
-W+jets background, one of the jet decay products might be
-mistaken for an isolated high-pT lepton. 
+In Histogram Analyser the third decay mode will be studied in the electron-electron (ee) and muon-muon (mm) channel.
+Electrons and muons are much easier to measure than $$\tau$$-leptons.
 
 
-## Z' Analysis
+<img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
 
-The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' boson is named in analogy with the Standard Model Z boson.
-
-
-## Further Information
-
-The purpose of these example analyses is to showcase the abilities and limitations of the measured and
-simulated data included in this data release. 
-
-**Three high statistics Standard Model analyses**: a selection of events with
-one leptonically decaying W
-boson, a selection of leptonically decaying Z boson and a selection of
-semileptonic top pair production. These analyses are intended to show that the general description
-of the data for these important background processes is sound. They also pose the possibility to
-study Standard Model observables like the mass of the Z boson. Observable discrepancies are due to the simplified nature of the used ntuples.
-
-**Three low statistics Standard Model analyses:** these analyses show the limitations of this dataset with respect to rare processes. They are a WZ analysis, a ZZ analysis as well as a H->WW analysis. It is possible to obtain results in these analyses and achieve educational
-objectives.  However the statistical limitations prohibit more meaningful analyses. This point is particularly
-important as it demonstrates that the proposed datasets are intended for educational purposes only.
-
-**A beyond the Standard Model analysis:** multiple samples of simulated data containing Z' signal events are provided to implement a simplified analysis setting exclusion limits on new physics.
-
-This list should not be seen as an exhaustive list of all possible analyses. Further processes that may be explored include W W production, dileptonic top pair production, single top production or many others.
+Event display: Candidate event with a $$Z$$ boson decaying to a muon pair, recoiling against missing transverse energy (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
+The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the MET is measured to be 161 GeV. 
 
 
 ### Suggested activity
