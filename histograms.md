@@ -26,7 +26,7 @@ The jet transverse momentum (pT) distribution has a maximum between 30 and 40 Ge
 
 Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) ID we see peaks at 11 and 13.  These correspond to electrons and muons according to the official [numbering scheme](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-monte-carlo-numbering.pdf).  The histogram is showing absolute values of ID, hence we do not see separately positrons (PDGID=-11) or anti-muons (PDGID=-13).  
 This TTbarAnalysis requires 'exactly one good lepton with pT > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
-The Lepton Pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
+The Lepton pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
 
 <img src="./Output/WtMass.jpg" width="200" />
 <img src="./Output/etmiss.jpg" width="200" />
