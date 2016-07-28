@@ -24,7 +24,7 @@ The pseudorapidity describes the angle of a particle relative to the beam axis.
 
 ![](Pictures/figs_atlas_FigID26-mod-011107.png)
 
-This disagram shows the cross-section of the inner detector layout through the beam axis.
+This diagram shows the cross-section of the inner detector layout through the beam axis.
 
 The ATLAS detector design is symmetrical in pseudorapidity. 
 The detector region |eta|>3 is particularly challenging since particle densities and energies are at their highest.
