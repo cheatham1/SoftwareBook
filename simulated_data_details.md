@@ -87,9 +87,9 @@ The Z' and Higgs samples represent a further 150Mb.
 |Z' -> ttbar [2500] GeV | 110909 | Pythia | 0.00180  | 1.0  | 55556  |   12723  | 4.5  |
 |Z' -> ttbar [3000] GeV | 110910 | Pythia | 0.000434 | 1.0  | 230415 |   12387  | 4.3  |
 |gg-> H->  WW-> llnunu         ; M{H} = 125 GeV   | 161005 | PowHeg+Pythia   | 6.463      | 1.0 | 32.13   | 100000  |  14     |
-|{VBF} H->  WW-> llnunu ; M{H} = 125 GeV    | 161055 | PowHeg+Pythia   | 0.819      | 1.0 | 229.93  | 100000  |  18     |
+|VBF H->  WW-> llnunu ; M(H) = 125 GeV    | 161055 | PowHeg+Pythia   | 0.819      | 1.0 | 229.93  | 100000  |  18     |
 |gg-> H->  ZZ -> 4l            ; M{H} = 125 GeV         | 160155 | PowHeg+Pythia   | 13.17      | 1.0 | 14.31   | 100000  |  15     |
-|{VBF} H->  ZZ -> 4l    ; M{H} = 125 GeV          | 160205 | PowHeg+Pythia   | 1.617      | 1.0 | 104.96  | 100000  |  19     |
+|VBF H->  ZZ -> 4l    ; M(H) = 125 GeV          | 160205 | PowHeg+Pythia   | 1.617      | 1.0 | 104.96  | 100000  |  19     |
 
 
 
