@@ -8,7 +8,7 @@ The events in the ntuple have been selected according to the following preselect
 * The event passes the Good Run List;
 * A veto exists on events containing bad jets.
 
-In addition to these preselection cuts, a standard selection is made (in all the analyses except the ZZ):
+In addition to these preselection cuts, a standard selection is made (in all the analyses except the $$ZZ$$):
 
 * Leptons: are required to be isolated
 such that ptcone30/ pT < 0.15 and etcone20/ pT < 0.15.  
@@ -17,9 +17,9 @@ such that ptcone30/ pT < 0.15 and etcone20/ pT < 0.15.
 
 Analysis specific requirements are detailed below.
 
-## W Analysis
+## $$W$$ Analysis
 
-This analysis searches W bosons decaying to leptons. 
+This analysis searches $$W$$ bosons decaying to leptons. 
 
 The analysis specific event selection criteria are:
 
@@ -28,9 +28,9 @@ The analysis specific event selection criteria are:
 * Reconstructed transverse mass W > 30 GeV.
 
 
-## Z Analysis
+## $$Z$$ Analysis
 
-This analysis seaches for Z bosons decaying into a lepton pair. 
+This analysis seaches for $$Z$$ bosons decaying into a lepton pair. 
 
 The analysis specific event selection criteria are:
 
@@ -52,9 +52,9 @@ The analysis specific event selection criteria are:
 * Missing ET > 30 GeV;
 * Reconstructed transverse mass W > 30 GeV.
 
-## WZ Analysis
+## $$WZ$$ Analysis
 
-This analysis looks for both a W boson candidate and Z boson candidate.
+This analysis looks for both a $$W$$ boson candidate and $$Z$$ boson candidate.
 
 It is a relatively clean signature due to 3 leptons in the final state.  It is interesting for physics since it is a probe for triple gauge couplings.
 
@@ -66,9 +66,9 @@ The analysis specific event selection criteria are:
 * Reconstructed transverse mass W > 30 GeV.
 
 
-## ZZ Analysis
+## $$ZZ$$ Analysis
 
-This analysis looks for two Z boson candidates where both Z bosons decay to leptons.  
+This analysis looks for two $$Z$$ boson candidates where both $$Z$$ bosons decay to leptons.  
 
 The analysis specific event selection criteria are:
 
@@ -76,9 +76,13 @@ The analysis specific event selection criteria are:
 * Two Z candidates built from leptons pairs of same flavour and opposite charge minimizing the total deviation of both candidates from the Z boson mass;
 * |mass Z candidate 1 - mass Z| + |mass Z candidate 2 - mass Z| < 20 GeV.
 
-## HWW Analysis
+## $$H\rightarrow WW$$ Analysis
+
 
 This analysis searches for W bosons decaying to leptons, with no jets.
+
+$$H\rightarrow W^+W^- \rightarrow ℓ^+ ℓ^-\nu  \bar \nu$$ ($$ℓ$$ = electron, muon)
+
 
 The analysis specific event selection criteria are:
 
@@ -100,9 +104,9 @@ Else:
 * Mass lepton pair < 55 GeV;
 * Angular separation between leptons < 1.8.
 
-## Z' Analysis
+## $$Z'$$ Analysis
 
-This analysis searches for Z' in the semileptonic top pair channel.
+This analysis searches for $$Z'$$ in the semileptonic top pair channel.
 
 The analysis specific event selection criteria are:
 
