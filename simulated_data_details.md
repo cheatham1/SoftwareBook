@@ -37,11 +37,11 @@ introduces a certain mismatch regarding the number of vertices and the primary v
 
 The datasets have been reduced in size to optimise the storage requirements. The available number of events in the samples is given in the column N events, which is after the preselection cuts.
 
-The factor FE denotes the filter efficiency for a given sample and f_k is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
+The factor FE denotes the filter efficiency for a given sample and $$f_k$$ is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
 
 The following samples represent about 6.5Gb.
          
-|process | DataSet ID | Generator | sigma*FE [pb] | f_k | L [fb-1] | N events | size/Mb|
+|process | DataSet ID | Generator | $$\sigma$$*FE [pb] | $$f_k$$ | L [fb-1] | N events | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- |
 |ttbar -> l + X                | 117050       | PowHeg+Pythia   | 114.51     | 1.2   | 26.236 | 1500000  |   291 |  
 |ttbar -> Jets                | 117049       | PowHeg+Pythia   |  96.35     | 1.2   | 85.027 |   25170  |   5.7 |
@@ -71,9 +71,9 @@ The following samples represent about 6.5Gb.
 |ZZ                                                   | 105986       | Herwig          | 0.992      | 1.55  | 151.19 |   125000 |    20 |
 |WZ                                                   | 105987       | Herwig          | 3.667      | 1.9   | 138.44 |   500000 |    68 |
 
-The Z' and Higgs samples represent a further 150Mb.
+The $$Z'$$ and Higgs samples represent a further 150 Mb.
          
-|process                                              | DataSet ID  | Generator       | sigma*FE [pb] | f_k | L [fb-1] | N events     | size/Mb |
+|process                                              | DataSet ID  | Generator       | $$\sigma$$*FE [pb] | $$f_k$$ | L [$$fb^{-1}$$] | N events     | size/Mb |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 |Z' -> ttbar [ 400] GeV | 110899 | Pythia | 4.259    | 1.0  | 23.48  |   18307  | 4.3  |
 |Z' -> ttbar [ 500] GeV | 110901 | Pythia | 3.925    | 1.0  | 25.48  |   19737  | 4.7  |
