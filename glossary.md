@@ -17,9 +17,9 @@ The ATLAS detector has a layout that is typical for a collider detector and cons
 
 The complete ATLAS detector is split into a barrel part, where detector layers are positioned on cylindrical surfaces around the beam axis, and two end-cap parts, where detector layers are positioned in planes of constant z perpendicular to the beam pipe.
 
-## Pseudorapidity (eta)
+## Pseudorapidity 
 
-The pseudorapidity describes the angle of a particle relative to the beam axis.  
+The pseudorapidity ($$\eta$$) describes the angle of a particle relative to the beam axis.  
 
 
 ![](Pictures/figs_atlas_FigID26-mod-011107.png)
@@ -32,21 +32,21 @@ The detector region |eta|>3 is particularly challenging since particle densities
 In hadron collider physics, particle production is normally constant as a function of pseudorapidity.  
 
 
-## Azimuth angle (phi)
+## Azimuth angle
 
-Phi is measured from the x-axis, around the beam.
-The ATLAS detector design is symmetrical in phi.
+Phi ($$\phi$$) is measured from the x-axis, around the beam.
+The ATLAS detector design is symmetrical in $$\phi$$.
 
 ![](Pictures/JiveXML_265573_4417696_fromRAW-noCone.jpg)
 
-Display of a proton-proton collision event recorded by ATLAS on 21 May 2015 at a collision energy of 13 TeV. Here you see the event displayed in phi (top left).
+Display of a proton-proton collision event recorded by ATLAS on 21 May 2015 at a collision energy of 13 TeV. Here you see the event displayed in $$\phi$$ (top left).
 
 Tracks reconstructed from hits in the inner tracking detector are shown as arcs curving in the solenoidal magnetic field. The green, red and yellow bars indicate energy deposits in the liquid argon and scintillating-tile calorimeters, clustered in a structure typical of a di-jet event. 
 
 ## Angular separation
 
 The angular separation between physics objects e.g.lepton pair can be important in understanding or identifying different physics processes.
-It is calculated as a function of eta and phi.
+It is calculated as a function of $$\eta$$ and $$\phi$$.
 
 
 Isolation can be required, meaning that there must be a minimum angular separation from any other significant object.
