@@ -17,7 +17,7 @@ The primary vertex position in the coordinate z (where the z axis follows the be
 We see that the number of jets varies and one can see that events with more and more jets are increasingly rare.
 Simulated data shows a similar distribution of numbers of jets.
 The jet [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) distribution is symmetrical, which is expected since the ATLAS detector itself is symmetrical in pseudorapidity.
-The jet transverse momentum (pT) distribution has a maximum between 30 and 40 GeV. The simulated data slightly over-estimates the data jet pT distribution.
+The jet transverse momentum ($$p_T$$) distribution has a maximum between 30 and 40 GeV. The simulated data slightly over-estimates the data jet $$p_T$$ distribution.
 
 <img src="./Output/lep_type.jpg" width="200" />
 <img src="./Output/lep_n.jpg" width="200" />
