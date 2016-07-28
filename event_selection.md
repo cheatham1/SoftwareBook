@@ -37,7 +37,7 @@ The analysis specific event selection criteria are:
 * Exactly two good leptons with $$p_T$$ > 25 GeV; 
 * Leptons have opposite charge;
 * Leptons have same flavour; 
-* |mass lepton pair - mass $$Z$$ | < 20 GeV.
+* |reconstructed mass lepton pair - PDG mass $$Z$$< 20 GeV.
 
 
 ## Top pair Analysis
@@ -74,7 +74,7 @@ The analysis specific event selection criteria are:
 
 * Exactly four good lepton with $$p_T$$ > 10 GeV;
 * Two Z candidates built from leptons pairs of same flavour and opposite charge minimizing the total deviation of both candidates from the Z boson mass;
-* |mass $$Z$$ candidate 1 - mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
+* |reconstrucetd mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
 
 ## $$H\rightarrow WW$$ Analysis
 
@@ -92,7 +92,7 @@ The analysis specific event selection criteria are:
  
 If leptons have same flavor:
 * mass lepton pair > 12 GeV;
-* |mass lepton pair - mass Z| > 15 GeV;
+* |reconstructed mass lepton pair - PDG mass Z| > 15 GeV;
 * Missing ET > 40 GeV;
  
 Else:
