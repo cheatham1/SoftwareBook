@@ -30,6 +30,6 @@ If we add up the number of events in these distributions we see we have only abo
 <img src="./Output/WZAnalysis/lep_EWZ.jpg" width="200" />
 <img src="./Output/WZAnalysis/lep_ptWZ.jpg" width="200" />
 
-The lepton PDG ID distributions shows that we are looking at electrons and muons.  The energy and transverse momentum distributions in data agree well with simulated data.
+The lepton PDG id distributions shows that we are looking at electrons and muons.  The energy and transverse momentum distributions in data agree well with simulated data.
 
 
