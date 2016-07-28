@@ -12,7 +12,7 @@ user, however, is free to specify the b-tagging weight used for tagging jets all
 * No QCD simulated samples were prepared as they would have been insufficient in statistics while introducing large set of additional samples. 
 
 
-* The description of the W boson properties in simulated W + jets events is not ideal. 
+* The description of the $$W$$ boson properties in simulated $$W$$ + jets events is not ideal. 
 Corrections are only available
 for samples produced with the Monte Carlo generator Alpgen
 but not for those produced with
