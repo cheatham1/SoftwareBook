@@ -39,7 +39,7 @@ The datasets have been reduced in size to optimise the storage requirements. The
 
 The factor FE denotes the filter efficiency for a given sample and $$f_k$$ is used for rescaling the leading order estimate to next to leading order in perturbative QCD.
 
-The following samples represent about 6.5Gb.
+The following samples represent about 6.5 Gb.
          
 |process | DataSet ID | Generator | $$\sigma$$*FE [pb] | $$f_k$$ | L [fb-1] | N events | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- |
