@@ -4,13 +4,13 @@
 </CENTER>
 
 ## Data 
-The ATLAS collaboration has released 1 inverse femtobarns of data on the CERN open data portal, **ATLAS Public Release Spring 2016**.
+The ATLAS collaboration has released 1 inverse femtobarn of data on the CERN open data portal, **ATLAS Public Release Spring 2016**.
 
 One [inverse femtobarn](http://writing-guidelines.web.cern.ch/entries/inverse-femtobarn) corresponds to approximately 100 trillion proton-proton collisions.
 
 ## Simulated data
-Simulated events are a key feature for the LHC
-experiments, commonly named Monte Carlo (MC). 
+Simulated events, commonly named Monte Carlo (MC), are a key feature for the LHC
+experiments. 
 These events are simulated using current theoretical models and are used to compare theory with real data.
 
 The full simulation requires the following steps
@@ -28,7 +28,7 @@ because of the high rate of collisions in the LHC, digitised
 signals from several simulated events can be piled-up to
 create samples with a realistic experimental background.
 
-* Reconstruction:  particle trajectories and energies
+* Reconstruction:  Particle trajectories and energies
 from the detector are reconstructed. Such final samples
 are used by the physicists.
 
