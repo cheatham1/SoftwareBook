@@ -39,8 +39,7 @@ We only know that the overall momentum perpendicular to the beamline is zero bef
 Thus, it is the most important momentum variable in a proton-proton collision.
 
 Isolation is important because it indicates where the lepton stems from.
-For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson, $$\tau$$-lepton.  
-In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
+For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson, $$\tau$$-lepton.  In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
 
 <img src="./EventDisplays/HWW2.jpg" width="300" />
 
@@ -72,9 +71,9 @@ Hadronic $$W$$ boson decays lead to the presence of two jets due to the two quar
 Only leptonic decays are considered in Histogram Analyser.
 The $$WW$$ process will thus be seen in the electron-electron (ee), muon-muon (mm) and electron-muon (em) channel.
 
-Final states with leptons and missing energy are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
+Final states with leptons and missing  are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
 
-Understanding the Standard Model processes possessing multiple leptons and missing energy is crucial in the quest to discover or rule out these models.
+Understanding the Standard Model processes possessing multiple leptons and missing transverse momentum is crucial in the quest to discover or rule out these models.
 
 
 <img src="./EventDisplays/fig_08.jpg" width="400" />
@@ -148,7 +147,7 @@ Electrons and muons are much easier to measure than $$\tau$$-leptons.
 
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
 
-Event display: Candidate event with a $$Z$$ boson decaying to a muon pair, recoiling against missing transverse energy (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
+Event display: Candidate event with a $$Z$$ boson decaying to a muon pair, recoiling against missing transverse momentum (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
 The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the MET is measured to be 161 GeV. 
 
 
