@@ -13,23 +13,23 @@ You have a choice:
 
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
-Select the 'Download' button at the top right of the page.
+Select the 'Download' button at the top right of the page.  
 
 <img src="./Pictures/Download.jpg" width="150" />
 
-You now have access to the ATLAS Data and Tools Repository.
+Then select Software.
 
-* Scroll down to 'Downloads' and select 'software' and then 'ATLAS outreach data and tools'.
+<img src="./Pictures/SoftwareButton.jpg" width="200" />
 
-<img src="./Pictures/SoftwareButton.jpg" width="150" /><img src="./Pictures/DataAndToolsButton.jpg" width="100" />
+You now have access to the ATLAS Outreach  data and tools repository.
 
-* Select the green 'Clone or download' button. 
+<img src="./Pictures/DataAndToolsButton.jpg" width="100" />
 
-<img src="./Pictures/CloneOrDownload.jpg" width="150" />
+You now have a choice to download the files from GitHub or as a zip file. 
 
-* Move the zipped directory to your workarea. Now unzip it. 
+* Move the downloaded directory (atlas-outreach-data-tools-framework) to your workarea. You may need to unzip it. 
  
-In the root directory you will see five directories, a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py.  The directory names are Analysis, Configurations, Input, Plotting and Output.
+In the root directory you will see five directories (Analysis, Configurations, Input, Plotting and Output), a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py. 
 
 ### Download the data
 
@@ -37,7 +37,7 @@ In the root directory you will see five directories, a README file plus two pyth
 
 <img src="./Pictures/Download.jpg" width="150" />
  
-* Scroll down to Downloads and select 'Datasets'
+* Scroll down to Downloads and select Datasets
 
 <img src="./Pictures/DatasetsButton.jpg" width="150" />
 <img src="./Pictures/BulkDownload.jpg" width="200" />
@@ -46,24 +46,26 @@ In the root directory you will see five directories, a README file plus two pyth
 
 *  unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip and you will see two directories MC and Data.
 
-* Move the directories MC and Data into your Input directory. 
+* Move the directories MC and Data into your Input directory (within your downloaded atlas-outreach-data-tools-framework). 
 
 
 ### Nearly there
   
-You need to have installed the framework for data processing that is used by all physicists at CERN.
+You need to have installed the ROOT framework for data processing that is used by all physicists at CERN.
 
 To see if it is already installed, in a terminal window, type into the command line
 
 ```root```
 
-If ROOT launches and you get the message 'Welcome to ROOT' you can quit root and move straight onto the next section 'Take a look at the data'.    
+If ROOT launches and you get the message 'Welcome to ROOT' you can quit root 
+(by typing -q)
+and move straight onto the next section 'Take a look at the data'.    
     
-If not, take a deep breath and 
+If not, you have one more step.  Take a deep breath and 
 follow the download instructions provided on the website 
 <a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
 
-Basically it is enough to download the latest ROOT Release and
+Basically it is enough to download the latest ROOT release and
 run a special script distributed with ROOT 
 
     bin/thisroot.(c)sh
