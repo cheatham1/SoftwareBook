@@ -21,32 +21,35 @@ Then select Software.
 
 <img src="./Pictures/SoftwareButton.jpg" width="200" />
 
-You now have access to the ATLAS Outreach  data and tools repository.
+You now have access to the ATLAS Outreach  data and tools repository.  
 
 <img src="./Pictures/DataAndToolsButton.jpg" width="100" />
 
-You now have a choice to download the files from GitHub or as a zip file. 
-
-* Move the downloaded directory (atlas-outreach-data-tools-framework) to your workarea. You may need to unzip it. 
+You have a choice to take a look and download the files from GitHub or just download the files as a zip file. 
+ 
+Move the downloaded directory (atlas-outreach-data-tools-framework) to your workarea. You may need to unzip it. 
  
 In the root directory you will see five directories (Analysis, Configurations, Input, Plotting and Output), a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py. 
 
 ### Download the data
 
-* Select the 'Download' button again at the top right of the page.
+Select the 'Download' button again at the top right of the page.
 
 <img src="./Pictures/Download.jpg" width="150" />
  
-* Scroll down to Downloads and select Datasets
+Then select Datasets
 
 <img src="./Pictures/DatasetsButton.jpg" width="150" />
+
+You now have a choice to download individual data files (Monte Carlo simulated samples and real data samples) one at a time, or all together.
+
 <img src="./Pictures/BulkDownload.jpg" width="200" />
 
-* 'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
+'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.
 
-*  unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip and you will see two directories MC and Data.
+Now unzip  complete_set_of_ATLAS_open_data_samples_June_2016.zip and you will see two directories MC and Data.
 
-* Move the directories MC and Data into your Input directory (within your downloaded atlas-outreach-data-tools-framework). 
+Move the directories MC and Data into your Input directory (within your downloaded atlas-outreach-data-tools-framework). 
 
 
 ### Nearly there
