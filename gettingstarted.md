@@ -26,7 +26,7 @@ You now have access to the ATLAS Outreach  data and tools repository.
 
 <img src="./Pictures/DataAndToolsButton.jpg" width="100" />
 
-You have a choice to take a look and download the files from GitHub or just download the files as a zip file. 
+You have a choice to take a look and download the files from GitHub or just download the files as a zip file.  If you are not sure which to choose, just download the files as a zip file. 
  
 Move the downloaded directory (atlas-outreach-data-tools-framework) to your workarea. You may need to unzip it. 
  
