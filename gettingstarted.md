@@ -8,6 +8,7 @@ You have a choice:
 * **Download the software and datasets to your machine**: continue with the instructions below
 * **Use a virtual machine**: follow the instructions in the Virtual Machine Book
 
+If you are not sure, we recommend Virtual Machine Version M.
 
 ### Download the software
 
