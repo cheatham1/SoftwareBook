@@ -89,7 +89,7 @@ Note that it is possible to supply additional information via a dictionary like 
 ## Definition of Paintables and Depictions
 
 
-Each Plot consists of several depictions of paintables. A depiction is a certain standard type of visualising information. Available depictions include simple plots, ratios and agreement plots. A paintable is a histogram or stack with added information such as colors and which processes contribute to said histogram. A simple definition of paintables may look like this:
+Each Plot consists of several depictions of paintables. A depiction is a certain standard type of visualising information. Available depictions include simple plots, ratios and agreement plots. A paintable is a histogram or stack with added information such as colours and which processes contribute to said histogram. A simple definition of paintables may look like this:
 
     'Paintables': {
         "Stack": {
