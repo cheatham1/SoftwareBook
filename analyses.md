@@ -24,7 +24,7 @@ $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muo
 
 
 The major background contributions to the search in this decay mode are top-pair ($$t\bar t$$) production, $$WW$$ and $$Z$$+jets events. 
-All of these processes contain two isolated high-$$p_\text{T}$$ leptons from $$W$$ or Z boson decays, which is also the signature of the signal.
+All of these processes contain two isolated high-$$p_\text{T}$$ leptons from $$W$$ or $$Z$$ boson decays, which is also the signature of the signal.
 
 There is also the $$W$$+[jets](https://en.wikipedia.org/wiki/Jet_(particle_physics) background, where one of the jet decay products might be mistaken for an isolated high-$$p_\text{T}$$ lepton.
 Its contribution is small and is neglected here.
@@ -102,7 +102,7 @@ As we said before, $$W$$ bosons can decay either
 
 The two $$b$$-quarks from the top-quark decays will be seen as two jets in the final state.
 Algorithms are used to identify these jets.
-Jets thought to originate from b-quarks are called b-tagged jets.
+Jets thought to originate from $$b$$-quarks are called b-tagged jets.
 Additional jets in $$t \bar t $$ events can originate from gluon radiation.
 
 Three channels are possible depending on the decays of the $$W$$ bosons:
@@ -133,7 +133,7 @@ The production of $$Z$$ bosons at the LHC is due to:
 A $$Z$$ boson is neutral and so the sum of the charges of its decay products must be zero.
 A $$Z$$ boson decays in three ways
 
-* **quark-antiquark pair** (70%). These appear as jets.  If the jets are identified as originating from b-quarks they will be b-tagged.
+* **quark-antiquark pair** (70%). These appear as jets.  If the jets are identified as originating from $$b$$-quarks they will be b-tagged.
 
 
 * **neutrino-antineutrino pair** (20%).  Neutrinos do not interact and so are very difficult to detect.  This neutrino decay mode can sometimes be identified with missing transverse momentum.
@@ -148,7 +148,7 @@ Electrons and muons are much easier to measure than $$\tau$$-leptons.
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
 
 Event display: Candidate event with a $$Z$$ boson decaying to a muon pair, recoiling against missing transverse momentum (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
-The invariant mass of the two muons attributed to the Z candidate is 94 GeV; the MET is measured to be 161 GeV. 
+The invariant mass of the two muons attributed to the $$Z$$ candidate is 94 GeV; the MET is measured to be 161 GeV. 
 
 
 ### Suggested activity
