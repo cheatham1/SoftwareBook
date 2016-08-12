@@ -61,7 +61,7 @@ It is a relatively clean signature due to 3 leptons in the final state.  It is i
 The analysis specific event selection criteria are:
 
 * Exactly three good leptons with $$p_T$$ > 25 GeV;
-* $$WZ$$ candidate is chosen by finding the $$Z$$ boson candidate closest to the nominal Z mass;
+* $$WZ$$ candidate is chosen by finding the $$Z$$ boson candidate closest to the nominal $$Z$$ mass;
 * |mass lepton pair -  mass $$Z$$ | < 10 GeV;
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
@@ -79,20 +79,20 @@ The analysis specific event selection criteria are:
 ## $$H\rightarrow WW$$ Analysis
 
 
-This analysis searches for W bosons decaying to leptons, with no jets.
+This analysis searches for $$W$$ bosons decaying to leptons, with no jets.
 
 $$H\rightarrow W^+W^- \rightarrow ℓ^+ ℓ^-\nu  \bar \nu$$ ($$ℓ$$ = electron, muon)
 
 
 The analysis specific event selection criteria are:
 
-* Exactly two good leptons with pT > 25 GeV;
+* Exactly two good leptons with $$p_T$$ > 25 GeV;
 * Leptons have opposite charge;
-* No jets with pT > 25 GeV;
+* No jets with $$p_T$$ > 25 GeV;
  
 If leptons have same flavor:
 * mass lepton pair > 12 GeV;
-* |reconstructed mass lepton pair - PDG mass Z| > 15 GeV;
+* |reconstructed mass lepton pair - PDG mass $$Z$$| > 15 GeV;
 * Missing ET > 40 GeV;
  
 Else:
