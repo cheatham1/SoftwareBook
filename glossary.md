@@ -27,7 +27,7 @@ The pseudorapidity ($$\eta$$) describes the angle of a particle relative to the 
 This diagram shows the cross-section of the inner detector layout through the beam axis.
 
 The ATLAS detector design is symmetrical in pseudorapidity. 
-The detector region |eta|>3 is particularly challenging since particle densities and energies are at their highest.
+The detector region |$$\eta$$|>3 is particularly challenging since particle densities and energies are at their highest.
 
 In hadron collider physics, particle production is normally constant as a function of pseudorapidity.  
 
