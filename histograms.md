@@ -25,13 +25,13 @@ The jet transverse momentum ($$p_T$$) distribution has a maximum between 30 and 
 <img src="./Output/lep_eta.jpg" width="200" />
 
 Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) ID we see peaks at 11 and 13.  These correspond to electrons and muons according to the official [numbering scheme](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-monte-carlo-numbering.pdf).  The histogram is showing absolute values of ID, hence we do not see separately positrons (PDGID=-11) or anti-muons (PDGID=-13).  
-This TTbarAnalysis requires 'exactly one good lepton with pT > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
+This TTbarAnalysis requires 'exactly one good lepton with $$p_T$$ > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
 The Lepton pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
 
 <img src="./Output/WtMass.jpg" width="200" />
 <img src="./Output/etmiss.jpg" width="200" />
 
-The transverse mass of the $$W$$ candidate shows a peak in the distribution in the 75-80 GeV bin.  The average W mass based on [published results](http://pdg.lbl.gov/2012/listings/rpp2012-list-w-boson.pdf) is 80.385 +/- 0.015 GeV.
+The transverse mass of the $$W$$ candidate shows a peak in the distribution in the 75-80 GeV bin.  The average $$W$$ mass based on [published results](http://pdg.lbl.gov/2012/listings/rpp2012-list-w-boson.pdf) is 80.385 +/- 0.015 GeV.
 The data and simulated data distributions are in reasonable agreement.
 
 Missing transverse momentum is defined as the event momentum
