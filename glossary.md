@@ -67,3 +67,16 @@ In these analyses only events with good jets are considered.
 ### Jet Vertex Fraction (JVF)
 The Jet Vertex Fraction can be used to select jets with a high fraction of track energy originating from the selected primary vertex.  It can be used to suppress pile-up jets. 
 
+### Isolation
+
+Isolation is important because it indicates where the lepton stems from. For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson or $$τ$$-lepton.
+In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
+
+### $$p_T$$
+
+The term $$p_T$$ stands for transverse momentum, the component of momentum perpendicular to the beam line.
+
+In proton-proton collisions the overall momentum along the beamline is not known. This is because protons are composite particles consisting of many partons (quarks and gluons). When two protons collide it is actually the partons that interact.
+
+Each of the partons carries an unknown fraction of the protons momentum. So their exact momentum along the beamline is unknown. We only know that the overall momentum perpendicular to the beamline is zero before the collision. Thus, $$p_T$$
+is the most important momentum variable in a proton-proton collision.
