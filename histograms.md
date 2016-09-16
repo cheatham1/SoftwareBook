@@ -14,9 +14,11 @@ The primary vertex position in the coordinate z (where the z axis follows the be
 <img src="./Output/jet_eta.jpg" width="200" />
 <img src="./Output/jet_pt.jpg" width="200" />
 
-We see that the number of jets varies and one can see that events with more and more jets are increasingly rare.
-Simulated data shows a similar distribution of numbers of jets.
+The number of jets varies and one can see that events with more and more jets are increasingly rare.
+Simulated data shows a similar distribution to data.
+
 The jet [pseudorapidity](https://en.wikipedia.org/wiki/Pseudorapidity) distribution is symmetrical, which is expected since the ATLAS detector itself is symmetrical in pseudorapidity.
+
 The jet transverse momentum ($$p_T$$) distribution has a maximum between 30 and 40 GeV. The simulated data slightly over-estimates the data jet $$p_T$$ distribution.
 
 <img src="./Output/lep_type.jpg" width="200" />
@@ -25,8 +27,11 @@ The jet transverse momentum ($$p_T$$) distribution has a maximum between 30 and 
 <img src="./Output/lep_eta.jpg" width="200" />
 
 Looking at lepton Particle Data Group ([PDG](http://pdg.lbl.gov)) ID we see peaks at 11 and 13.  These correspond to electrons and muons according to the official [numbering scheme](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-monte-carlo-numbering.pdf).  The histogram is showing absolute values of ID, hence we do not see separately positrons (PDGID=-11) or anti-muons (PDGID=-13).  
-This TTbarAnalysis requires 'exactly one good lepton with $$p_T$$ > 25 GeV' (see chapter 'Event Selection').  Indeed this agrees with the distributions seen in Number of Leptons and Lepton Transverse Momentum.
-The Lepton pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
+
+
+This TTbarAnalysis requires 'exactly one good lepton with $$p_T$$ > 25 GeV' (see chapter 'Event Selection'). The distributions of number of leptons and lepton transverse momentum show this to be the case.
+
+The lepton pseudorapidity distribution is symmetrical, with data and simulated data in agreement.
 
 <img src="./Output/WtMass.jpg" width="200" />
 <img src="./Output/etmiss.jpg" width="200" />
