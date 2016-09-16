@@ -7,39 +7,21 @@ We have prepared seven analyses for you. Ranging from measuring Standard Model p
 The [Higgs boson](https://home.cern/topics/higgs-boson) is an excitation of the quantum field responsible for the breaking of [electroweak symmetry](https://en.wikipedia.org/wiki/Electroweak_interaction).
 This field is responsible for giving masses to fundamental particles.
 
-The Higgs boson interacts with all  Standard Model elementary particles having mass.
-Thus, it can decay through many different processes.
-One of the most likely things to happen is that the Higgs decays into a pair of [W bosons](https://home.cern/about/physics/w-boson-sunshine-and-stardust). 
+The Higgs boson interacts with all Standard Model elementary particles having mass. Thus, there are different ways to produce a Higgs boson, and different ways for a Higgs boson to decay to other particles.
+One of the most likely ways a Higgs boson will decay is into a pair of $$W$$ bosons. 
+
 This happens about 23% of the time for a Higgs boson with a mass of 125 GeV.
-The W bosons can subsequently decay either into a quark-antiquark, a [lepton](https://en.wikipedia.org/wiki/Lepton)-[antineutrino](https://en.wikipedia.org/wiki/Neutrino), or an antilepton-neutrino pair.
+The $$W$$ bosons can subsequently decay either into a quark-antiquark, a [lepton](https://en.wikipedia.org/wiki/Lepton)-[antineutrino](https://en.wikipedia.org/wiki/Neutrino), or an antilepton-neutrino pair.
 
 From here on, we will refer to a particle and its [antiparticle](https://en.wikipedia.org/wiki/Antiparticle) collectively by just the particle's name.
-So, When we talk about quarks we mean quarks and antiquarks.
+So, when we talk about quarks we mean quarks and antiquarks.
 It is a shorthand that physicists adopt for brevity. 
 
 The signal process in Histogram Analyser is the Higgs boson decaying into 2 $$W$$ bosons which subsequently decay into leptons and neutrinos:
 
 $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
 
-
-
-The major background contributions to the search in this decay mode are top-pair ($$t\bar t$$) production, $$WW$$ and $$Z$$+jets events. 
-All of these processes contain two isolated high-$$p_\text{T}$$ leptons from $$W$$ or $$Z$$ boson decays, which is also the signature of the signal.
-
-There is also the $$W$$+[jets](https://en.wikipedia.org/wiki/Jet_(particle_physics) background, where one of the jet decay products might be mistaken for an isolated high-$$p_\text{T}$$ lepton.
-Its contribution is small and is neglected here.
-
-The term $$p_\text{T}$$ stands for transverse momentum, the component of momentum perpendicular to the beam line. 
-In proton-proton collisions the overall momentum along the beamline is not known.
-This is because protons are composite particles consisting of many so-called partons (quarks and gluons).
-Each of the partons carries an unknown fraction of the protons momentum.
-When two protons collide it is actually the partons that interact.
-However, their exact momentum along the beamline is unknown.
-We only know that the overall momentum perpendicular to the beamline is zero before the collision.
-Thus, it is the most important momentum variable in a proton-proton collision.
-
-Isolation is important because it indicates where the lepton stems from.
-For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson, $$\tau$$-lepton.  In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
+A signature of this decay process, is an isolated high-pT lepton. The term pT stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-pT leptons from W or Z boson decays.
 
 <img src="./EventDisplays/HWW2.jpg" width="300" />
 
