@@ -50,9 +50,6 @@ Leptonic $$W$$ boson decays are characterised by the presence of a highly energe
 
 Hadronic $$W$$ boson decays lead to the presence of two jets due to the two quarks.
 
-Only leptonic decays are considered in Histogram Analyser.
-The $$WW$$ process will thus be seen in the electron-electron (ee), muon-muon (mm) and electron-muon (em) channel.
-
 Final states with leptons and missing  are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
 
 Understanding the Standard Model processes possessing multiple leptons and missing transverse momentum is crucial in the quest to discover or rule out these models.
@@ -122,10 +119,6 @@ A $$Z$$ boson decays in three ways
 
 
 * **lepton-antilepton pairs** (10%).  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
-
-In Histogram Analyser the third decay mode will be studied in the electron-electron (ee) and muon-muon (mm) channel.
-Electrons and muons are much easier to measure than $$\tau$$-leptons.
-
 
 <img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
 
