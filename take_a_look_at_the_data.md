@@ -21,6 +21,14 @@ The options include:
     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
 
+The available analyses are:
+  * TTbarAnalysis
+  * WAnalysis
+  * WZAnalysis
+  * ZAnalysis
+  * ZZAnalysis
+  * ZPrimeAnalysis
+
 The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
 The first portion of the configuration file defines the job and looks like this:
 
