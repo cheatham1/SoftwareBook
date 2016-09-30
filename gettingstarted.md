@@ -10,17 +10,15 @@ You have a choice:
 
 If you are not sure, we recommend Virtual Machine Version M.
 
+WARNING: IT MAY TAKE AN HOUR OR MORE DOWNLOAD !!
+
 ### Download the software
 
 You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
 
 Select software. 
 
-<a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
-
-
-![a href="http://atlas-opendata.web.cern.ch/atlas-opendata/extendedanalysis/software.php/" target="_blank"
-](Pictures/SoftwareSelected.png)
+![](Pictures/SoftwareSelected.png)
 
 You now have access to the ATLAS Outreach  data and tools repository. You have a choice to take a look and download the source code from GitHub  
 
@@ -38,17 +36,12 @@ In the root directory you will see five directories (Analysis, Configurations, I
 
 ### Download the data
 
-Select the 'Download' button again at the top right of the page, then select 'Datasets'.
-
-<img src="./Pictures/Download.jpg" width="150" />
-<img src="./Pictures/DatasetsButton.jpg" width="150" />
-
-Or just directly select datasets. 
+Select datasets. 
 
 ![](Pictures/DatasetsSelected.png)
 
 
-You now have a choice to download individual data files (Monte Carlo simulated samples and real data samples) one at a time, or all together.
+You have a choice to download individual data files (Monte Carlo simulated samples and real data samples) one at a time, or all together.
 
 <img src="./Pictures/BulkDownload.jpg" width="200" />
 
