@@ -23,11 +23,8 @@ $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muo
 
 A signature of this decay process, is an isolated high-pT lepton. The term pT stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-pT leptons from W or Z boson decays.
 
-<img src="./EventDisplays/HWW2.jpg" width="300" />
 
-Event display of an event satisfying all the selection criteria for events in the Higgs - zero jets + electron + muon channel. 
-The reconstructed lepton $$p_\text{T}$$ values are 33 GeV for the electron (green track) and 29 GeV for the muon (red track).
-The reconstructed missing transverse momentum (magenta arrow) is 35 GeV.
+![](EventDisplays/HWW2plusCaption.png)
 
 ## $$WW$$
 $$W$$ boson pair production occurs via
@@ -55,13 +52,7 @@ Final states with leptons and missing  are typical for many new physics models (
 Understanding the Standard Model processes possessing multiple leptons and missing transverse momentum is crucial in the quest to discover or rule out these models.
 
 
-<img src="./EventDisplays/fig_08.jpg" width="400" />
-
-Event display: A $$WW$$ candidate event in the electron muon final state.
-The electron and muon candidates have transverse momenta of 21 and 68 GeV, respectively.
-The arrow indicates the missing transverse momentum, which is measured to be 69 GeV.  
-The top left insert shows the event in the x-y projection, with the muon track (red), electron track (orange) and the electron deposit in the electromagnetic calorimeter (green).
-
+![](EventDisplays/WWplusCaption.png)
 ## $$t\bar t$$
 
 The [top quark](https://press.cern/backgrounders/top-quark) is the only quark that can be studied in isolation, due to its high mass and short lifetime.
@@ -120,11 +111,7 @@ A $$Z$$ boson decays in three ways
 
 * **lepton-antilepton pairs** (10%).  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
 
-<img src="./EventDisplays/atlas2010_ZmumuMet-candidate_run167776_evt129360643.jpg" width="400" />
-
-Event display: Candidate event with a $$Z$$ boson decaying to a muon pair, recoiling against missing transverse momentum (MET). The muon candidates have transverse momenta of 50 and 126 GeV.
-The invariant mass of the two muons attributed to the $$Z$$ candidate is 94 GeV; the MET is measured to be 161 GeV. 
-
+![](EventDisplays/ZmumuPlusCaption.png)
 
 ### Suggested activity
 
