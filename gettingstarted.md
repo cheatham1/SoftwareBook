@@ -10,7 +10,10 @@ Your physical computer will be the "host", while the virtual machine will be a "
 
 A virtual machine allows an unmodified operating system with all of its installed software to run in a special environment, on top of your existing operating system. 
 
-## Download the Small Virtual Machine (VM-S)
+There are five VMs available.
+We suggest you start with the small version.  It contains everything you need to start looking at the data.
+
+## Download the Small Virtual Machine (VM Version S)
 
 A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
 
@@ -44,8 +47,6 @@ Proceed with the installation of VirtualBox:
 
 
 ## Set up your VM
-
-
 
 Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
