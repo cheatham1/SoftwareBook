@@ -1,78 +1,123 @@
 # Setup Your Environment
-## ATLAS open data
 
-The ATLAS collaboration has made some software and data available to everyone.
+You will learn how to download and prepare a virtual machine to run on your computer.  This will then enable you to take a look at ATLAS data.
 
-You have a choice:
+## What is a virtual machine ?
 
-* **Download the software and datasets to your machine**: continue with the instructions below
-* **Use a virtual machine**: follow the instructions in the Virtual Machine Book
+A virtual machine will transform your computer into an analysis machine!
 
-If you are not sure, we recommend Virtual Machine Version M.
+Your physical computer will be the "host", while the virtual machine will be a "guest". Most of the guest code runs unmodified, directly on the host computer, and the guest operating system "thinks" it's running on a real machine.
 
-WARNING: IT MAY TAKE AN HOUR OR MORE DOWNLOAD !!
+A virtual machine allows an unmodified operating system with all of its installed software to run in a special environment, on top of your existing operating system. 
 
-### Download the software
+## Download the Small Virtual Machine (VM-S)
 
-You need to download some code to get started. It will enable to take a first look at the newly released ATLAS data.  You can then modify the code and make it you own.
+A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
 
-Select software. 
+# Get the VirtualBox
 
-![](Pictures/SoftwareSelected.png)
+First, you need to download abd install VirtualBox.
+Use the VirtualBox website to download the software
 
-You now have access to the ATLAS Outreach  data and tools repository. You have a choice to take a look and download the source code from GitHub  
+<a href="https://www.virtualbox.org/" target="_blank"> Go to the VirtualBox website</a>
 
-![](Pictures/SoftwareInGithub.png)
-
-or just download the files as a zip file.  
-
-![](Pictures/SoftwareInZip.png)
-
-If you are not sure which to choose, just download the files as a zip file. Select the latest version.
+Select **Download VirtualBox**
  
-Move the downloaded directory (atlas-outreach-data-tools-framework) to your workarea. You may need to unzip it. 
+![](Pictures/VB5.1.jpg)
+
+Take care to select the appropriate **VirtualBox platform package**.
+
+
+![](Pictures/DownloadVB.jpg)
  
-In the root directory you will see five directories (Analysis, Configurations, Input, Plotting and Output), a README file plus two python scripts.  The python scripts are RunScript.py and PlotResults.py. 
+Proceed with the installation of VirtualBox:
 
-### Download the data
-
-Select datasets. 
-
-![](Pictures/DatasetsSelected.png)
+![](Pictures/VBinstall1.png)
 
 
-You have a choice to download individual data files (Monte Carlo simulated samples and real data samples) one at a time, or all together.
+![](Pictures/VBinstall2.png)
 
-<img src="./Pictures/BulkDownload.jpg" width="200" />
 
-'Bulk downloads' will download all the data and simulated data samples.  This may take afew minutes.  Please be patient.
+![](Pictures/VBinstall3.png)
 
-When the download has completed unzip  complete_set_of_ATLAS_open_data_samples_July_2016.zip and you will see two directories MC and Data.
 
-Move the directories MC and Data into your Input directory (within your downloaded atlas-outreach-data-tools-framework). 
 
-```mv complete_set_of_ATLAS_open_data_samples_July_2016/ atlas-outreach-data-tools-framework-1.1/Input/.```
 
-### Nearly there
-  
-You need to have installed the ROOT framework for data processing that is used by all physicists at CERN.
+## Set up your VM
 
-To see if it is already installed, in a terminal window, type into the command line
 
-```root```
 
-If ROOT launches and you get the message 'Welcome to ROOT' you can quit root 
-(by typing -q)
-and move straight onto the next section 'Take a look at the data'.    
-    
-If not, you have one more step.  Take a deep breath and 
-follow the download instructions provided on the website 
-<a href="https://root.cern.ch/downloading-root/" target="_blank"> ROOT
+Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
-Basically it is enough to download the latest ROOT release and
-run a special script distributed with ROOT 
 
-    config/thisroot.(c)sh
+![](Pictures/VMempty.png)
 
-**Now you are ready to take a look at the data
-**
+
+Select File/ Import Appliance
+
+![](Pictures/VMimportAppliance.png)
+
+
+An empty text box will appear
+
+
+![](Pictures/VMimportApplianceSelect.png)
+
+
+
+Use the yellow folder icon on the right hand-side of the empty text box to select your VM (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
+
+
+![](Pictures/VMselectOVA.png)
+
+
+
+The default settings are displayed.  We recommend you use these.  Press "Import"
+
+
+![](Pictures/VMapplianceSettings.png)
+
+
+
+Import will take afew minutes
+
+
+![](Pictures/VMimporting.png)
+
+
+
+Select your VM 'ATLASOpenDataSmall' (which is powered off)
+
+![](Pictures/VMpoweredOff.png)
+
+
+Your VM will then be displayed
+
+
+![](Pictures/VMATLASopenDataSmall.png)
+
+
+Press the green 'Start' arrow.  Wait afew minutes whilst the VM sets up.  When it has completed you will see 
+the terminal for using the code, with the Readme file opened using the atom editor.
+
+![](Pictures/VMrunningREADME.png)
+
+In the menu on the left handside, you see the contents of the root directory.
+In the root directory there are five directories (Analysis, Configurations, Input, Plotting and Output), the README file plus two python scripts. The python scripts are RunScript.py and PlotResults.py. 
+
+
+At the bottom of your window, you will notice a tab labelled "atlas@atlas-vm".
+
+![](Pictures/VM-atlas.png)
+
+Select this tab, circled in red in the screenshot.  A terminal window will then be available. 
+Type "ls" and you will see the folders and files in your main directory.
+
+![](Pictures/VMterminalWindow.png)
+
+
+You are now ready to start looking at the ATLAS data.
+
+
+
+
