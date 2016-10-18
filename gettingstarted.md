@@ -94,7 +94,7 @@ Select your VM 'ATLASOpenDataSmall' (which is powered off)
 Your VM will then be displayed
 
 
-![(Pictures/VMATLASopenDataSmall.png)
+![](Pictures/VMATLASopenDataSmall.png)
 
 
 Press the green 'Start' arrow.  Wait afew minutes whilst the VM sets up.  When it has completed you will see 
@@ -110,7 +110,7 @@ At the bottom of your window, you will notice a tab labelled "atlas@atlas-vm".
 
 ![](Pictures/VM-atlas.png)
 
-Select this tab, circled in red in the screenshot.  A terminal window will then be available. 
+Select this tab, circled in red in the screen-shot.  A terminal window will then be available. 
 Type "ls" and you will see the folders and files in your main directory.
 
 ![](Pictures/VMterminalWindow.png)
