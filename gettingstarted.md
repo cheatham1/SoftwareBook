@@ -94,7 +94,7 @@ Select your VM 'ATLASOpenDataSmall' (which is powered off)
 Your VM will then be displayed
 
 
-![](Pictures/VMATLASopenDataSmall.png)
+![(Pictures/VMATLASopenDataSmall.png)
 
 
 Press the green 'Start' arrow.  Wait afew minutes whilst the VM sets up.  When it has completed you will see 
