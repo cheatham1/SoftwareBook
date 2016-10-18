@@ -1,7 +1,7 @@
 # Take a look at the data
 ## Analysis
 
-Now, in a terminal window, go to your main directory, where you have RunScript.py
+In your terminal window, you are in your main directory, where you have RunScript.py
 
 As a first go, to check whether everything works fine, you can run just by typing the following into the command line
 
