@@ -2,6 +2,10 @@
 
 You will learn how to download and prepare a virtual machine to run on your computer.  This will then enable you to take a look at ATLAS data.
 
+There are two steps to setup your environment
+1. Download and install VirtualBox
+2. Download and install a virtual machine.
+
 ## What is a virtual machine ?
 
 A virtual machine will transform your computer into an analysis machine!
@@ -17,9 +21,11 @@ We suggest you start with the small version.  It contains everything you need to
 
 A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
 
-# Get the VirtualBox
+**Make sure you download the SMALL virtual machine if you are following these instructions.**
 
-First, you need to download abd install VirtualBox.
+# Step 1: Get the VirtualBox
+
+First, you need to download and install VirtualBox.
 Use the VirtualBox website to download the software
 
 <a href="https://www.virtualbox.org/" target="_blank"> Go to the VirtualBox website</a>
@@ -46,7 +52,7 @@ Proceed with the installation of VirtualBox:
 
 
 
-## Set up your VM
+## Step 2: Set up your VM
 
 Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
@@ -67,6 +73,8 @@ An empty text box will appear
 
 
 Use the yellow folder icon on the right hand-side of the empty text box to select your VM (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
+
+**Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall.ova"**
 
 
 ![](Pictures/VMselectOVA.png)
@@ -89,12 +97,15 @@ Import will take afew minutes
 
 Select your VM 'ATLASOpenDataSmall' (which is powered off)
 
+**Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall"**
+
 ![](Pictures/VMpoweredOff.png)
 
 
 Your VM will then be displayed
 
-
+**Check that the name of your Virtual Machine displayed on the right is "ATLASOpenDataSmall"
+**
 ![](Pictures/VMATLASopenDataSmall.png)
 
 
