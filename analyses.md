@@ -17,6 +17,8 @@ From here on, we will refer to a particle and its [antiparticle](https://en.wiki
 So, when we talk about quarks we mean quarks and antiquarks.
 It is a shorthand that physicists adopt for brevity. 
 
+In this **Level1: Get Started** section, Histogram Analyser displays 9 histograms.
+
 The signal process in Histogram Analyser is the Higgs boson decaying into 2 $$W$$ bosons which subsequently decay into leptons and neutrinos:
 
 $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
@@ -29,11 +31,11 @@ A signature of this decay process, is an isolated high-pT lepton. The term pT st
 ## $$WW$$
 $$W$$ boson pair production occurs via
 
-* **quark–antiquark annihilation** $$q\bar q \rightarrow W^+W^-$$
+* **quark–antiquark annihilation**: $$q\bar q \rightarrow W^+W^-$$
  
-* **diphoton process**  $$\gamma\gamma\rightarrow W^+W^-$$
+* **diphoton process**:  $$\gamma\gamma\rightarrow W^+W^-$$
 
-* **gluon fusion** $$gg\rightarrow W^+W^-$$
+* **gluon fusion**: $$gg\rightarrow W^+W^-$$
 
 
 [Vector boson](https://en.wikipedia.org/wiki/Vector_boson) pair production is an important process for checks of the [gauge structure](https://en.wikipedia.org/wiki/Gauge_theory) of the Standard Model and the search for [new physics](https://en.wikipedia.org/wiki/Physics_beyond_the_Standard_Model).
@@ -47,7 +49,7 @@ Leptonic $$W$$ boson decays are characterised by the presence of a highly energe
 
 Hadronic $$W$$ boson decays lead to the presence of two jets due to the two quarks.
 
-Final states with leptons and missing  are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
+Final states with leptons and missing transverse momentum are typical for many new physics models ([supersymmetry](https://home.cern/about/physics/supersymmetry) is a classic example) but also for many Standard Model processes.
 
 Understanding the Standard Model processes possessing multiple leptons and missing transverse momentum is crucial in the quest to discover or rule out these models.
 
@@ -58,7 +60,7 @@ Understanding the Standard Model processes possessing multiple leptons and missi
 The [top quark](https://press.cern/backgrounders/top-quark) is the only quark that can be studied in isolation, due to its high mass and short lifetime.
 All other quarks are only accessible as constituents of hadrons.
 
-Top processes can be used to optimise Monte-Carlo generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
+Top quark processes can be used to optimise Monte-Carlo generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
 
 In addition, top pair production is an important background in various Higgs boson analyses and beyond the Standard Model searches.
 It is therefore crucial to understand this process in detail. 
@@ -95,13 +97,13 @@ The production of $$Z$$ bosons at the LHC is due to:
 A $$Z$$ boson is neutral and so the sum of the charges of its decay products must be zero.
 A $$Z$$ boson decays in three ways
 
-* **quark-antiquark pair** (70%). These appear as jets.  If the jets are identified as originating from $$b$$-quarks they will be b-tagged.
+* **quark-antiquark pair** (70%): These appear as jets.  If the jets are identified as originating from $$b$$-quarks they will be b-tagged.
 
 
-* **neutrino-antineutrino pair** (20%).  Neutrinos do not interact and so are very difficult to detect.  This neutrino decay mode can sometimes be identified with missing transverse momentum.
+* **neutrino-antineutrino pair** (20%):  Neutrinos do not interact and so are very difficult to detect.  This neutrino decay mode can sometimes be identified with missing transverse momentum.
 
 
-* **lepton-antilepton pairs** (10%).  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
+* **lepton-antilepton pairs** (10%):  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
 
 ![](EventDisplays/ZmumuPlusCaption.png)
 
