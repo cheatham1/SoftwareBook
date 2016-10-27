@@ -72,7 +72,7 @@ An empty text box will appear
 
 
 
-Use the yellow folder icon on the right hand-side of the empty text box to select your VM (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
+Use the yellow folder icon on the right hand-side of the empty text box to select your virtual machine (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
 
 **Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall.ova"**
 
@@ -95,7 +95,7 @@ Import will take afew minutes
 
 
 
-Select your VM 'ATLASOpenDataSmall' (which is powered off)
+Select your virtual machine 'ATLASOpenDataSmall' (which is powered off)
 
 **Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall"**
 
@@ -104,12 +104,12 @@ Select your VM 'ATLASOpenDataSmall' (which is powered off)
 
 Your VM will then be displayed
 
-**Check that the name of your Virtual Machine displayed on the right is "ATLASOpenDataSmall"
+**Check that the name of your virtual machine displayed on the right is "ATLASOpenDataSmall"
 **
 ![](Pictures/VMATLASopenDataSmall.png)
 
 
-Press the green 'Start' arrow.  Wait afew minutes whilst the VM sets up.  When it has completed you will see 
+Press the green 'Start' arrow.  Wait afew minutes whilst the virtual machine sets up.  When it has completed you will see 
 the terminal for using the code, with the Readme file opened using the atom editor.
 
 ![](Pictures/VMrunningREADME.png)
