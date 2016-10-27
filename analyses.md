@@ -23,7 +23,7 @@ The signal process in Histogram Analyser is the Higgs boson decaying into 2 $$W$
 
 $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
 
-A signature of this decay process, is an isolated high-pT lepton. The term pT stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-pT leptons from W or Z boson decays.
+A signature of this decay process, is an isolated high-$$p_T$$ lepton. The term $$p_T$$ stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-$$p_T$$ leptons from $$W$$ or $$Z$$ boson decays.
 
 
 ![](EventDisplays/HWW2plusCaption.png)
@@ -41,7 +41,7 @@ $$W$$ boson pair production occurs via
 [Vector boson](https://en.wikipedia.org/wiki/Vector_boson) pair production is an important process for checks of the [gauge structure](https://en.wikipedia.org/wiki/Gauge_theory) of the Standard Model and the search for [new physics](https://en.wikipedia.org/wiki/Physics_beyond_the_Standard_Model).
 It is an irreducible background for many Higgs and new physics searches. 
 
-W bosons can decay either
+$$W$$ bosons can decay either
 * [leptonically](https://en.wikipedia.org/wiki/Lepton): into an [electron](https://en.wikipedia.org/wiki/Electron) or [muon](https://en.wikipedia.org/wiki/Muon) and [neutrino](https://en.wikipedia.org/wiki/Neutrino). 
 * [hadronically](https://en.wikipedia.org/wiki/Hadron): into an [up-type quark](https://en.wikipedia.org/wiki/Quark) and a [down-type quark](https://en.wikipedia.org/wiki/Quark).
 
