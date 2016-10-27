@@ -80,15 +80,7 @@ Three channels are possible depending on the decays of the $$W$$ bosons:
 * If both $$W$$ bosons decay hadronically, six jets are seen, two from each $$W$$ and two from the $$b$$-quarks.
 * If the decay is semi-leptonic, one $$W$$ boson decays leptonically and the other hadronically; four jets are seen, two of them are from $$b$$-quarks.
 
-
-<img src="./EventDisplays/run267638_evt193690558.jpg" width="400" />
-
-Event display: A top pair candidate event recorded by ATLAS with LHC stable beams at a collision energy of 13 TeV. 
-The red line shows the path of a muon with $$p_\text{T} \approx$$ 140 GeV. 
-The green line shows the path of an electron with  $$p_\text{T} \approx$$ 170 GeV.
-The green and yellow bars indicate energy deposits in the electromagnetic and hadronic calorimeters. 
-From these deposits 3 jets are identified with transverse momenta between 30 and 80 GeV. 
-Two of the jets are identified as having originated from $$b$$-quarks.  
+![](EventDisplays/ToppairPlusCaption.png)
 
 ## $$Z$$
 
