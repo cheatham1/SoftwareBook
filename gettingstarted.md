@@ -14,8 +14,8 @@ Your physical computer will be the "host", while the virtual machine will be a "
 
 A virtual machine allows an unmodified operating system with all of its installed software to run in a special environment, on top of your existing operating system. 
 
-There are five VMs available.
-We suggest you start with the small version.  It contains everything you need to start looking at the data.
+There are five virtual machines available.
+We suggest you start with the **small** version.  It contains everything you need to start looking at the data.
 
 ## Download the Small Virtual Machine (VM Version S)
 
@@ -52,7 +52,7 @@ Proceed with the installation of VirtualBox:
 
 
 
-## Step 2: Set up your VM
+## Step 2: Set up your Virtual Machine
 
 Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
