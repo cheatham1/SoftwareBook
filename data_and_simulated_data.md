@@ -14,21 +14,21 @@ experiments.
 These events are simulated using current theoretical models and are used to compare theory with real data.
 
 The full simulation requires the following steps
-* Event generation: Hadronic final states using the
+* **Event generation**: Hadronic final states using the
 proton-proton collisions are generated using programs relying  on  theoretical  calculations,  phenomenological
 models and experimental inputs.
 
-* Detector Simulation: Interaction of the generated
+* **Detector Simulation**: Interaction of the generated
 particles inside the ATLAS detector is simulated.
 
-* Digitisation: The detector response is derived from
+* **Digitisation**: The detector response is derived from
 the particle interactions and it is written in a format
 compatible with the real output of the detector. In addition,
 because of the high rate of collisions in the LHC, digitised
 signals from several simulated events can be piled-up to
 create samples with a realistic experimental background.
 
-* Reconstruction:  Particle trajectories and energies
+* **Reconstruction**:  Particle trajectories and energies
 from the detector are reconstructed. Such final samples
 are used by the physicists.
 
