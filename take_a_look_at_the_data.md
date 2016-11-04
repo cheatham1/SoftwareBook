@@ -1,13 +1,30 @@
 # Take a look at the data
-## Analysis
+## Run an analysis
 
-In your terminal window, you are in your main directory, where you have RunScript.py
+In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here you can see RunScript.py and PlotResults.py
 
-As a first go, to check whether everything works fine, you can run just by typing the following into the command line
+Type the following into the command line
 
-    python RunScript.py -a TTbarAnalysis -s "WW, WZ"
+    python RunScript.py -a TTbarAnalysis -s "WZ"
 
-This runs the code using the TTbarAnalysis with just the WW and WZ samples.
+This runs the code called 'TTbarAnalysis' with just the WZ data samples.
+
+The analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
+
+Histograms for the WZ analyses may now be plotted using the relevant plotting configuration file. 
+
+    python PlotResults.py Configurations/PlotConf_WZAnalysis.py
+
+(There are currently some errors, ignore these for the moment. We will fix these soon.)
+
+The resulting histograms will be put into the Output folder.
+
+    ls Output/
+    
+This will list the pdf files containing your histograms.    
+
+
+# RunScript
 
 The runscript has several options which are displayed by typing
 
@@ -28,6 +45,12 @@ The available analyses are:
   * ZAnalysis
   * ZZAnalysis
   * ZPrimeAnalysis
+
+If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all these analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data (which takes time).
+
+## Configuration files
+
+Now let's take a closer look at what is going on when you run the analysis.
 
 The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
 The first portion of the configuration file defines the job and looks like this:
@@ -56,19 +79,19 @@ Whilst the analysis is running you will see the analysis name (circled in orange
 The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
 
 
-To run over the full set of available samples using multiple cores. 
+To run over the full set of available data samples (if you have downloaded them) takes between 1 to 1.5 hours in single core mode:
+
+    python RunScript.py -a TTbarAnalysis
+
+Execution times are reduced to ~ 15 minutes in multi core mode:
 
     python RunScript.py -a TTbarAnalysis -n 4
 
-Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes in multi core mode.
-
 ## Plotting
 
-Results for a particular analysis may be plotted using the relevant plotting configuration file. In the TTbarAnalysis case :
+Now let's take a closer look at what is going on when you plot the results of the analysis.  So when you run
 
-    python PlotResults.py Configurations/PlotConf_TTbarAnalysis.py
-
-The resulting histograms will be put into the Output folder.
+    python PlotResults.py Configurations/PlotConf_WZAnalysis.py
 
 The plotting configuration file allows you to steer the plotting process. Each analysis has its own plotting configuration file to accommodate changes in background composition or histograms required.
 
