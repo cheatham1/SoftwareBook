@@ -11,18 +11,29 @@ This runs the code called 'TTbarAnalysis' with just the WZ data samples.
 
 The analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
 
-Histograms for the WZ analyses may now be plotted using the relevant plotting configuration file. 
+Results for the WZ analyses may now be plotted using the relevant plotting configuration file. 
 
     python PlotResults.py Configurations/PlotConf_WZAnalysis.py
 
-(There are currently some errors, ignore these for the moment. We will fix these soon.)
+(There are currently some errors.  Ignore these for the moment. We will fix them soon.)
 
-The resulting histograms will be put into the Output folder.
+The resulting histograms are put into the Output folder.
 
     ls Output/
     
 This will list the pdf files containing your histograms.    
 
+Type into the command line
+  
+    sudo apt-get install libgnome2-bin
+
+When asked for the 'atlas' password enter 'atlas'
+
+Then you can use gnome-open to look at your histograms. e.g.
+
+    gnome-open Output/lep_n.pdf
+
+**If your session goes to sleep and requires the atlas password, it is 'atlas'.** 
 
 # RunScript
 
@@ -46,7 +57,7 @@ The available analyses are:
   * ZZAnalysis
   * ZPrimeAnalysis
 
-If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all these analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data (which takes time).
+If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data (which just takes time) and move it into your Input directory.
 
 ## Configuration files
 
@@ -89,7 +100,7 @@ Execution times are reduced to ~ 15 minutes in multi core mode:
 
 ## Plotting
 
-Now let's take a closer look at what is going on when you plot the results of the analysis.  So when you run
+Now let's take a closer look at what is going on when you plot the results of the analysis.  
 
     python PlotResults.py Configurations/PlotConf_WZAnalysis.py
 
@@ -178,6 +189,6 @@ The analysis code is located in the Analysis folder. It is used to write out his
 
 The basic code implementing the protocol to read the files and how the objects can be read is in Tuplereader.py. Have a look there to see which information is available. The general analysis flow can be found in Job.py whereas the base class for all concrete analyses is located in Analysis.py.
 
-It is recommended to start out by modifying one of the existing analyses, e.g. the ZAnalysis located in ZAnalysis.py. If you want to add an analysis, make sure that the filename is the same as the class name, otherwise the code will not work.
+It is recommended to start out by modifying one of the existing analyses, e.g. the WZAnalysis located in WZAnalysis.py. If you want to add an analysis, make sure that the filename is the same as the class name, otherwise the code will not work.
 
 The files associated with the processes are found via python's glob module, enabling the use of unix style wildcards.
