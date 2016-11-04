@@ -54,6 +54,8 @@ Proceed with the installation of VirtualBox:
 
 ## Step 2: Set up your Virtual Machine
 
+Start VirtualBox.
+
 Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
 
@@ -109,12 +111,18 @@ Your VM will then be displayed
 ![](Pictures/VMATLASopenDataSmall.png)
 
 
-Press the green 'Start' arrow.  Wait afew minutes whilst the virtual machine sets up.  When it has completed you will see 
+Press the green 'Start' arrow.
+
+
+WAIT afew minutes whilst the virtual machine sets up.  
+
+When it has completed you will see 
 the terminal for using the code, with the Readme file opened using the atom editor.
 
 ![](Pictures/VMrunningREADME.png)
 
 In the menu on the left handside, you see the contents of the root directory.
+
 In the root directory there are five directories (Analysis, Configurations, Input, Plotting and Output), the README file plus two python scripts. The python scripts are RunScript.py and PlotResults.py. 
 
 
@@ -123,6 +131,7 @@ At the bottom of your window, you will notice a tab labelled "atlas@atlas-vm".
 ![](Pictures/VM-atlas.png)
 
 Select this tab, circled in red in the screen-shot.  A terminal window will then be available. 
+
 Type "ls" and you will see the folders and files in your main directory.
 
 ![](Pictures/VMterminalWindow.png)
