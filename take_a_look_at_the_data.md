@@ -27,8 +27,6 @@ To display a histogram use evince, for example
 
     evince Output/lep_n.pdf
 
-**If your session goes to sleep and requires the atlas password, it is 'atlas'.** 
-
 # RunScript
 
 The runscript has several options which are displayed by typing
@@ -121,6 +119,8 @@ Note that it is possible to supply additional information via a dictionary like 
     log_y    : bool  - if True is set as the bool the main depiction will be drawn in logarithmic scale
     y_margin : float - sets the fraction of whitespace above the largest contribution in the plot. Default value is 0.1.
 
+
+**If your session goes to sleep and requires the atlas password, it is 'atlas'.** 
 
 ## Definition of Paintables and Depictions
 
