@@ -17,9 +17,7 @@ From here on, we will refer to a particle and its [antiparticle](https://en.wiki
 So, when we talk about quarks we mean quarks and antiquarks.
 It is a shorthand that physicists adopt for brevity. 
 
-In this **Level1: Get Started** section, Histogram Analyser displays 9 histograms.
-
-The signal process in Histogram Analyser is the Higgs boson decaying into 2 $$W$$ bosons which subsequently decay into leptons and neutrinos:
+The Higgs boson decays into 2 $$W$$ bosons which subsequently decay into leptons and neutrinos:
 
 $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
 
