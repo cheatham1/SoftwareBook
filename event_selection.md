@@ -1,6 +1,6 @@
 # Event selection
 
-The events in the ntuple have been selected according to the following preselection criteria:
+The events in the ntuples have been selected according to the following preselection criteria:
 
 * A single electron or muon trigger has fired;
 * The primary vertex has at least 5 tracks;
@@ -10,7 +10,7 @@ The events in the ntuple have been selected according to the following preselect
 
 In addition to these preselection cuts, a standard selection is made (in all the analyses except the $$ZZ$$):
 
-* Leptons: are required to be isolated
+* Leptons: leptons are required to be isolated
 such that ptcone30/ $$p_T$$ < 0.15 and etcone20/ $$p_T$$ < 0.15.  
 * Jets: a jet vertex fraction cut is applied.
 
