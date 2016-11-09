@@ -23,15 +23,9 @@ The resulting histograms are put into the Output folder.
     
 This will list the pdf files containing your histograms.    
 
-Type into the command line
-  
-    sudo apt-get install libgnome2-bin
+To display a histogram use evince, for example
 
-When asked for the 'atlas' password enter 'atlas'
-
-Then you can use gnome-open to look at your histograms. e.g.
-
-    gnome-open Output/lep_n.pdf
+    evince Output/lep_n.pdf
 
 **If your session goes to sleep and requires the atlas password, it is 'atlas'.** 
 
