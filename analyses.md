@@ -2,6 +2,38 @@
 
 We have prepared seven analyses for you. Ranging from measuring Standard Model particles including a Higgs analysis and a search for a Beyond the Standard Model particle.  Let's take a look at these processes. 
 
+## W Analysis
+
+The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](http://home.cern/about/physics/z-boson) bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction. 
+
+The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity. 
+
+The W analysis is potentially prone to QCD contributions as there is only one lepton present which may come from non-prompt sources mimicking the desired final state. Therefore, potential disagreements must always be understood as a sign that the QCD contributions are not taken into account.
+
+An interesting variable to study would be the ratio W+/W− with respect to the pseudorapidity of the selected lepton.
+
+## Z Analysis
+
+Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
+
+It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software. We are then ready to search for new physics.
+
+![](EventDisplays/ZmumuPlusCaption.png)
+
+## WZ Analysis
+
+This analysis looks for both a W boson and a Z boson.
+Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The WZ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino. 
+
+
+Reconstructing the WZ system and studying its properties is possible but introduces a slight challenge due to the neutrino which is present. The available statistics in the ATLAS open data dataset allows for a rediscovery
+of the WZ process in a lab course.
+
+## ZZ Analysis
+
+The production of Z-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.  Its low production cross section results in very low yield for the ATLAS open data dataset and highlights the limitations of the dataset.  Some events can be selected but the low yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+
+
 ## $$H\rightarrow W^+W^-$$
 
 The [Higgs boson](https://home.cern/topics/higgs-boson) is an excitation of the quantum field responsible for the breaking of [electroweak symmetry](https://en.wikipedia.org/wiki/Electroweak_interaction).
@@ -82,28 +114,6 @@ Three channels are possible depending on the decays of the $$W$$ bosons:
 
 ![](EventDisplays/ToppairPlusCaption.png)
 
-## $$Z$$
-
-The [$$W$$](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [$$Z$$](http://home.cern/about/physics/z-boson) bosons are together known as the weak or intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction.  
-
-The production of $$Z$$ bosons at the LHC is due to:
-
-* **Drell-Yan **: $$ q \bar q \rightarrow Z/\gamma^* \rightarrow \mu^+\mu^-$$(65%). A quark of one proton and an antiquark of another proton annihilate, creating a [virtual photon](https://en.wikipedia.org/wiki/Virtual_particle) or $$Z$$ boson which then decays into a pair of oppositely-charged leptons. 
-
-* **Quark gluon scattering**: $$qg \rightarrow qZ/γ^* \rightarrow q\mu^+\mu^−$$ (35%). A quark and a [gluon](https://en.wikipedia.org/wiki/Gluon) interact and the quark radiates a virtual photon or $$Z$$ boson which then decays into a pair of oppositely-charged leptons. 
-
-A $$Z$$ boson is neutral and so the sum of the charges of its decay products must be zero.
-A $$Z$$ boson decays in three ways
-
-* **quark-antiquark pair** (70%): These appear as jets.  If the jets are identified as originating from $$b$$-quarks they will be b-tagged.
-
-
-* **neutrino-antineutrino pair** (20%):  Neutrinos do not interact and so are very difficult to detect.  This neutrino decay mode can sometimes be identified with missing transverse momentum.
-
-
-* **lepton-antilepton pairs** (10%):  The three lepton-pair types are equally probable, [electron](https://en.wikipedia.org/wiki/Electron)-positron, [muon](https://en.wikipedia.org/wiki/Muon)-antimuon, and [tau](https://en.wikipedia.org/wiki/Tau_(particle)-antitau pairs.  
-
-![](EventDisplays/ZmumuPlusCaption.png)
 
 ### Suggested activity
 
