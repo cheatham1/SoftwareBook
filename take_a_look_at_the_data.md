@@ -29,8 +29,17 @@ The options include:
     -a,            --analysis              overrides the analysis that is stated in the configuration file
     -s,            --samples               comma separated string that contains the keys for a subset of processes to run over
     -p,            --parallel              enables running in parallel (default is single core use)
-    -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
+    -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
+
+To run over the full set of available data samples (if you have downloaded them) takes between 1 to 1.5 hours in single core mode:
+
+    python RunScript.py -a TTbarAnalysis
+
+Execution times are reduced to ~ 15 minutes in multi core mode:
+
+    python RunScript.py -a TTbarAnalysis -n 4
+
 
 ## Plot the results
 
@@ -65,5 +74,7 @@ The files can be found in the Analysis folder
 
     ls Analysis
 
+
 If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data (which just takes time) and move it into your Input directory.
+
 
