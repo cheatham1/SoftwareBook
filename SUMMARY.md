@@ -7,11 +7,11 @@
 * [Analyses](analyses.md)
 * [Setup your environment](gettingstarted.md)
 * [Take a look at the data](take_a_look_at_the_data.md)
+* Take a closer look
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Event selection](event_selection.md)
 * [Variable names](variable_names.md)
 * [Glossary](glossary.md)
 * [Dataset Details](simulated_data_details.md)
-* Take a closer look
 
