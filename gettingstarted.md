@@ -32,7 +32,11 @@ There are three steps to setup your environment:
 
 **If your session goes to sleep and requires the atlas password, it is 'atlas'.**
 
-![](Pictures/atlasSaver.png)
+<CENTER>
+<img src="./Pictures/atlasSaver.png" width="100" />
+</CENTER>
+
+
 
 # Step 1: Download the Small Virtual Machine (VM Version S)
 
@@ -153,8 +157,3 @@ Type "ls" and you will see the folders and files in your main directory.
 ![](Pictures/VMterminalWindow.png)
 
 You are now ready to start looking at the ATLAS data.
-
-**If your session goes to sleep and requires the atlas password, it is 'atlas'.** 
-
-
-![](Pictures/atlasSaver.png)
