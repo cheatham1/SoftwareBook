@@ -2,39 +2,38 @@
 
 We have prepared seven analyses for you. Ranging from measuring Standard Model particles including a Higgs analysis and a search for a Beyond the Standard Model particle.  Let's take a look at these processes. 
 
-## W Analysis
+## $$W$$ Boson Analysis
 
-The [W](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [Z](http://home.cern/about/physics/z-boson) bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction. 
+The [$$W$$](http://home.cern/about/physics/w-boson-sunshine-and-stardust) and [$$Z$$](http://home.cern/about/physics/z-boson) bosons are together known as the weak or the intermediate vector bosons. These Standard Model elementary particles mediate the weak interaction. 
 
-The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity. 
+The $$W$$ boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated $$W$$ boson data which represents the most extensive dataset in terms of luminosity. 
 
-The W analysis is potentially prone to QCD contributions as there is only one lepton present which may come from non-prompt sources mimicking the desired final state. Therefore, potential disagreements must always be understood as a sign that the QCD contributions are not taken into account.
+The $$W$$ analysis is potentially prone to QCD contributions as there is only one lepton present which may come from non-prompt sources mimicking the desired final state. Therefore, potential disagreements must always be understood as a sign that the QCD contributions are not taken into account.
 
-An interesting variable to study would be the ratio W+/W− with respect to the pseudorapidity of the selected lepton.
+An interesting variable to study would be the ratio $$W^+/W^− $$with respect to the pseudorapidity of the selected lepton.
 
-## Z Analysis
+## $$Z$$ Boson Analysis
 
-Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
+Many analyses selecting leptons suffer from $$Z$$ plus jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
 
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software. We are then ready to search for new physics.
 
 ![](EventDisplays/ZmumuPlusCaption.png)
 
-## WZ Analysis
+## $$WZ$$ Analysis
 
-This analysis looks for both a W boson and a Z boson.
-Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The WZ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino. 
-
-
-Reconstructing the WZ system and studying its properties is possible but introduces a slight challenge due to the neutrino which is present. The available statistics in the ATLAS open data dataset allows for a rediscovery
-of the WZ process in a lab course.
-
-## ZZ Analysis
-
-The production of Z-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.  Its low production cross section results in very low yield for the ATLAS open data dataset and highlights the limitations of the dataset.  Some events can be selected but the low yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+This analysis looks for both a $$W$$ boson and a $$Z$$ boson.
+Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The $$WZ$$ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino. 
 
 
-## $$H\rightarrow W^+W^-$$
+Reconstructing the $$WZ$$ system and studying its properties is possible but introduces a slight challenge due to the neutrino which is present. The available statistics in the ATLAS open data dataset allows for a rediscovery of the $$WZ$$ process in a lab course.
+
+## $$ZZ$$ Analysis
+
+The production of $$Z$$-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.  Its low production cross section results in very low yield for the ATLAS open data dataset and highlights the limitations of the dataset.  Some events can be selected but the low yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+
+
+## $$H\rightarrow W^+W^-$$Analysis
 
 The [Higgs boson](https://home.cern/topics/higgs-boson) is an excitation of the quantum field responsible for the breaking of [electroweak symmetry](https://en.wikipedia.org/wiki/Electroweak_interaction).
 This field is responsible for giving masses to fundamental particles.
@@ -58,7 +57,7 @@ A signature of this decay process, is an isolated high-$$p_T$$ lepton. The term 
 
 ![](EventDisplays/HWW2plusCaption.png)
 
-## $$WW$$
+## $$WW$$ Analysis
 $$W$$ boson pair production occurs via
 
 * **quark–antiquark annihilation**: $$q\bar q \rightarrow W^+W^-$$
@@ -85,7 +84,7 @@ Understanding the Standard Model processes possessing multiple leptons and missi
 
 
 ![](EventDisplays/WWplusCaption.png)
-## $$t\bar t$$
+## $$t\bar t$$ Analysis
 
 The [top quark](https://press.cern/backgrounders/top-quark) is the only quark that can be studied in isolation, due to its high mass and short lifetime.
 All other quarks are only accessible as constituents of hadrons.
@@ -115,12 +114,36 @@ Three channels are possible depending on the decays of the $$W$$ bosons:
 ![](EventDisplays/ToppairPlusCaption.png)
 
 
+## $$Z'$$ Analysis
+The $$Z'$$ boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The $$Z'$$ boson is named in analogy with the Standard Model Z boson.
+
+
+## Further Information
+
+The purpose of these example analyses is to showcase the abilities and limitations of the measured and
+simulated data included in this data release. 
+
+**Three high statistics Standard Model analyses**: a selection of events with
+one leptonically decaying $$W$$
+boson, a selection of leptonically decaying $$Z$$ boson and a selection of
+semileptonic top pair production. These analyses are intended to show that the general description
+of the data for these important background processes is sound. They also pose the possibility to
+study Standard Model observables like the mass of the $$Z$$ boson. Observable discrepancies are due to the simplified nature of the used ntuples.
+
+**Three low statistics Standard Model analyses:** these analyses show the limitations of this dataset with respect to rare processes. They are a $$WZ$$ analysis, a $$ZZ$$ analysis as well as a $$H\rightarrow WW$$ analysis. It is possible to obtain results in these analyses and achieve educational
+objectives.  However the statistical limitations prohibit more meaningful analyses. This point is particularly
+important as it demonstrates that the proposed datasets are intended for educational purposes only.
+
+**A beyond the Standard Model analysis:** multiple samples of simulated data containing $$Z'$$ signal events are provided to implement a simplified analysis setting exclusion limits on new physics.
+
+This list should not be seen as an exhaustive list of all possible analyses. Further processes that may be explored include $$WW$$ production, dileptonic top pair production, single top production or many others.
+
+
 ### Suggested activity
 
 In theoretical physics, [Feynman diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) are pictorial representations of the mathematical expressions describing the behaviour of subatomic particles.  Feynman diagrams are a valuable tool for understanding physics processes.
 
 * Have a go at drawing / finding the Feynman diagram for each of the above seven analyses.
-
 
 
 
