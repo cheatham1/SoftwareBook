@@ -2,7 +2,15 @@
 
 In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here you can see RunScript.py and PlotResults.py
 
+There are two steps to looking at the data.
 
+1. Run RunScript.py to produce histograms of individual variables eg jet_pt.  The histograms are written to your results folder.
+
+![](Output/jetPT.png)
+
+2. Run PlotResults.py to scale the histograms, colour them in and stack them.  Combined plots are then produced, for all the simulated and real data.  These plots are written to your Output folder.
+
+![](Output/jet_pt.jpg)
 ## Run an analysis
 
 Type the following into the command line
@@ -18,6 +26,7 @@ The analysis should run, telling you about Event Statistics and complete by sayi
 
 
 The resulting histograms are put into the results folder.
+
 
 
 The RunScript has several options which are displayed by typing
