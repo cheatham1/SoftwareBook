@@ -32,7 +32,7 @@ Here is a snippet from the $$W$$ analysis code called  WAnalysis.py:
 
 ![](CodeSnippet/WcodeSnippet.png)
 
-Look at the code directly [need to work out direct link](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/WAnalysis.py}
+Look at the code directly here: [WAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/WAnalysis.py)
 ## $$Z$$ Analysis
 
 This analysis seaches for $$Z$$ bosons decaying into a lepton pair. 
@@ -46,6 +46,9 @@ The analysis specific event selection criteria are:
 
 Here is a snippet from the ZAnalysis code:
 ![](CodeSnippet/ZcodeSnippet.png)
+
+Look at the code directly here: [ZAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/Z
+Analysis.py)
 
 ## Top pair Analysis
 
@@ -61,6 +64,10 @@ The analysis specific event selection criteria are:
 
 Here is a snippet from the top pair Analysis code:
 ![](CodeSnippet/ttbarcodeSnippet.png)
+
+Look at the code directly here: [ttbarAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ttbar
+Analysis.py)
+
 
 ## $$WZ$$ Analysis
 
@@ -78,6 +85,9 @@ The analysis specific event selection criteria are:
 Here is a snippet from the $$WZ$$ Analysis code:
 ![](CodeSnippet/WZcodeSnippet.png)
 
+Look at the code directly here: [WZAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/WZ
+Analysis.py)
+
 
 ## $$ZZ$$ Analysis
 
@@ -92,6 +102,9 @@ The analysis specific event selection criteria are:
 Here is a snippet from the $$ZZ$$ Analysis code:
 
 ![](CodeSnippet/ZZcodeSnippet.png)
+
+Look at the code directly here: [ZZAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ZZ
+Analysis.py)
 
 
 ## $$H\rightarrow WW$$ Analysis
@@ -126,6 +139,10 @@ Here is a snippet from the $$H\rightarrow WW$$ Analysis code:
 
 ![](CodeSnippet/HWWcodeSnippet.png)
 
+Look at the code directly here: [HWWAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/HWW
+Analysis.py)
+
+
 ## $$Z'$$ Analysis
 
 This analysis searches for $$Z'$$ in the semileptonic top pair channel.
@@ -141,3 +158,7 @@ The analysis specific event selection criteria are:
 Here is a snippet from the $$Z'$$code:
 
 ![](CodeSnippet/ZprimecodeSnippet.png)
+
+Look at the code directly here: [ZPrimeAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ZPrime
+Analysis.py)
+
