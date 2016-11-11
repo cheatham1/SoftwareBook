@@ -33,10 +33,8 @@ There are three steps to setup your environment:
 **If your session goes to sleep and requires the atlas password, it is 'atlas'.**
 
 <CENTER>
-<img src="./Pictures/atlasSaver.png" width="100" />
+<img src="./Pictures/atlasSaver.png" width="200" />
 </CENTER>
-
-
 
 # Step 1: Download the Small Virtual Machine (VM Version S)
 
@@ -70,8 +68,6 @@ Proceed with the installation of VirtualBox:
 ![](Pictures/VBinstall3.png)
 
 
-
-
 ## Step 3: Set up your Virtual Machine
 
 Start VirtualBox.
@@ -81,48 +77,33 @@ Look for the VirtualBox icon in your Applications (folder). Double click to get 
 
 ![](Pictures/VMempty.png)
 
-
 Select File/ Import Appliance
 
 ![](Pictures/VMimportAppliance.png)
 
-
 An empty text box will appear
 
-
 ![](Pictures/VMimportApplianceSelect.png)
-
-
 
 Use the yellow folder icon on the right hand-side of the empty text box to select your virtual machine (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
 
 **Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall.ova"**
 
-
 ![](Pictures/VMselectOVA.png)
-
-
 
 The default settings are displayed.  We recommend you use these.  Press "Import"
 
-
 ![](Pictures/VMapplianceSettings.png)
-
-
 
 Import will take afew minutes
 
-
 ![](Pictures/VMimporting.png)
-
-
 
 Select your virtual machine 'ATLASOpenDataSmall' (which is powered off)
 
 **Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall"**
 
 ![](Pictures/VMpoweredOff.png)
-
 
 Your VM will then be displayed
 
@@ -132,7 +113,6 @@ Your VM will then be displayed
 
 
 Press the green 'Start' arrow.
-
 
 WAIT afew minutes whilst the virtual machine sets up.  
 
@@ -144,7 +124,6 @@ the terminal for using the code, with the Readme file opened using the atom edit
 In the menu on the left handside, you see the contents of the root directory.
 
 In the root directory there are five directories (Analysis, Configurations, Input, Plotting and Output), the README file plus two python scripts. The python scripts are RunScript.py and PlotResults.py. 
-
 
 At the bottom of your window, you will notice a tab labelled "atlas@atlas-vm".
 
