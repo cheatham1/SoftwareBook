@@ -14,7 +14,6 @@ In addition to these preselection cuts, a standard selection is made (in all the
 such that ptcone30/ $$p_T$$ < 0.15 and etcone20/ $$p_T$$ < 0.15.  
 * Jets: a jet vertex fraction cut is applied.
 
-
 Analysis specific requirements are detailed below.
 
 ## $$W$$ Analysis
@@ -28,7 +27,8 @@ The analysis specific event selection criteria are:
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
 
-Here is a snippet from the WAnalysis code:
+The analysis code is located in the Analysis folder. It is used to write out histograms for the individual input files which will be used for plotting purposes later.
+Here is a snippet from the $$W$$ analysis code called  WAnalysis.py:
 
 ![](CodeSnippet/WcodeSnippet.png)
 
