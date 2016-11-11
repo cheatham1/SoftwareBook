@@ -28,6 +28,11 @@ The analysis specific event selection criteria are:
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
 
+Here is a snippet from the WAnalysis code:
+
+![](CodeSnippet/WcodeSnippet.png)
+
+Look at the code directly [need to work out direct link](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/WAnalysis.py}
 ## $$Z$$ Analysis
 
 This analysis seaches for $$Z$$ bosons decaying into a lepton pair. 
@@ -39,6 +44,8 @@ The analysis specific event selection criteria are:
 * Leptons have same flavour; 
 * |reconstructed mass lepton pair - PDG mass $$Z$$< 20 GeV.
 
+Here is a snippet from the ZAnalysis code:
+![](CodeSnippet/ZcodeSnippet.png)
 
 ## Top pair Analysis
 
@@ -51,6 +58,9 @@ The analysis specific event selection criteria are:
 * At least two b-tagged jets (MV1@70%);
 * Missing ET > 30 GeV;
 * Reconstructed transverse mass $$W$$ > 30 GeV.
+
+Here is a snippet from the top pair Analysis code:
+![](CodeSnippet/ttbarcodeSnippet.png)
 
 ## $$WZ$$ Analysis
 
@@ -65,6 +75,9 @@ The analysis specific event selection criteria are:
 * |mass lepton pair -  mass $$Z$$ | < 10 GeV;
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
+Here is a snippet from the $$WZ$$ Analysis code:
+![](CodeSnippet/WZcodeSnippet.png)
+
 
 ## $$ZZ$$ Analysis
 
@@ -75,6 +88,11 @@ The analysis specific event selection criteria are:
 * Exactly four good lepton with $$p_T$$ > 10 GeV;
 * Two Z candidates built from leptons pairs of same flavour and opposite charge minimizing the total deviation of both candidates from the Z boson mass;
 * |reconstrucetd mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
+
+Here is a snippet from the $$ZZ$$ Analysis code:
+
+![](CodeSnippet/ZZcodeSnippet.png)
+
 
 ## $$H\rightarrow WW$$ Analysis
 
@@ -104,6 +122,10 @@ Else:
 * Mass lepton pair < 55 GeV;
 * Angular separation between leptons < 1.8.
 
+Here is a snippet from the $$H\rightarrow WW$$ Analysis code:
+
+![](CodeSnippet/HWWcodeSnippet.png)
+
 ## $$Z'$$ Analysis
 
 This analysis searches for $$Z'$$ in the semileptonic top pair channel.
@@ -115,3 +137,7 @@ The analysis specific event selection criteria are:
 * At least one b-tagged jet (MV1@70%); 
 * Missing ET > 30 GeV;
 * Reconstructed transverse mass $$W$$ + Missing ET > 60 GeV.
+
+Here is a snippet from the $$Z'$$code:
+
+![](CodeSnippet/ZprimecodeSnippet.png)
