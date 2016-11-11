@@ -2,6 +2,9 @@
 
 In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here you can see RunScript.py and PlotResults.py
 
+
+![](Output/ls.png)
+
 There are two steps to looking at the data.
 
 1. Run RunScript.py to produce histograms of individual variables eg jet_pt.  The histograms are written to your results folder. ![](Output/jetPT.png)
