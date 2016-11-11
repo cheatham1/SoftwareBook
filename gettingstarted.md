@@ -2,13 +2,13 @@
 
 We have provided the datasets and software in a variety of formats.  You choose how you want to use them:
 
-* If you want to have a quick look at the data, not investing too much time, you can use the small virtual machine, which contains 10% of the data.  This takes takes about 15 minutes to download and setup.
+* If you want to have a quick look at the data, not investing too much time, you can use the **small** virtual machine, which contains 10% of the data.  This takes about 15 minutes to download and setup.
 
 
-* If you want to invest more time, or are setting up a lab for students, then you can use the medium virtual machine which contains all the data.  This takes 1-2 hours to download and setup.
+* If you want to invest more time, or are setting up a lab for students, then you can use the **large** virtual machine which contains all the data.  This takes 1-2 hours to download and setup.
 
 
-* If you are a physicists, it is likely you already have ROOT installed, so you can just download the software and datasets separately if you wish.
+* If you are a physicist, it is likely you already have ROOT installed, so you can download the software and datasets separately if you wish.
 
 These instructions explain how to setup your environment for the first situation.  The virtual machine book (the other gitbook in this Data & Tools section of the website) explains how to setup for the second.
 
@@ -23,7 +23,9 @@ A virtual machine allows an unmodified operating system with all of its installe
 There are five virtual machines available.
 We suggest you start with the **small** version.  It contains everything you need to start looking at the data.
 
-**Now you will learn how to download and prepare a virtual machine to run on your computer**.  This will then enable you to take a look at ATLAS data. You have to download and install VirtualBox.  To save time, start downloading the  virtualmachine.
+**Now you will learn how to download and prepare a virtual machine to run on your computer**.  This will then enable you to take a look at ATLAS data. 
+
+You have to download and install VirtualBox **and** a virtual machine.  To save time, start downloading the  virtual machine.  This can then download whilst you are installing VirtualBox.
 
 There are three steps to setup your environment
 1. Download a virtual machine.
