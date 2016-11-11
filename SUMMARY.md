@@ -13,4 +13,5 @@
 * [Variable names](variable_names.md)
 * [Glossary](glossary.md)
 * [Dataset Details](simulated_data_details.md)
+* Take a closer look
 
