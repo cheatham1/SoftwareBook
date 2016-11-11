@@ -5,6 +5,8 @@ In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here
 
 Type the following into the command line
 
+    python RunScript.py -a WZAnalysis
+
     python RunScript.py -a TTbarAnalysis -s "WZ"
 
 This runs the code called 'TTbarAnalysis' with just the WZ data samples.
