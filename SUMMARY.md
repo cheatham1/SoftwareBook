@@ -7,7 +7,12 @@
 * [Analyses](analyses.md)
 * [Setup your environment](gettingstarted.md)
 * [Take a look at the data](take_a_look_at_the_data.md)
+  * Run an analysis
+  * Plot the results
 * [Take a closer look](take_a_closer_look.md)
+  * Configuration files
+  * Plotting
+  * Definition of Paintables and Depictions
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Event selection](event_selection.md)
