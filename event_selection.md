@@ -26,7 +26,6 @@ The analysis specific event selection criteria are:
 * Missing ET > 30 GeV;
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
-
 The analysis code is located in the Analysis folder. It is used to write out histograms for the individual input files which will be used for plotting purposes later.
 Here is a snippet from the $$W$$ analysis code called  WAnalysis.py:
 
@@ -68,7 +67,6 @@ Here is a snippet from the top pair Analysis code:
 Look at the code directly here: [ttbarAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ttbar
 Analysis.py)
 
-
 ## $$WZ$$ Analysis
 
 This analysis looks for both a $$W$$ boson candidate and $$Z$$ boson candidate.
@@ -88,7 +86,6 @@ Here is a snippet from the $$WZ$$ Analysis code:
 Look at the code directly here: [WZAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/WZ
 Analysis.py)
 
-
 ## $$ZZ$$ Analysis
 
 This analysis looks for two $$Z$$ boson candidates where both $$Z$$ bosons decay to leptons.  
@@ -106,14 +103,11 @@ Here is a snippet from the $$ZZ$$ Analysis code:
 Look at the code directly here: [ZZAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ZZ
 Analysis.py)
 
-
 ## $$H\rightarrow WW$$ Analysis
-
 
 This analysis searches for $$W$$ bosons decaying to leptons, with no jets.
 
 $$H\rightarrow W^+W^- \rightarrow ℓ^+ ℓ^-\nu  \bar \nu$$ ($$ℓ$$ = electron, muon)
-
 
 The analysis specific event selection criteria are:
 
@@ -142,7 +136,6 @@ Here is a snippet from the $$H\rightarrow WW$$ Analysis code:
 Look at the code directly here: [HWWAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/HWW
 Analysis.py)
 
-
 ## $$Z'$$ Analysis
 
 This analysis searches for $$Z'$$ in the semileptonic top pair channel.
@@ -161,4 +154,3 @@ Here is a snippet from the $$Z'$$code:
 
 Look at the code directly here: [ZPrimeAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/ZPrime
 Analysis.py)
-
