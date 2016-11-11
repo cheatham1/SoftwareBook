@@ -5,13 +5,11 @@ In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here
 
 Type the following into the command line
 
-    python RunScript.py -a WZAnalysis
-
     python RunScript.py -a TTbarAnalysis -s "WZ"
 
 This runs the code called 'TTbarAnalysis' with just the WZ data samples.
 
-The analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
+In either case, the analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
 
 Results for the WZ analyses may now be plotted using the relevant plotting configuration file. 
 
