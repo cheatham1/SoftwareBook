@@ -143,7 +143,7 @@ This list should not be seen as an exhaustive list of all possible analyses. Fur
 
 In theoretical physics, [Feynman diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) are pictorial representations of the mathematical expressions describing the behaviour of subatomic particles.  Feynman diagrams are a valuable tool for understanding physics processes.
 
-* Have a go at drawing / finding the Feynman diagram for each of the above seven analyses.
+Have a go at drawing / finding the Feynman diagram for each of the above seven analyses.
 
 
 
