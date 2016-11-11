@@ -1,10 +1,16 @@
 # Setup Your Environment
 
-You will learn how to download and prepare a virtual machine to run on your computer.  This will then enable you to take a look at ATLAS data.
+We have provided the datasets and software in a variety of formats.  You choose how you want to use them:
 
-There are two steps to setup your environment
-1. Download and install VirtualBox
-2. Download and install a virtual machine.
+* If you want to have a quick look at the data, not investing too much time, you can use the small virtual machine, which contains 10% of the data.  This takes takes about 15 minutes to download and setup.
+
+
+* If you want to invest more time, or are setting up a lab for students, then you can use the medium virtual machine which contains all the data.  This takes 1-2 hours to download and setup.
+
+
+* If you are a physicists, it is likely you already have ROOT installed, so you can just download the software and datasets separately if you wish.
+
+These instructions explain how to setup your environment for the first situation.  The virtual machine book (the other gitbook in this Data & Tools section of the website) explains how to setup for the second.
 
 ## What is a virtual machine ?
 
@@ -17,15 +23,21 @@ A virtual machine allows an unmodified operating system with all of its installe
 There are five virtual machines available.
 We suggest you start with the **small** version.  It contains everything you need to start looking at the data.
 
-## Download the Small Virtual Machine (VM Version S)
+**Now you will learn how to download and prepare a virtual machine to run on your computer**.  This will then enable you to take a look at ATLAS data. You have to download and install VirtualBox.  To save time, start downloading the  virtualmachine.
+
+There are three steps to setup your environment
+1. Download a virtual machine.
+2. Download and install VirtualBox.
+3. Setup your virtual machine.
+
+# Step 1: Download the Small Virtual Machine (VM Version S)
 
 A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
 
 **Make sure you download the SMALL virtual machine if you are following these instructions.**
 
-# Step 1: Get the VirtualBox
+# Step 2: Download and install VirtualBox
 
-First, you need to download and install VirtualBox.
 Use the VirtualBox website to download the software
 
 <a href="https://www.virtualbox.org/" target="_blank"> Go to the VirtualBox website</a>
@@ -52,7 +64,7 @@ Proceed with the installation of VirtualBox:
 
 
 
-## Step 2: Set up your Virtual Machine
+## Step 3: Set up your Virtual Machine
 
 Start VirtualBox.
 
