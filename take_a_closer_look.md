@@ -31,10 +31,3 @@ Whilst the analysis is running you will see the analysis name (circled in orange
 The names chosen for the processes are important as they are the keys used in the infofile.py to determine the necessary scaling factors for correct plotting.
 
 
-To run over the full set of available data samples (if you have downloaded them) takes between 1 to 1.5 hours in single core mode:
-
-    python RunScript.py -a TTbarAnalysis
-
-Execution times are reduced to ~ 15 minutes in multi core mode:
-
-    python RunScript.py -a TTbarAnalysis -n 4
