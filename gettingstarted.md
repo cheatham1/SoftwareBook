@@ -30,6 +30,10 @@ There are three steps to setup your environment:
 2. Download and install VirtualBox.
 3. Setup your virtual machine.
 
+**If your session goes to sleep and requires the atlas password, it is 'atlas'.**
+
+![](Pictures/atlasSaver.png)
+
 # Step 1: Download the Small Virtual Machine (VM Version S)
 
 A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
