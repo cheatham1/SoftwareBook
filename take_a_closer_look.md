@@ -4,8 +4,12 @@
 
 Now let's take a closer look at what is going on when you run the analysis.
 
-The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
+The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. 
+
+The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
 The first portion of the configuration file defines the job and looks like this:
+
+Look at the code directly here: [Configuration.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Configurations/Configuration.py)
 
      Job = {
          "Batch"           : True,              (switches progress bar on and off, forced to be off when running in parallel mode)
@@ -24,6 +28,7 @@ The second portion of the configuration file specifies which processes to includ
         "data_Egamma"           : "Input/Data/DataEgamma*.root", (potentially many files)
     }
 
+
 Whilst the analysis is running you will see the analysis name (circled in orange below) and the process you are running over (circled in blue below).
 
 ![](TTbar.png)
@@ -33,11 +38,13 @@ The names chosen for the processes are important as they are the keys used in th
 
 ## Plotting
 
-Now let's take a closer look at what is going on when you plot the results of the analysis.
+Now let's take a closer look at what is going on when you plot the results of your analysis.
 
-    python PlotResults.py Configurations/PlotConf_WZAnalysis.py
+    python PlotResults.py Configurations/PlotConf_TTbarAnalysis.py
 
 The plotting configuration file allows you to steer the plotting process. Each analysis has its own plotting configuration file to accommodate changes in background composition or histograms required.
+
+Look at the code directly here: [PlotConf_TTbarAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Configurations/PlotConf_TTbarAnalysis.py)
 
 General information for plotting include the Luminosity and InputDirectory located at the top of the file:
 
@@ -101,4 +108,4 @@ The order of the depictions is determined in line 2 of the code example above.
 
 ![](Output/lepPT.png)
 
-Here we can see an agreement plot above and ratio plot below for Lepton $$p_T$$.
+Here we can see an agreement plot above and ratio plot below for lepton $$p_T$$.
