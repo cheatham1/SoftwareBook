@@ -7,7 +7,7 @@
 * [Analyses](analyses.md)
 * [Setup your environment](gettingstarted.md)
 * [Take a look at the data](take_a_look_at_the_data.md)
-* Take a closer look
+* [Take a closer look](take_a_closer_look.md)
 * [Histograms](histograms.md)
 * [More histograms](more_histograms.md)
 * [Event selection](event_selection.md)

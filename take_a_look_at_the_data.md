@@ -1,7 +1,10 @@
 # Take a look at the data
-## Run an analysis
 
 In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here you can see RunScript.py and PlotResults.py
+
+
+## Run an analysis
+
 
 Type the following into the command line
 
@@ -9,7 +12,7 @@ Type the following into the command line
 
 This runs the code called 'TTbarAnalysis' with just the WZ data samples.
 
-In either case, the analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
+The analysis should run, telling you about EventStatistics and complete by saying "Job WZ: finished successfully".
 
 Results for the WZ analyses may now be plotted using the relevant plotting configuration file. 
 
@@ -17,7 +20,7 @@ Results for the WZ analyses may now be plotted using the relevant plotting confi
 
 (There are currently some errors.  Ignore these for the moment. We will fix them soon.)
 
-The resulting histograms are put into the Output folder.
+The resulting plots are put into the Output folder.
 
     ls Output/
     
