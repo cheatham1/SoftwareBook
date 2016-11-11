@@ -26,7 +26,7 @@ The analysis should run, telling you about Event Statistics and complete by sayi
 
 The resulting histograms are put into the results folder.
 
-If you want to look at the histograms
+If you want to look at the histograms, launch root and specify the file you want to display
     
     root -l results/WZ.root
     
@@ -38,12 +38,12 @@ Click on a variable name to display the histogram.
 
 ![](Output/TBrowserResults.png)
 
-To quit root and return to the prompt
+To quit root and return to the command line prompt
 
     .q
     
 
-The RunScript has several options which are displayed by typing
+**The RunScript has several options which are displayed by typing**
 
     python RunScript.py --help
 
@@ -83,21 +83,7 @@ To display a plot use evince, for example
     
 ![](Output/lepPT.png)
 
-## The Analyses
 
-The available analyses are:
-  * TTbarAnalysis
-  * WAnalysis
-  * WZAnalysis
-  * ZAnalysis
-  * ZZAnalysis
-  * ZPrimeAnalysis
-
-The files can be found in the Analysis folder
-
-    ls Analysis
-
-
-If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data (which just takes time) and move it into your Input directory.
+If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data and move it into your Input directory.
 
 
