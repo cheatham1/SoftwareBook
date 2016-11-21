@@ -5,7 +5,7 @@ We have provided the datasets and software in a variety of formats.  You choose 
 * If you want to have a quick look at the data, not investing too much time, you can use the **small virtual machine**, which contains 10% of the data.  This takes about 15 minutes to download and setup.  Read on.
 
 
-* If you want to invest more time, or are setting up a lab for students, then you can use the **large virtual machine** which contains all the data.  This takes 1-2 hours to download and setup.  [Go to the Virtual Machine Book](https://cheatham1.gitbooks.io/atlasdatatools/content)
+* If you want to invest more time, or are setting up a lab for students, then we recommend you use the **large virtual machine** which contains all the data.  This takes 1-2 hours to download and setup.  [Go to the Virtual Machine Book](https://cheatham1.gitbooks.io/atlasdatatools/content)
 
 * If you are a physicist, it is likely you already have ROOT installed, so you can download the [software](http://atlas-opendata.web.cern.ch/atlas-opendata/extendedanalysis/software.php) **and** [datasets](http://atlas-opendata.web.cern.ch/atlas-opendata/extendedanalysis/datasets.php) separately if you wish.
 
@@ -40,7 +40,9 @@ There are three steps to setup your environment:
 
 A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% of the data has been prepared. This is 1.7Gb in size so can be downloaded fairly quickly. 
 
-**Make sure you download the SMALL virtual machine if you are following these instructions.**
+Select **Virtual Machines**
+
+**Download the SMALL virtual machine if you are following these instructions.**  
 
 # Step 2: Download and install VirtualBox
 
