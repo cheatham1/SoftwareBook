@@ -6,7 +6,7 @@ The events in the dataset ntuples have been selected according to the following 
 * The primary vertex has at least 5 tracks;
 * There is at least one good lepton with $$p_T$$ > 25 GeV;
 * Leptons are required to be isolated
-( ptcone30$$p_T$$ < 0.15 and etcone20$$p_T$$ < 0.15);  
+( Both ptcone30 and etcone20  less than 0.15);  
 * The event passes the Good Run List (GRL);
 * A veto exists on events containing bad jets.
 
