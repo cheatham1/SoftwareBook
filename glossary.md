@@ -1,6 +1,6 @@
 # Glossary
 
-This is not intended to be an exhaustive glossary.  You will find answers to many of your questions by using a search engine.  However, here are afew ATLAS physics terms explained to start you off.
+This is not intended to be an exhaustive glossary.  You will find answers to many of your questions by using a search engine.  However, here are a few ATLAS physics terms explained to start you off.
 
 ## ATLAS coordinate system
 
@@ -53,7 +53,8 @@ Isolation can be required, meaning that there must be a minimum angular separati
 
 ## Good Run List
 Good run lists are the way to select good data samples for physics analysis. 
-There are a number of ways the data may not be good e.g the LHC is not in stable-beam mode, the magnets are off, some of the sub-detectors are switched off.
+There are a number of ways the data may not be good e.g the LHC was not in stable-beam mode, the magnets were off, some of the sub-detectors were switched off.
+Only data that was collected during a good run is used for analysis in the ATLAS open data.
 
 ## Jets
 
@@ -69,7 +70,7 @@ The Jet Vertex Fraction can be used to select jets with a high fraction of track
 
 ### Isolation
 
-Isolation is important because it indicates where the lepton stems from. For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson or $$τ$$-lepton.
+Isolation is important because it indicates where the lepton comes from. For example, an isolated electron is likely to originate from $$Z$$ boson, $$W$$ boson or $$τ$$-lepton.
 In contrast, a non-isolated electron is likely to originate from $$b$$-hadron or $$c$$-hadron decays.
 
 ### $$p_T$$
