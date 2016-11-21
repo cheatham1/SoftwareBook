@@ -36,9 +36,9 @@ are used by the physicists.
 
 Data and simulated data do not always agree.  This can be due to various reasons, such as
 
-* the conditions not being exactly the same e.g. Energy, pile-up etc.
+* the conditions not being exactly the same e.g. Energy, pile-up.
 
-* not all background processes are included in the simulated data. 
+* not all background processes are included in the simulated data, 
 
 * the physics has not been exactly modeled by the theory.
 
