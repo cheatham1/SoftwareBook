@@ -14,7 +14,7 @@ An interesting variable to study would be the ratio $$W^+/W^− $$with respect t
 
 ## $$Z$$ Boson Analysis
 
-Many analyses selecting leptons suffer from $$Z$$ plus jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
+Many analyses selecting leptons suffer from $$Z$$ boson plus jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modeling of this process by the Monte Carlo simulated data.
 
 It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software. We are then ready to search for new physics.
 
@@ -23,14 +23,14 @@ It is important to measure well known Standard Model particles, to confirm that 
 ## $$WZ$$ Analysis
 
 This analysis looks for both a $$W$$ boson and a $$Z$$ boson.
-Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The $$WZ$$ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino. 
+Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The $$WZ$$ analysis was chosen as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino. 
 
 
 Reconstructing the $$WZ$$ system and studying its properties is possible but introduces a slight challenge due to the neutrino which is present. The available statistics in the ATLAS open data dataset allows for a rediscovery of the $$WZ$$ process in a lab course.
 
 ## $$ZZ$$ Analysis
 
-The production of $$Z$$-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.  Its low production cross section results in very low yield for the ATLAS open data dataset and highlights the limitations of the dataset.  Some events can be selected but the low yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+The production of a $$Z$$-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.  Its low production cross section results in very low yield for the ATLAS open data dataset and highlights the limitations of the dataset.  Some events can be selected but the low yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
 
 
 ## $$H\rightarrow W^+W^-$$Analysis
@@ -44,15 +44,15 @@ One of the most likely ways a Higgs boson will decay is into a pair of $$W$$ bos
 This happens about 23% of the time for a Higgs boson with a mass of 125 GeV.
 The $$W$$ bosons can subsequently decay either into a quark-antiquark, a [lepton](https://en.wikipedia.org/wiki/Lepton)-[antineutrino](https://en.wikipedia.org/wiki/Neutrino), or an antilepton-neutrino pair.
 
-From here on, we will refer to a particle and its [antiparticle](https://en.wikipedia.org/wiki/Antiparticle) collectively by just the particle's name.
+Physicists refer to a particle and its [antiparticle](https://en.wikipedia.org/wiki/Antiparticle) collectively by just the particle's name.
 So, when we talk about quarks we mean quarks and antiquarks.
 It is a shorthand that physicists adopt for brevity. 
 
-The Higgs boson decays into 2 $$W$$ bosons which subsequently decay into leptons and neutrinos:
+The Higgs boson decays into two $$W$$ bosons which subsequently decay into leptons and neutrinos:
 
 $$H\rightarrow W^+W^-\rightarrow ℓ^+ ℓ^-\nu \bar\nu$$   (ℓ=electron or muon).
 
-A signature of this decay process, is an isolated high-$$p_T$$ lepton. The term $$p_T$$ stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-$$p_T$$ leptons from $$W$$ or $$Z$$ boson decays.
+A signature of this decay process is an isolated high-$$p_T$$ lepton. The term $$p_T$$ stands for transverse momentum, the component of momentum perpendicular to the beam line. Unfortunately, the main background processes also contain isolated high-$$p_T$$ leptons from $$W$$ or $$Z$$ boson decays.
 
 
 ![](EventDisplays/HWW2plusCaption.png)
@@ -89,7 +89,7 @@ Understanding the Standard Model processes possessing multiple leptons and missi
 The [top quark](https://press.cern/backgrounders/top-quark) is the only quark that can be studied in isolation, due to its high mass and short lifetime.
 All other quarks are only accessible as constituents of hadrons.
 
-Top quark processes can be used to optimise Monte-Carlo generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
+Top quark processes can be used to optimise Monte Carlo generators,  [QCD](https://en.wikipedia.org/wiki/Quantum_chromodynamics) models and parton distribution functions.
 
 In addition, top pair production is an important background in various Higgs boson analyses and beyond the Standard Model searches.
 It is therefore crucial to understand this process in detail. 
@@ -117,6 +117,7 @@ Three channels are possible depending on the decays of the $$W$$ bosons:
 ## $$Z'$$ Analysis
 The $$Z'$$ boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The $$Z'$$ boson is named in analogy with the Standard Model Z boson.
 
+The ATLAS open data Monte Carlo allows you to search for a Beyond the Standard Model particle and set exclusion limits on new physics.
 
 ## Further Information
 
