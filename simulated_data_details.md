@@ -41,7 +41,7 @@ The factor FE denotes the filter efficiency for a given sample and $$f_k$$ is us
 
 The following samples represent about 6.5 Gb.
          
-|process | DataSet ID | Generator | $$\sigma$$*FE [pb] | $$f_k$$ | L [fb-1] | N events | size/Mb|
+|process | DataSet ID | Generator | $$\sigma$$*FE [pb] | $$f_k$$ | L [$$fb^{-1}$$] | N events | size/Mb|
 | -- | -- | -- | -- | -- | -- | -- | -- |
 |ttbar -> l + X                | 117050       | PowHeg+Pythia   | 114.51     | 1.2   | 26.236 | 1500000  |   291 |  
 |ttbar -> Jets                | 117049       | PowHeg+Pythia   |  96.35     | 1.2   | 85.027 |   25170  |   5.7 |
@@ -86,9 +86,9 @@ The $$Z'$$ and Higgs samples represent a further 150 Mb.
 |Z' -> ttbar [2250] GeV | 110908 | Pythia | 0.00394  | 1.0  | 25381  |   13389  | 4.7  |
 |Z' -> ttbar [2500] GeV | 110909 | Pythia | 0.00180  | 1.0  | 55556  |   12723  | 4.5  |
 |Z' -> ttbar [3000] GeV | 110910 | Pythia | 0.000434 | 1.0  | 230415 |   12387  | 4.3  |
-|gg-> H->  WW-> llnunu         ; M{H} = 125 GeV   | 161005 | PowHeg+Pythia   | 6.463      | 1.0 | 32.13   | 100000  |  14     |
+|gg-> H->  WW-> llnunu         ; M(H) = 125 GeV   | 161005 | PowHeg+Pythia   | 6.463      | 1.0 | 32.13   | 100000  |  14     |
 |VBF H->  WW-> llnunu ; M(H) = 125 GeV    | 161055 | PowHeg+Pythia   | 0.819      | 1.0 | 229.93  | 100000  |  18     |
-|gg-> H->  ZZ -> 4l            ; M{H} = 125 GeV         | 160155 | PowHeg+Pythia   | 13.17      | 1.0 | 14.31   | 100000  |  15     |
+|gg-> H->  ZZ -> 4l            ; M(H) = 125 GeV         | 160155 | PowHeg+Pythia   | 13.17      | 1.0 | 14.31   | 100000  |  15     |
 |VBF H->  ZZ -> 4l    ; M(H) = 125 GeV          | 160205 | PowHeg+Pythia   | 1.617      | 1.0 | 104.96  | 100000  |  19     |
 
 
