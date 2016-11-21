@@ -42,7 +42,14 @@ A small virtual machine using Lubuntu in conjunction with ROOT-5.34.14 and 10% o
 
 Select **Virtual Machines**
 
-**Download the SMALL virtual machine if you are following these instructions.**  
+
+<CENTER>
+<img src="./Pictures/VMbutton.jpg" width="200" />
+</CENTER>
+
+
+Select **VM Version S** to download the **small** virtual machine.
+This can then download whilst you are installing VirtualBox.
 
 # Step 2: Download and install VirtualBox
 
@@ -72,14 +79,12 @@ Proceed with the installation of VirtualBox:
 
 ## Step 3: Set up your Virtual Machine
 
-Start VirtualBox.
-
 Look for the VirtualBox icon in your Applications (folder). Double click to get the main interface of VirtualBox:
 
 
 ![](Pictures/VMempty.png)
 
-Select File/ Import Appliance
+Select **File** then **Import Appliance**
 
 ![](Pictures/VMimportAppliance.png)
 
@@ -87,13 +92,16 @@ An empty text box will appear
 
 ![](Pictures/VMimportApplianceSelect.png)
 
-Use the yellow folder icon on the right hand-side of the empty text box to select your virtual machine (the .ova file you downloaded at the start of this chapter).  Then press "Continue".
+Use the yellow folder icon on the right hand-side of the empty text box to select your virtual machine (the .ova file you downloaded at the start of this chapter).  
 
-**Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall.ova"**
+**Make sure you have downloaded the small virtual machine.**  It will be called **ATLASOpenDataSmall.ova**
+
+Then press **Continue**.
+
 
 ![](Pictures/VMselectOVA.png)
 
-The default settings are displayed.  We recommend you use these.  Press "Import"
+The default settings are displayed.  We recommend you use these.  Press **Import**.
 
 ![](Pictures/VMapplianceSettings.png)
 
@@ -101,22 +109,22 @@ Import will take afew minutes
 
 ![](Pictures/VMimporting.png)
 
-Select your virtual machine 'ATLASOpenDataSmall' (which is powered off)
+Select your virtual machine **ATLASOpenDataSmall** (which is powered off)
 
-**Make sure you have downloaded the small virtual machine.  It will be called "ATLASOpenDataSmall"**
+**If your VM is not called ATLASOpenDataSmall you have not downloaded the small virtual machine.**  You need to be using the small VM for these instructions.
 
 ![](Pictures/VMpoweredOff.png)
 
-Your VM will then be displayed
+Your VM will be displayed as shown below
 
-**Check that the name of your virtual machine displayed on the right is "ATLASOpenDataSmall"
-**
+**Check that the name of your virtual machine displayed on the right is ATLASOpenDataSmall**
+
 ![](Pictures/VMATLASopenDataSmall.png)
 
 
-Press the green 'Start' arrow.
+Press the green **Start** arrow.
 
-WAIT afew minutes whilst the virtual machine sets up.  
+**WAIT** afew minutes whilst the virtual machine sets up.  
 
 When it has completed you will see 
 the terminal for using the code, with the Readme file opened using the atom editor.
@@ -127,13 +135,17 @@ In the menu on the left handside, you see the contents of the root directory.
 
 In the root directory there are five directories (Analysis, Configurations, Input, Plotting and Output), the README file plus two python scripts. The python scripts are RunScript.py and PlotResults.py. 
 
-At the bottom of your window, you will notice a tab labelled "atlas@atlas-vm".
+At the bottom of your window, you will notice a tab labelled **atlas@atlas-vm**.
 
 ![](Pictures/VM-atlas.png)
 
 Select this tab, circled in red in the screen-shot.  A terminal window will then be available. 
 
-Type "ls" and you will see the folders and files in your main directory.
+List the folders and files in your main directory by typing
+
+    ls
+    
+You will notice that these are the same names as you saw in the menu (screen-shot above).    
 
 ![](Pictures/VMterminalWindow.png)
 
