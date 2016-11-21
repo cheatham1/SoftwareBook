@@ -5,19 +5,20 @@ The events in the dataset ntuples have been selected according to the following 
 * A single electron or muon trigger has fired;
 * The primary vertex has at least 5 tracks;
 * There is at least one good lepton with $$p_T$$ > 25 GeV;
-* The event passes the Good Run List;
+* Leptons are required to be isolated
+( ptcone30$$p_T$$ < 0.15 and etcone20$$p_T$$ < 0.15);  
+* The event passes the Good Run List (GRL);
 * A veto exists on events containing bad jets.
 
-The Standard event based selection is 
+The Standard event based selection code is 
+
+![](CodeSnippet/GoodLepton.png)
+
+![](CodeSnippet/StandardEventSelection.png)
 
 Look at the code directly here: 
 [AnalysisHelpers.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/AnalysisHelpers.py)
 
-In addition to these preselection cuts, a standard selection is made (in all the analyses except the $$ZZ$$):
-
-* Leptons: leptons are required to be isolated
-such that ptcone30/ $$p_T$$ < 0.15 and etcone20/ $$p_T$$ < 0.15.  
-* Jets: a jet vertex fraction cut is applied.
 
 Analysis specific requirements are detailed below.
 
