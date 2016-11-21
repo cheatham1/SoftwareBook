@@ -10,7 +10,7 @@ The protons within the two beams are grouped in bunches which are squeezed down 
 
 An **event** is the data resulting from a particular bunch-crossing. 
 
-**Pile-up** is defined as the average number of particle interactions per bunch-crossing and is directly correlated with the instantaneous luminosity.  
+**Pile-up** is defined as the average number of particle interactions per bunch-crossing.
 
 [Luminosity](http://home.cern/topics/high-luminosity-lhc) is one of the most important parameters of the LHC.
 The higher the luminosity, the more data the experiments can gather to allow them to observe rare processes.
