@@ -9,7 +9,7 @@ The ATLAS collaboration has released 1 inverse femtobarn of data on the CERN ope
 One [inverse femtobarn](http://writing-guidelines.web.cern.ch/entries/inverse-femtobarn) corresponds to approximately 100 trillion proton-proton collisions.
 
 ## Simulated data
-Simulated events, commonly named Monte Carlo (MC), are a key feature for the LHC
+Simulated data, commonly named Monte Carlo (MC), are a key feature for the LHC
 experiments. 
 These events are simulated using current theoretical models and are used to compare theory with real data.
 
@@ -32,9 +32,9 @@ create samples with a realistic experimental background.
 from the detector are reconstructed. Such final samples
 are used by the physicists.
 
-## Comparing data and simulated data
+## Comparing real data and simulated data
 
-Data and simulated data do not always agree.  This can be due to various reasons, such as
+Real data and simulated data do not always agree.  This can be due to various reasons, such as
 
 * the conditions not being exactly the same e.g. Energy, pile-up.
 
