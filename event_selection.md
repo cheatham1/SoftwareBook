@@ -103,7 +103,7 @@ The analysis specific event selection criteria are:
 
 * Exactly four good lepton with $$p_T$$ > 10 GeV;
 * Leptons have opposite charge and same flavour; 
-* |reconstructed mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
+* |reconstructed mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |reconstructed mass $$Z$$ candidate 2 - PDG mass $$Z$$| < 20 GeV.
 
 Here is a snippet from the $$ZZ$$ Analysis code:
 
@@ -130,9 +130,11 @@ If leptons have same flavor:
 * Missing ET > 40 GeV;
  
 Else:
-* mass dilepton pair > 10 GeV;
+* mass lepton pair > 10 GeV;
 * Missing ET > 20 GeV;
-* $$p_T$$ lepton pair > 30 GeV;
+
+
+* $$p_T$$Mass lepton pair > 30 GeV;
 * Angular separation between lepton pair and Missing ET > $$\pi$$/2;
 * Reconstructed transverse mass $$W$$ > 30 GeV;
 * Mass lepton pair < 55 GeV;
