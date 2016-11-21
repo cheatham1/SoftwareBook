@@ -6,10 +6,12 @@ Now let's take a closer look at what is going on when you run the analysis.
 
 The Configurations folder contains the configuration files. The Configuration.py file specifies how an analysis should behave. 
 
-The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
-The first portion of the configuration file defines the job and looks like this:
+You can look at the code directly here: [Configuration.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Configurations/Configuration.py)
 
-Look at the code directly here: [Configuration.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Configurations/Configuration.py)
+The preconfigured analysis is a top pair analysis called TTbarAnalaysis.  This can be changed later if you wish to look at another analysis, or just use the -a option.
+
+The first portion of the configuration file defines the **Job** and looks like this:
+
 
      Job = {
          "Batch"           : True,              (switches progress bar on and off, forced to be off when running in parallel mode)
@@ -19,7 +21,7 @@ Look at the code directly here: [Configuration.py](https://github.com/atlas-outr
          "OutputDirectory" : "results/"         (specifies the directory where the output root files should be saved)
      }
 
-The second portion of the configuration file specifies which processes to include. The locations of the individual files that are to be used for the different processes are set as such:
+The second portion of the configuration file specifies which **Processes** to include. The locations of the individual files that are to be used for the different processes are defined:
 
     Processes = {
         # Diboson processes
@@ -46,7 +48,7 @@ The plotting configuration file allows you to steer the plotting process. Each a
 
 Look at the code directly here: [PlotConf_TTbarAnalysis.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Configurations/PlotConf_TTbarAnalysis.py)
 
-General information for plotting include the Luminosity and InputDirectory located at the top of the file:
+General information for plotting include the **Luminosity** and **InputDirectory** located at the top of the file:
 
       config = {
           "Luminosity"     : 1000,
@@ -61,16 +63,23 @@ The names of the histograms to be drawn can be specified like so:
           "lep_phi"         : {"y_margin" : 0.6},
           ...
 
-Note that it is possible to supply additional information via a dictionary like structure to further detail the per histogram options. Currently available options are:
+Note that it is possible to supply additional information via a dictionary-like structure to further detail the per histogram options. Currently available options are:
 
-    rebin    : int   - used to merge X bins into one. Useful in low statistics situations
-    log_y    : bool  - if True is set as the bool the main depiction will be drawn in logarithmic scale
-    y_margin : float - sets the fraction of whitespace above the largest contribution in the plot. Default value is 0.1.
+ * **rebin**    : int   - used to merge X bins into one. Useful in low statistics situations
+ * **log_y**    : bool  - if True is set as the bool the main depiction will be drawn in logarithmic scale
 
-## Definition of Paintables and Depictions
+ * **y_margin** : float - sets the fraction of whitespace above the largest contribution in the plot. Default value is 0.1.
 
 
-Each Plot consists of several depictions of paintables. A depiction is a certain standard type of visualising information. Available depictions include simple plots, ratios and agreement plots. A paintable is a histogram or stack with added information such as colours and which processes contribute to said histogram. A simple definition of paintables may look like this:
+
+## Definition of Depictions and Paintables. 
+
+A **depiction** is a way of visualising information. Available depictions include simple plots, ratios and agreement plots. 
+
+Each plot consists of several depictions of paintables. 
+A **paintable** is a histogram or stack plot, with added information such as colours and which physics processes to be included. 
+
+A simple definition of paintables may look like this:
 
     'Paintables': {
         "Stack": {
@@ -93,15 +102,19 @@ Each Plot consists of several depictions of paintables. A depiction is a certain
         "data" : {
             "Contributions": ["data_Egamma", "data_Muons"]}
 
-Stack and data are specialised names for paintables. This ensures that only one stack and one data representation are present in the visual results. A stack shows the different processes specified in "order" stacked upon each other to give an idea of the composition of the simulated data. The definitions for these individual processes are defined under "Processes". Each process has a certain colour and a list of contributing parts that comprise it. These contributing parts have to fit the keys used in both the run configuration and the infofile.py.
+**Stack** and **data** are specialised names for paintables. This ensures that only one stack and one data representation are present in the visualisation results. 
 
-Data is a specialised paintable which is geared toward the standard representation of data. Since the data does not need to be scaled there is no need to align the used names in contributions with those found in the infofile.py. However, they still have to fit the ones used in the configuration.py.
+A **stack** shows the different processes specified in **order** stacked upon each other to give an idea of the composition of the simulated data. The definitions for these individual processes are defined under **Processes**. Each process has a certain colour and a list of contributing parts. These contributing parts have to fit the keys used in both the run configuration and the infofile.py.
 
-All otherwise named paintables (like "Higgs" in the example) are considered as "overlays". Overlays are used to show possible signals or to compare shapes between multiple overlays (see for instance in the ZPrimeAnalysis).
+**Data** is a specialised paintable which is geared toward the standard representation of data. Since the data does not need to be scaled there is no need to align the used names in contributions with those found in the infofile.py. However, they still have to fit the ones used in the configuration.py.
 
-The paintables can be used in depictions like so:
+All other paintables (e.g. **Higgs** in the above example) are considered as **overlays**. Overlays are used to show possible signals or to compare shapes between multiple overlays (see for instance in the ZPrimeAnalysis).
 
-There are currently three types of depictions available: Main, Agreement and Ratio. Main type plots will simply show the paintables in a simple plot fashion. Ratio type plots will show the ratio of the first paintable w.r.t. the second paintable. Agreement type plots are typically used to evaluate the agreement between two paintables (usually the stack of predictions and the data).
+
+There are currently three types of depictions available: 
+* **Main**: simply show the paintables in a simple plot fashion.
+* **Agreement**: typically used to evaluate the agreement between two paintables (usually the stack of simulated data and the real data).
+* **Ratio**: show the ratio of the first paintable w.r.t. the second paintable (e.g. **Data/MC** to show how well the simulated data and real data agree).  
 
 The order of the depictions is determined in line 2 of the code example above.
 
