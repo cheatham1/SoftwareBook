@@ -1,6 +1,6 @@
 # Variable names
 
-If you get so far as looking at the datasets using ROOT, here are the definitions of the variables.
+Here are the definitions of the variable names used in the ntuples.
 
 |branchname                 | type   | description |
 |-|-|-|
