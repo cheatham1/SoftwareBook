@@ -10,7 +10,11 @@ The protons within the two beams are grouped in bunches which are squeezed down 
 
 An **event** is the data resulting from a particular bunch-crossing. 
 
-**Pile-up** is defined as the average number of particle interactions per bunch-crossing.
+**Pile-up** is defined as the average number of particle interactions per bunch-crossing.  There are different types of pile-up.  
+
+**In-time pile-up** is additional proton-proton collisions occuring in the same bunch-crossing as the collision of interest.
+
+**Out-of-time pile-up** is additional proton-proton collisions occuring in bunch-crossings just before and after the collision of interest. When detectors are sensitive to several bunch-crossings or their electronics integrate over more than 25 ns, these collisions can affect the signal in the collision of interest.
 
 [Luminosity](http://home.cern/topics/high-luminosity-lhc) is one of the most important parameters of the LHC.
 The higher the luminosity, the more data the experiments can gather to allow them to observe rare processes.
