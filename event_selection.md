@@ -1,16 +1,18 @@
 # Event selection
 
-The events in the dataset ntuples have been selected according to the following preselection criteria:
+The events in the dataset ntuples have been selected according to a selection criteria.  The variables are defined in [variable names](https://cheatham1.gitbooks.io/openatlasdatatools/content/variable_names.html).
+
+The standard event based selection criteria are:
 
 * A single electron or muon trigger has fired;
 * The primary vertex has at least 5 tracks;
 * There is at least one good lepton with $$p_T$$ > 25 GeV;
 * Leptons are required to be isolated
-( Both ptcone30 and etcone20  less than 0.15);  
+( Both ptcone30 and etcone20 < 0.15);  
 * The event passes the Good Run List (GRL);
 * A veto exists on events containing bad jets.
 
-The Standard event based selection code is 
+The standard event based selection code is 
 
 ![](CodeSnippet/GoodLepton.png)
 
@@ -83,7 +85,7 @@ The analysis specific event selection criteria are:
 
 * Exactly three good leptons with $$p_T$$ > 25 GeV;
 * $$WZ$$ candidate is chosen by finding the $$Z$$ boson candidate closest to the nominal $$Z$$ mass;
-* |mass lepton pair -  mass $$Z$$ | < 10 GeV;
+* Mass lepton pair minus mass $$Z$$ < 10 GeV;
 * Reconstructed transverse mass $$W$$ > 30 GeV.
 
 Here is a snippet from the $$WZ$$ Analysis code:
@@ -95,12 +97,13 @@ Analysis.py)
 ## $$ZZ$$ Analysis
 
 This analysis looks for two $$Z$$ boson candidates where both $$Z$$ bosons decay to leptons.  
+Two Z candidates are built from leptons pairs of the same flavour and opposite charge, minimising the total deviation of both candidates from the Z boson mass.
 
 The analysis specific event selection criteria are:
 
 * Exactly four good lepton with $$p_T$$ > 10 GeV;
-* Two Z candidates built from leptons pairs of same flavour and opposite charge minimizing the total deviation of both candidates from the Z boson mass;
-* |reconstrucetd mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
+* Leptons have opposite charge and same flavour; 
+* |reconstructed mass $$Z$$ candidate 1 - PDG mass $$Z$$| + |mass $$Z$$ candidate 2 - mass $$Z$$| < 20 GeV.
 
 Here is a snippet from the $$ZZ$$ Analysis code:
 
