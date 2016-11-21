@@ -1,4 +1,4 @@
-# More histograms
+# More plots
 
 
 ## $$Z$$ Analysis
