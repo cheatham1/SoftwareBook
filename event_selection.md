@@ -123,6 +123,12 @@ The analysis specific event selection criteria are:
 * Exactly two good leptons with $$p_T$$ > 25 GeV;
 * Leptons have opposite charge;
 * No jets with $$p_T$$ > 25 GeV;
+* $$p_T$$ lepton pair > 30 GeV;
+* Angular separation between lepton pair and Missing ET > $$\pi$$/2;
+* Reconstructed transverse mass $$W$$ > 30 GeV;
+* Mass lepton pair < 55 GeV;
+* Angular separation between leptons < 1.8.
+ 
  
 If leptons have same flavor:
 * mass lepton pair > 12 GeV;
@@ -134,11 +140,7 @@ Else:
 * Missing ET > 20 GeV;
 
 
-* $$p_T$$Mass lepton pair > 30 GeV;
-* Angular separation between lepton pair and Missing ET > $$\pi$$/2;
-* Reconstructed transverse mass $$W$$ > 30 GeV;
-* Mass lepton pair < 55 GeV;
-* Angular separation between leptons < 1.8.
+
 
 Here is a snippet from the $$H\rightarrow WW$$ Analysis code:
 
