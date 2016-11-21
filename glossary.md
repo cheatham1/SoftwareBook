@@ -37,11 +37,28 @@ In hadron collider physics, particle production is normally constant as a functi
 Phi ($$\phi$$) is measured from the x-axis, around the beam.
 The ATLAS detector design is symmetrical in $$\phi$$.
 
+
+
+## Event Display
+
+Event displays are like snap-shots, tracing the paths of particles produced in a collision.
+
 ![](Pictures/JiveXML_265573_4417696_fromRAW-noCone.jpg)
 
-Display of a proton-proton collision event recorded by ATLAS on 21 May 2015 at a collision energy of 13 TeV. Here you see the event displayed in $$\phi$$ (top left).
+This event display shows three different views of the same proton collision. The three views help convey all the information about a three-dimensional event on a two-dimensional surface.
+
+The top-left view shows a beams-eye view of the ATLAS detector. All of the information collected by the different detector systems is projected onto this cross-wise slice of the detector.
+
+The top-right view shows the inner tracking detectors.
+Colored lines that radiate from the collision point show the passage of particles that registered in the tracking detectors.
+
+The bottom view shows the ATLAS detector from the side. Onto this lengthwise slice of the ATLAS detector is projected all of the information collected by the different detector systems.
 
 Tracks reconstructed from hits in the inner tracking detector are shown as arcs curving in the solenoidal magnetic field. The green, red and yellow bars indicate energy deposits in the liquid argon and scintillating-tile calorimeters, clustered in a structure typical of a di-jet event. 
+
+Finally, there is the date, time, run and event number displayed on every event display. This collision was recorded on 21 May 2015 11:52 am Central European Time (the time zone of the CERN laboratory in Geneva, Switzerland). Run and event numbers are used by physicists to catalog their data. Run numbers are unique. The first ATLAS run was recorded years before the LHC circulated its first beam, and run number will increase throughout the decades-long life of ATLAS. The event number resets to zero every time a new run starts.
+
+
 
 ## Angular separation
 
