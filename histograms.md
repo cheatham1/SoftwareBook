@@ -1,4 +1,4 @@
-# Plots
+# Plots explained
 
 After running the analysis and plotting the results you will have lots of plots in your **Output** directory.  
 
