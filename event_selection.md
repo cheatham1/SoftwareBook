@@ -1,12 +1,17 @@
 # Event selection
 
-The events in the ntuples have been selected according to the following preselection criteria:
+The events in the dataset ntuples have been selected according to the following preselection criteria:
 
 * A single electron or muon trigger has fired;
 * The primary vertex has at least 5 tracks;
 * There is at least one good lepton with $$p_T$$ > 25 GeV;
 * The event passes the Good Run List;
 * A veto exists on events containing bad jets.
+
+The Standard event based selection is 
+
+Look at the code directly here: 
+[AnalysisHelpers.py](https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/blob/master/Analysis/AnalysisHelpers.py)
 
 In addition to these preselection cuts, a standard selection is made (in all the analyses except the $$ZZ$$):
 
