@@ -1,6 +1,6 @@
 # Plots explained
 
-After running the analysis and plotting the results you will have lots of plots in your **Output** directory.  
+After running the **TTbarAnalysis** and plotting the results you will have lots of plots in your **Output** directory.  
 
 Let's take a look at afew plots.
 
