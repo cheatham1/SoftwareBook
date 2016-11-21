@@ -1,30 +1,35 @@
 # Take a look at the data
 
-In your terminal window, you are in the main directory ATLAS-DataAndTools.  Here you can see RunScript.py and PlotResults.py
+In your terminal window, you are in the main directory **ATLAS-DataAndTools**.  Here you can two python scripts ** RunScript.py** and **PlotResults.py**
 
 
 ![](Output/ls.png)
 
 There are two steps to looking at the data.
 
-1. Run RunScript.py to produce histograms of individual variables eg jet_pt.  The histograms are written to your results folder. ![](Output/jetPT.png)
-2. Run PlotResults.py to scale the histograms, colour them in and stack them.  Combined plots are then produced, for all the simulated and real data.  These plots are written to your Output folder.
+1. **Run an analysis** using **RunScript.py** to produce histograms of individual variables eg jet_pt.  The histograms are written to your **results** folder.
+ ![](Output/jetPT.png)
+2. **Plot the results** using **PlotResults.py** to scale the histograms, colour them in and stack them.  Combined plots are produced, for all the simulated and real data.  These plots are written to your **Output** folder.
 ![](Output/jet_pt.jpg)
+
+So let's have a go at the two steps!
+
 ## Run an analysis
 
 Type the following into the command line
 
     python RunScript.py -a TTbarAnalysis -s "WW,WZ"
 
-This runs the code called 'TTbarAnalysis' with just the WW and WZ data samples.
+This runs the code called **TTbarAnalysis** with just the WW and WZ data samples.
 
-The analysis should run, telling you about Event Statistics and complete by saying "Job WZ: finished successfully".
+The analysis should run, telling you about Event Statistics and complete by saying 
+
+**Job WZ: finished successfully**.
 
 
 ![](Output/RunScriptWWWZ.png)
 
-
-The resulting histograms are put into the results folder.
+Histograms are produced and put into the results folder.
 
 If you want to look at the histograms, launch root and specify the file you want to display
     
@@ -32,7 +37,7 @@ If you want to look at the histograms, launch root and specify the file you want
     
     TBrowser m
     
-The click on ROOT Files results/WZ.root to see all your histograms.
+Then click on **ROOT Files results/WZ.root** to see all your histograms.
 Click on a variable name to display the histogram.
 
 
@@ -66,7 +71,8 @@ Execution times are reduced to ~ 15 minutes in multi core mode:
 
 ## Plot the results
 
-Results for the WW and WZ analyses may now be plotted using the relevant plotting configuration file. 
+Results for the WW and WZ analyses may now be plotted. 
+The plotting configuration python scripts are in the Configurations folder.  Here we use PlotConf_TTbarAnalysis.py  since we ran TTbarAnalysis. 
 
     python PlotResults.py Configurations/PlotConf_TTbarAnalysis.py
 
@@ -84,6 +90,6 @@ To display a plot use evince, for example
 ![](Output/lepPT.png)
 
 
-If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data and move it into your Input directory.
+If, as we suggested, you are using the small Virtual Machine, you only have 10% of the data.  You do not have access to all the data for all the analyses.  For the moment you can take a look at WW and WZ.  For the other analyses you need to download the rest of the data and move it into your **Input** directory.
 
 
