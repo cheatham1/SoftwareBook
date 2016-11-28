@@ -39,9 +39,9 @@ The [Higgs boson](https://home.cern/topics/higgs-boson) is an excitation of the 
 This field is responsible for giving masses to fundamental particles.
 
 The Higgs boson interacts with all Standard Model elementary particles having mass. Thus, there are different ways to produce a Higgs boson, and different ways for a Higgs boson to decay to other particles.
-One of the most likely ways a Higgs boson will decay is into a pair of $$W$$ bosons. 
 
-This happens about 23% of the time for a Higgs boson with a mass of 125 GeV.
+One of the most likely ways a Higgs boson will decay is into a pair of $$W$$ bosons. 
+This happens about 21% of the time for a Higgs boson with a mass of 125 GeV.
 The $$W$$ bosons can subsequently decay either into a quark-antiquark, a [lepton](https://en.wikipedia.org/wiki/Lepton)-[antineutrino](https://en.wikipedia.org/wiki/Neutrino), or an antilepton-neutrino pair.
 
 Physicists refer to a particle and its [antiparticle](https://en.wikipedia.org/wiki/Antiparticle) collectively by just the particle's name.
